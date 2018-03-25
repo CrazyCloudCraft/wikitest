@@ -16,7 +16,7 @@ If you are using Maven, it's as simple as adding the dependency information for 
     <dependency>
         <groupId>me.clip</groupId>
         <artifactId>placeholderapi</artifactId>
-        <version>2.8.4</version>
+        <version>LATEST</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
