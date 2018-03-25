@@ -9,7 +9,7 @@ To use PlaceholderAPI as a dependency, add `[PlaceholderAPI]` to your depends se
 depends: [PlaceholderAPI]
 ```
 
-After that you can either Maven or putting PlaceholderAPI in your Build Path
+After that you can either use Maven or putting the plugin in your Build Path
 
 ## Maven Repository
 Repository is avaliable [here](http://repo.extendedclip.com/content/repositories/placeholderapi/), check the repository frequently for updates
