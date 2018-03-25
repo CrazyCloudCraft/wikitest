@@ -3,7 +3,7 @@ So, you want to show stats or information from your plugin in other plugins that
 **This guide uses API methods and classes only available in PlaceholderAPI 2.0.6 or higher!**
 
 ## Adding the plugin depedency
-
+### Maven
 If you are using Maven, it's as simple as adding the dependency information for PlaceholderAPI to your pom.xml, like this:
 ```xml
 <repositories>
@@ -21,7 +21,7 @@ If you are using Maven, it's as simple as adding the dependency information for 
     </dependency>
 </dependencies>
 ```
-
+### Other IDEs not using Maven/Gradle
 If you are not using Maven (or Gradle), you'll have to manually add the plugin's .jar file to your buildpath. This will vary depending on your IDE, so we can't show examples here. There plenty of documentation for all IDEs though, and it should be pretty easy to find information for your IDE of choice
 
 ## Adding placeholders from your plugin to PlaceholderAPI
