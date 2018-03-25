@@ -6,7 +6,7 @@
 
 ### Developement
 * [[Hooking into PlaceholderAPI]]
-  * [[Maven]]
+  * [[Maven](Hooking-into-PlaceholderAPI#maven)
   * [[Other]]
 * [[Adding own placeholders]]
 * [[Parsing other placeholders]]
