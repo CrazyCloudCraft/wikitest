@@ -1,12 +1,10 @@
-![](https://i.imgur.com/puadJ8Z.png)
-
-### Main:
+**Main**
 * [[Home]]
 * [[Commands]]
 
-### Developement
+**Development**
 * [[Hooking into PlaceholderAPI]]
   * [Maven](Hooking-into-PlaceholderAPI#maven)
   * [Other](Hooking-into-PlaceholderAPI#other-ides-not-using-mavengradle)
-* [[Adding own placeholders]]
-* [[Parsing other placeholders]]
+* [[Adding Placeholders]]
+* [[Parsing Placeholders]]
