@@ -5,7 +5,7 @@ So, you want to show stats or information from your plugin in other plugins that
 ## Adding the plugin depedency
 
 If you are using Maven, it's as simple as adding the dependency information for PlaceholderAPI to your pom.xml, like this:
-```
+```xml
 <repositories>
     <repository>
         <id>placeholderapi</id>
@@ -34,7 +34,7 @@ We'll show you how to obtain register your own placeholders from your plugin whi
 
 * Our plugin is going to soft-depend on PlaceholderAPI. If PlaceholderAPI is not found, we will simply ignore adding our custom placeholders.
 
-```
+```java
 public class ExamplePlugin extends JavaPlugin {
 
     @Override
