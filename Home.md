@@ -1,1 +1,1 @@
-Welcome to the PlaceholderAPI wiki!
+![](https://i.imgur.com/puadJ8Z.png)
