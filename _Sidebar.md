@@ -1,6 +1,12 @@
 ![](https://i.imgur.com/puadJ8Z.png)
 
-* [Home](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki)
+### Main:
+* [[Home]]
+* [[Commands]]
 
-**Development:**
- * [Hooking into PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Hooking-into-PlaceholderAPI)
+### Developement
+* [[Hooking into PlaceholderAPI]]
+  * [[Maven]]
+  * [[Other]]
+* [[Adding own placeholders]]
+* [[Parsing other placeholders]]
