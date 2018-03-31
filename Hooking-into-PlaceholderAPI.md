@@ -24,7 +24,7 @@ If you are using Maven, it's as simple as adding the dependency information for 
 ### Other IDEs not using Maven/Gradle
 If you are not using Maven (or Gradle), you'll have to manually add the plugin's .jar file to your buildpath. This will vary depending on your IDE, so we can't show examples here. There plenty of documentation for all IDEs though, and it should be pretty easy to find information for your IDE of choice
 
-## Adding placeholders from your plugin to PlaceholderAPI
+## Registering placeholders in your plugin
 
 **If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [here (to be added)](#adding-placeholders-from-your-plugin-to-placeholderapi)**
 
@@ -45,5 +45,86 @@ public class ExamplePlugin extends JavaPlugin {
         }
     }
 
+}
+```
+
+* Now we're going to create the expansion in a seperate class which extends PlaceholderExpansion
+
+```java
+import me.clip.placeholderapi.expansion.PlaceholderExpansion;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+
+public class TutorialPlaceholder extends PlaceholderExpansion {
+
+    /*
+    The identifier, shouldn't contain any _ or %
+     */
+    public String getIdentifier() {
+        return "tutorial";
+    }
+
+    public String getPlugin() {
+        return null;
+    }
+
+    /*
+     The author of the Placeholder
+     This cannot be null
+     */
+    public String getAuthor() {
+        return "extendedclip";
+    }
+
+    /*
+    Same with #getAuthor() but for versioon
+    This cannot be null
+    */
+
+    public String getVersion() {
+        return "SomeMagicalVersion";
+    }
+
+    /*
+    Use this method to setup placeholders
+    This is somewhat similar to EZPlaceholderhook
+     */
+    public String onPlaceholderRequest(Player player, String identifier) {
+        /*
+         %tutorial_onlines%
+         Returns the number of online players
+          */
+        if(identifier.equalsIgnoreCase("onlines")){
+            return String.valueOf(Bukkit.getOnlinePlayers().size());
+        }
+   
+        /*
+        Check if the player is online,
+        You should do this before doing anything regarding players
+         */
+        if(player == null){
+            return "";
+        }
+   
+        /*
+        %tutorial_name%
+        Returns the player name
+         */
+        if(identifier.equalsIgnoreCase("name")){
+            return player.getName();
+        }
+   
+   
+        return null;
+    }
+}
+```
+
+* Finally, we are going to register the expansion!
+
+```java
+if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")) {
+    //Registering placeholder will be use here
+    new TutorialPlaceholder().register();
 }
 ```
