@@ -27,6 +27,7 @@ Shows you the output of the given placeholder.
 
 **Argument(s)**:  
 * `<%placeholder%>`
+
 **Example**:  
 `/papi parse %vault_group%`
 
