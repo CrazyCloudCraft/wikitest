@@ -57,9 +57,7 @@ import org.bukkit.entity.Player;
 
 public class TutorialPlaceholder extends PlaceholderExpansion {
 
-    /*
-    The identifier, shouldn't contain any _ or %
-     */
+    // The identifier, shouldn't contain any _ or %
     public String getIdentifier() {
         return "tutorial";
     }
@@ -68,53 +66,34 @@ public class TutorialPlaceholder extends PlaceholderExpansion {
         return null;
     }
 
-    /*
-     The author of the Placeholder
-     This cannot be null
-     */
+    // The author of the placeholder. This cannot be null
     public String getAuthor() {
         return "extendedclip";
     }
 
-    /*
-    Same with #getAuthor() but for versioon
-    This cannot be null
-    */
-
+    // Same with #getAuthor() but for versioon
     public String getVersion() {
         return "SomeMagicalVersion";
     }
 
-    /*
-    Use this method to setup placeholders
-    This is somewhat similar to EZPlaceholderhook
-     */
-    public String onPlaceholderRequest(Player player, String identifier) {
-        /*
-         %tutorial_onlines%
-         Returns the number of online players
-          */
-        if(identifier.equalsIgnoreCase("onlines")){
+    // Use this method to setup placeholders. This is somewhat similar to EZPlaceholderHook
+    public String onPlaceholderRequest (Player player, String identifier) {
+
+        // %tutorial_onlines% - Returns the number of online players
+        if (identifier.equalsIgnoreCase("onlines")) {
             return String.valueOf(Bukkit.getOnlinePlayers().size());
         }
    
-        /*
-        Check if the player is online,
-        You should do this before doing anything regarding players
-         */
-        if(player == null){
+        // Check if the player is online. You should do this before doing anything regarding players
+        if (player == null) {
             return "";
         }
    
-        /*
-        %tutorial_name%
-        Returns the player name
-         */
-        if(identifier.equalsIgnoreCase("name")){
+        // %tutorial_name% - Returns the player name
+        if (identifier.equalsIgnoreCase("name")) {
             return player.getName();
         }
-   
-   
+
         return null;
     }
 }
