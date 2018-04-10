@@ -58,7 +58,7 @@ import org.bukkit.entity.Player;
 public class TutorialPlaceholder extends PlaceholderExpansion {
 
     // This is the most important method when registering an expansion from your plugin
-    public String persist() {
+    public boolean persist() {
         // This tells PlaceholderAPI to not unregister this hook when /papi reload is executed
         return true;
     }
