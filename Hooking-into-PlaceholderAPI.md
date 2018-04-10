@@ -21,6 +21,19 @@ If you are using Maven, it's as simple as adding the dependency information for 
     </dependency>
 </dependencies>
 ```
+### Gradle
+```gradle
+repositories {
+    ...
+    maven {url "http://repo.extendedclip.com/content/repositories/placeholderapi/"}
+}
+
+
+dependencies {
+    ...
+    compileOnly 'me.clip:placeholderapi:latest.release'
+}
+```
 ### Other IDEs not using Maven/Gradle
 If you are not using Maven (or Gradle), you'll have to manually add the plugin's .jar file to your buildpath. This will vary depending on your IDE, so we can't show examples here. There plenty of documentation for all IDEs though, and it should be pretty easy to find information for your IDE of choice
 
