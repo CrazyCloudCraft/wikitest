@@ -34,7 +34,7 @@ Replace `{VERSION}` with the version listed at the top of this page.
 Here is how you can import PlaceholderAPI through gradle.  
 Put this into your **Gradle.build**.  
 Replace `{VERSION}` with the version listed at the top of this page.  
-```build
+```gradle
 repositories {
     maven {
         name = 'placeholderapi'
