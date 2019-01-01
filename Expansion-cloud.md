@@ -1,0 +1,2 @@
+You can download and use expansions from the cloud by using the `/papi ecloud` command.  
+If you can't download the expansions for some reason, you can simply download them manually by going to https://api.extendedclip.com/all/
