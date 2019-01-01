@@ -12,7 +12,7 @@ Before you can actually make use of PlaceholderAPI, you first have to import it 
 
 ### Import with Maven
 To import PlaceholderAPI, simply add the following code to your **pom.xml**  
-Please replace `{VERSION}` with the above listed version!  
+Replace `{VERSION}` with the version listed at the top of this page.  
 ```xml
     <repositories>
         <repository>
@@ -28,6 +28,23 @@ Please replace `{VERSION}` with the above listed version!
          <scope>provided</scope>
         </dependency>
     </dependencies>
+```
+
+### Import with Gradle
+Here is how you can import PlaceholderAPI through gradle.  
+Put this into your **Gradle.build**.  
+Replace `{VERSION}` with the version listed at the top of this page.  
+```build
+repositories {
+    maven {
+        name = 'placeholderapi'
+        url = 'http://repo.extendedclip.com/content/repositories/placeholderapi/'
+    }
+}
+
+dependencies {
+    compile 'me.clip.placeholderapi:{VERSION}'
+}
 ```
 
 ### Import manually
