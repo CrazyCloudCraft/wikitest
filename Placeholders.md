@@ -60,6 +60,7 @@ If at the place of the download-command is `NO DOWNLOAD COMMAND`, then it does m
 - **[[Denize|Placeholders#denize]]**
 - **[[DiscordSRV|Placeholders#discordsrv]]**
 - **[[DonateParty|Placeholders#donateparty]]**
+- **[[Donations Holograms|Placeholders#donations-holograms]]**
 
 ## **E**
 - **[[Enjin & DonationCraft 2.x|Placeholders#enjin--donationcraft-2x]]**
@@ -971,6 +972,17 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 ```
 %donateparty_goal%
 %donateparty_goal_needed%
+```
+----
+
+- ### **[Donations Holograms](https://www.spigotmc.org/resources/1956/)**
+> NO DOWNLOAD COMMAND
+
+```
+%donationsHolograms_percentage%
+%donationsHolograms_progressBar%
+%donationsHolograms_received%
+%donationsHolograms_goal%
 ```
 ----
 
