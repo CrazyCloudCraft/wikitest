@@ -196,12 +196,18 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[DeluxeTags](https://www.spigotmc.org/resources/4390/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#deluxetags]]**]
-- **[Depinezen](https://github.com/DenizenScript/Depenizen-For-Bukkit/blob/master/README.md) (For [Denizen](https://www.spigotmc.org/resources/21039/))**
+- **[Depinezen](/DenizenScript/Depenizen-For-Bukkit/blob/master/README.md) (For [Denizen](https://www.spigotmc.org/resources/21039/))**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#denizen]]**]
 - **[DiscordSRV](https://www.spigotmc.org/resources/18494/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#discordsrv]]**]
+- **DonationParty**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#donationparty]]**]
+- **[Donations Holograms](https://www.spigotmc.org/resources/1956/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#donations-holograms]]**]
 - **[DragonSlayer](https://www.spigotmc.org/resources/36250/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
