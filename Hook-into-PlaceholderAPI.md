@@ -43,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compile 'me.clip.placeholderapi:{VERSION}'
+    compile group: 'me.clip', project: 'placeholderapi', version: '{VERSION}'
 }
 ```
 
