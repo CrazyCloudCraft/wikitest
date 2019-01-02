@@ -28,13 +28,13 @@ If everything is ok will your expansion be approved and will be available on the
 
 ## Updating your expansion
 Before you update, please note the following:  
-If you aren't a verified dev and you upload an update, your expansion will become **unverified** until a moderator reviews the update and approves your update!  
+If you aren't a verified dev and you upload an update, your expansion will become **unverified** until a moderator reviews the update and approves it!  
 It is recommended to only update the expansion, if it contains huge changes or bug fixes.
 
 To update your expansion, you first have to go to the list of [your expansions](https://api.extendedclip.com/manage/).  
 For that click on `Expansions` and select `Your Expansions`.  
 After that, follow those steps:
-1. Click the name of the expansion, that you want to download.
+1. Click the name of the expansion, that you want to update.
 2. Click on the button that says `Version`
 3. Click on `Add Version`
 4. Fill out the fields and upload the new jar.
