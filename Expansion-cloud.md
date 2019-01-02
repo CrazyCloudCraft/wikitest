@@ -4,8 +4,10 @@ PlaceholderAPI uses an expansion-cloud (A website that has all kinds of expansio
 The expansion-cloud can be seen under https://api.extendedclip.com/all
 
 ## How it works
-When you run `/papi ecloud download <expansion name>` will PlaceholderAPI connect to the site, to first check, if that expansion exist. If it does, then the plugin will start to download the latest jar-file from it.  
-It also connects and uses the site, whenever you start the server or list the expansions available or installed.
+PlaceholderAPI connects to the ecloud on startup of your server, to check if the cloud is available and how many expansions are available on it.  
+If you run `/papi ecloud download <expansion>` PlaceholderAPI will connect to the site to first check if the specified expansion exists and then downloads it, if it does.
+
+You can disable the connection to the cloud by setting `cloud_enabled` to false.
 
 ## Adding your own expansion
 You can add your own expansion to the expansion-cloud for others to use.  
@@ -21,7 +23,8 @@ In order to do that, you have to follow those steps:
 Your expansion is now uploaded and will be reviewed by a moderator.  
 If everything is ok will your expansion be approved and will be available on the ecloud for PlaceholderAPI*.
 
-> *The expansion can be still downloaded, no matter if it is approved or not. This is only a security-method for PlaceholderAPI, to make sure it doesn't download mallicious files.
+> *You can only download verified Expansions through PlaceholderAPIs command, unless you enable the option `cloud_allow_unverified_expansions` in the config.yml  
+> Unverified expansions can be downloaded manually by going to the site and download it yourself.
 
 ## Updating your expansion
 Before you update, please note the following:  
