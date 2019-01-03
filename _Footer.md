@@ -7,6 +7,7 @@
 [Bissues]: https://img.shields.io/github/issues-raw/PlaceholderAPI/PlaceholderAPI.svg
 [issues]: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
 
+
 > **Main contributor**: [Andre601](/Andre601)  
 > **Additional contributors**: [iGabyTM](/iGabyTM)
 >
