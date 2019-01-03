@@ -613,6 +613,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 
 ----
 ## T
+- **[TakaAntiCheat](https://www.spigotmc.org/resources/45167/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[The Time](https://www.spigotmc.org/resources/25146/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#the-time]]**]
