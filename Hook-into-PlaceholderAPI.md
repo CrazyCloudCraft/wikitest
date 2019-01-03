@@ -1,5 +1,9 @@
-> ![version](https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version)  
-> [**Spigot-page**](https://www.spigotmc.org/resources/6245) | [**GitHub-Release***](/PlaceholderAPI/PlaceholderAPI/releases/latest)  
+[version]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version
+[Spigot page]: https://spigotmc.org/resources/6245
+[GitHub release]: /PlaceholderAPI/PlaceholderAPI/releases/latest
+
+> ![version]  
+> **[Spigot page]** | **[GitHub Release]***
 >
 > *The GitHub release may be different from the spigot release
 
