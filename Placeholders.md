@@ -1878,6 +1878,27 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 ----
 
+- ### **[PrisonRanksX](https://www.spigotmc.org/resources/55899)**
+> NO DOWNLOAD COMMAND
+
+```
+%prisonranksx_currentrank_name%
+%prisonranksx_currentrank_displayname%
+%prisonranksx_rankup_name%
+%prisonranksx_rankup_displayname%
+%prisonranksx_rankup_progress%
+%prisonranksx_rankup_progress_double%
+%prisonranksx_rankup_percentage%
+%prisonranksx_rankup_cost%
+%prisonranksx_rankup_cost_formatted%
+%prisonranksx_prestige_name%
+%prisonranksx_prestige_displayname%
+%prisonranksx_nextprestige_cost%
+%prisonranksx_nextprestige_cost_formatted%
+%prisonranksx_money%
+```
+----
+
 - ### **[ProQuest](https://www.spigotmc.org/resources/18249/)**
 > /papi ecloud download ProQuest
 
