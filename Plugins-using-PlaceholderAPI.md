@@ -459,7 +459,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
   - [x] Provides own placeholders. [**[[Link|Placeholders#prisonmines]]**]
 - **[PrisonRanksX](https://www.spigotmc.org/resources/55899/)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders. [Link]
+  - [x] Provides own placeholders. [**[[Link|Placeholders#prisonranksx]]**]
 - **[ProdigyGadget](https://www.spigotmc.org/resources/1335/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
