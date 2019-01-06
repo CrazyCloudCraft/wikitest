@@ -143,6 +143,7 @@ If at the place of the download-command is `NO DOWNLOAD COMMAND`, then it does m
 - **[[PointsAPI|Placeholders#pointsapi]]**
 - **[[PremiumVanish|Placeholders#premiumvanish]]**
 - **[[PrisonMines|Placeholders#prisonmines]]**
+- **[[PrisonRanksX|Placeholders#prisonranksx]]**
 - **[[ProQuest|Placeholders#proquest]]**
 - **[[PVPLevels|Placeholders#pvplevels]]**
 - **[[PVP Stats|Placeholders#pvp-stats]]**
