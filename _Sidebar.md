@@ -14,7 +14,7 @@
 **[[Create your own expansion|Making-your-own-expansion]]**
 
 ### Other
-**[[Commands]]** 
+**[[Commands]]**  
 **[[Expansion cloud]]**  
 **[[FAQ]]**  
 **[[Plugins using PlaceholderAPI]]**  
