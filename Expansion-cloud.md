@@ -1,7 +1,7 @@
 ## About
 PlaceholderAPI uses an expansion-cloud (A website that has all kinds of expansions stored), to download jar-files, that contain the placeholders for it to use.
 
-The expansion-cloud can be seen under https://api.extendedclip.com/all
+The expansion-cloud can be seen under https://api.extendedclip.com/home
 
 ## How it works
 PlaceholderAPI connects to the ecloud on startup of your server, to check if the cloud is available and how many expansions are available on it.  
