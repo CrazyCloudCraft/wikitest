@@ -14,6 +14,7 @@ It also has a list with all available placeholders (Work in progress).
 **[[Create your own expansion|Making-your-own-expansion]]**
 
 ### Other
+**[[Commands]]** 
 **[[Expansion cloud]]**  
 **[[FAQ]]**  
 **[[Plugins using PlaceholderAPI]]**  
