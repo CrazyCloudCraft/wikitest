@@ -12,7 +12,7 @@ You can disable the connection to the cloud by setting `cloud_enabled` to false.
 ## Adding your own expansion
 You can add your own expansion to the expansion-cloud for others to use.  
 In order to do that, you have to follow those steps:
-1. Make sure you have created a seperate jar-file like explained on the page [[Making an own expansion]].
+1. Make sure you have created a seperate jar-file like explained on the page [[Making your own expansion]].
 2. Create an account on the site, or log in, if you already have one.
 3. Click on `Expansions` and then on [`Upload New`](https://api.extendedclip.com/manage/add/).
 4. Fill out the required information. `Source URL` and `Dependency URL` are optional.
