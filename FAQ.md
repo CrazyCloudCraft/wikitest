@@ -9,9 +9,9 @@ A list of available expansions and their placeholders can be found [[here|Placeh
 - Any possible dependency for the expansion (Plugin) is installed and running.
 
 ## I can't download the expansion
-Make sure, that the connection to the ecloud (https://api.extendedclip.com/all) isn't blocked by a firewall or similar.  
-Next step would be to check, if the expansion actually exists on the ecloud. Not all plugins provide their placeholders through a seperate jar on the ecloud. Some have them build in.  
-If after the both checks it still doesn't work, go to the ecloud-page and download the jar manually. Put it then in the `expansions` folder of PlaceholderAPI (`/plugins/PlaceholderAPI/expansions`)
+Make sure, that the connection to the cloud (https://api.extendedclip.com for PlaceholderAPI and https://api.extendedclip.com/home for normal users) isn't blocked by a firewall or similar.  
+Next step would be to check if the expansion actually exists on the cloud. Not all plugins provide their placeholders through a separate jar on the cloud. Some have them build in and register them on startup.  
+If both checks failed, go to the cloud-page and download the jar manually. Put it then in the `expansions` folder of PlaceholderAPI (`/plugins/PlaceholderAPI/expansions`)
 
 ## How can other plugins use my placeholders with PlaceholderAPI?
 A tutorial can be found [[here|Hook into PlaceholderAPI]]!
