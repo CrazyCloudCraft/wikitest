@@ -11,7 +11,7 @@
 - [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
 - [[Using PlaceholderExpansion to register placeholders in your local jar|Hook-into-PlaceholderAPI#using-placeholder-expansion-to-register-placeholders-in-your-local-jar]]
 
-**[[Making an seperate/own expansion|Making-an-own-expansion]]**
+**[[Create your own expansion|Making-your-own-expansion]]**
 - [[WITHOUT dependencies|Making-an-own-expansion#creating-an-expansion-without-extra-dependencies]]
 - [[WITH dependencies|Making-an-own-expansion#creating-an-expansion-with-extra-dependencies]]
 
