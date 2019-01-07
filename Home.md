@@ -12,8 +12,6 @@ It also has a list with all available placeholders (Work in progress).
 * [[Using PlaceholderExpansion to register placeholders in your local jar|Hook-into-PlaceholderAPI#using-placeholder-expansion-to-register-placeholders-in-your-local-jar]]
 
 **[[Create your own expansion|Making-your-own-expansion]]**
-* [[WITHOUT dependencies|Making-your-own-expansion#creating-an-expansion-without-extra-dependencies]]
-* [[WITH dependencies|Making-your-own-expansion#creating-an-expansion-with-extra-dependencies]]
 
 ### Other
 **[[Expansion cloud]]**  
