@@ -322,6 +322,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[Kingdoms+](https://www.spigotmc.org/resources/11833/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#kingdoms]]**]
+- **[KP-PVP](https://www.spigotmc.org/resources/50969/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#kp-pvp]]**]
 
 ----
 ## L
