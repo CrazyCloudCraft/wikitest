@@ -101,6 +101,7 @@ If at the place of the download-command is `NO DOWNLOAD COMMAND`, then it does m
 ## **K**
 - **[[KillStats|Placeholders#killstats]]**
 - **[[Kingdoms+|Placeholders#kindoms]]**
+- **[[KP-PVP|Placeholders#kp-pvp]]**
 
 ## **L**
 - **[[LeaderHeads|Placeholders#leaderheads]]**
@@ -1407,6 +1408,20 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %kingdoms_members%
 %kingdoms_king%
 %kingdoms_rank%
+```
+----
+
+- ### **[KP-PVP](https://www.spigotmc.org/resources/50969/)**
+> NO DOWNLOAD COMMAND
+
+```
+%kp-pvp_player_kills%
+%kp-pvp_player_deaths%
+%kp-pvp_player_coins%
+%kp-pvp_player_streak%
+%kp-pvp_player_is_on_kitpvp%
+%kp-pvp_players_count_total%
+%kp-pvp_player_kit%
 ```
 ----
 
