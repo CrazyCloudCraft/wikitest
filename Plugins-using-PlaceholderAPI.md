@@ -58,6 +58,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[AnimatedSpecialBar](https://www.spigotmc.org/resources/24654/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[AnnouncementsEverywhere](https://www.spigotmc.org/resources/59510/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[ASkyBlock](https://www.spigotmc.org/resources/1220/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#askyblock]]**]
@@ -496,6 +499,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 
 ----
 ## R
+- **[RankedHelp](https://www.spigotmc.org/resources/61919/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[RecentFind (Treasures Add-on)](https://www.spigotmc.org/resources/33366/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#recentfind]]**]
@@ -656,6 +662,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
 - **[UltimateBossBar](https://www.spigotmc.org/19303/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
+- **[UltraChatFormat](https://www.spigotmc.org/resources/57929/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
 - **[UltraMenu](https://www.spigotmc.org/resources/27856/)**
