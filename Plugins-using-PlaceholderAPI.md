@@ -151,6 +151,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[CombatLogX](https://www.spigotmc.org/resources/31689/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#combatlogx]]**]
+- **[CommandConditions](https://www.spigotmc.org/resources/41736/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[Compassance](https://www.spigotmc.org/resources/18327/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#compassance]]**]
