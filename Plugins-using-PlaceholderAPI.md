@@ -229,6 +229,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[Envoys](https://www.spigotmc.org/resources/20357/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#envoys]]**]
+- **[EpicCraftingsPlus](https://www.spigotmc.org/resources/39967/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[EpicFriends](https://www.spigotmc.org/resources/11294/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#epicfriends]]**]
