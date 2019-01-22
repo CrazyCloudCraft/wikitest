@@ -202,6 +202,7 @@ If at the place of the download-command is `NO DOWNLOAD COMMAND`, then it does m
 - **[[Vault|Placeholders#vault]]**
   - [[Economy|Placeholders#economy]]
   - [[Permissions|Placeholders#permissions]]
+- **[[ViaVersion|Placeholders#viaversion]]**
 - **[[VoteParty|Placeholders#voteparty]]**
 - **[[VoteRoulette|Placeholders#voteroulette]]**
 - **[[VotingPlugin|Placeholders#votingplugin]]**
@@ -2604,6 +2605,15 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 %vault_ranksuffix%
 %vault_ranksuffix_#%
 %vault_prefix_color%
+```
+----
+
+- ### **[ViaVersion](https://www.spigotmc.org/resources/19254/)**
+> /papi ecloud download ViaVersion
+
+```
+%viaversion_player_protocol_id%
+%viaversion_player_protocol_version%
 ```
 ----
 
