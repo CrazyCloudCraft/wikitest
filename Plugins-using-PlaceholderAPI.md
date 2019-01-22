@@ -706,6 +706,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[VentureChat](https://www.spigotmc.org/resources/771/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[ViaVersion](https://www.spigotmc.org/resources/19254/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#viaversion]]**]
 - **[VoteParty](https://www.spigotmc.org/resources/987/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#voteparty]]**]
