@@ -1,17 +1,17 @@
-[Bdiscord]: https://img.shields.io/discord/164280494874165248.svg?logo=discord&label=Discord&colorB=7289DA
+[discordImg]: https://img.shields.io/discord/164280494874165248.svg?logo=discord&label=Discord&colorB=7289DA
 [discord]: https://helpch.at/discord
-[Bjenkins]: https://img.shields.io/badge/Download%20from-Jenkins-brightgreen.svg
+[jenkinsImg]: https://img.shields.io/badge/Download%20from-Jenkins-brightgreen.svg
 [jenkins]: http://ci.extendedclip.com/job/PlaceholderAPI/
-[Blicense]: https://img.shields.io/badge/License-GNU%20GPLv3-lightgrey.svg
+[licenseImg]: https://img.shields.io/github/license/PlaceholderAPI/PlaceholderAPI.svg
 [license]: https://github.com/PlaceholderAPI/PlaceholderAPI/blob/master/LICENSE
-[Bissues]: https://img.shields.io/github/issues-raw/PlaceholderAPI/PlaceholderAPI.svg?logo=github&logoColor=white
+[issuesImg]: https://img.shields.io/github/issues-raw/PlaceholderAPI/PlaceholderAPI.svg?logo=github&logoColor=white
 [issues]: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
-[Bversion]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version
+[versionImg]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version
+[plugin-page]: https://spigotmc.org/resources/6245
 
 > **Main contributor**: [Andre601](/Andre601)  
 > **Additional contributors**: [iGabyTM](/iGabyTM)
 >
-> **[Plugin-page](https://www.spigotmc.org/resources/6245/)** | **[[Placeholders]]** | **[[Plugins using PlaceholderAPI]]**
- | **[[Hook into PlaceholderAPI]]**
+> **[Plugin-page]** | **[[Placeholders]]** | **[[Plugins using PlaceholderAPI]]** | **[[Hook into PlaceholderAPI]]**
  
-![Bversion] [![Bjenkins]][jenkins] [![Blicense]][license] [![Bissues]][issues] [![Bdiscord]][discord]
+![versionImg] [![jenkinsImg]][jenkins] [![licenseImg]][license] [![issuesImg]][issues] [![discordImg]][discord]
