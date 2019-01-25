@@ -124,6 +124,8 @@ public class ExampleExpansion extends PlaceholderExpansion {
 
 ### Creating placeholders with 3rd party plugins
 This example here applies to people who want to provide information from their own plugin through placeholders from PlaceholderAPI.  
+There exists a repository showcasing an [example-expansion](/PlaceholderAPI/Example-Expansion) with what you can/should do.
+
 In our example do we have the plugin `SomePlugin` and want to show certain placeholders with it.
 
 ```java
@@ -274,3 +276,4 @@ public class ExampleExpansion extends PlaceholderExpansion {
   }
 }
 ```
+###
