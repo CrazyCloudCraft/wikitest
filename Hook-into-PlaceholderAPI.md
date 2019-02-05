@@ -329,7 +329,7 @@ public class ExamplePlugin extends JavaPlugin {
 ```
 
 Now to create the expansion you simply have to create a class, that extends the `PlaceholderExpansion`.  
-For more info, [[click here|Making-an-own-expansion]].  
+For more info, [[click here|Creating-Placeholders-using-Expansions]].  
 ```java
 package at.helpch;
 
