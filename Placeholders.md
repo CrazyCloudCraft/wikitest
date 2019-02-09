@@ -443,6 +443,7 @@ Lets you get information of the server.
 %server_ram_max%
 %server_tps%
 %server_online_<world>%
+%server_time_<SimpleDateFormat>%
 %server_countdown_<SimpleDateFormat>_<time>%
 ```
 `<time>` is the date and time for the countdown. **It needs to match the `<SimpleDateTime>`**
