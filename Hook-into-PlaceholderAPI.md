@@ -370,7 +370,7 @@ public class ExampleExpansion extends PlaceholderExpansion {
      * Use this method to setup placeholders
      * This is somewhat similar to EZPlaceholderhook
      */
-    public String onRequest(Player player, String identifier) {
+    public String onPlaceholderRequest(Player player, String identifier) {
         // Placeholder: %exampleplugin_online_players%
         if(identifier.equalsIgnoreCase("online_players")){
             return String.valueOf(Bukkit.getOnlinePlayers().size());
