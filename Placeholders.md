@@ -2598,6 +2598,7 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 #### Economy
 ```
 %vault_eco_balance%
+%vault_eco_balance_commas%
 %vault_eco_balance_fixed%
 %vault_eco_balance_formatted%
 ```
