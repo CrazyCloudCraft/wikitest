@@ -213,6 +213,7 @@ If you find any outdated/wrong information, [create an issue](/PlaceholderAPI/Pl
 
 ## **W**
 - **[[WickedSkyWars|Placeholders#wickedskywars]]**
+- **[[WorldBorder (WorldBorder Expansion)|Placeholders#worldborder-worldborder-expansion]]**
 - **[[WorldGuard|Placeholders#worldguard]]**
 
 
@@ -2701,6 +2702,20 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 %wickedskywars_deaths%
 %wickedskywars_played%
 %wickedskywars_won%
+```
+----
+
+- ### **[WorldBorder (WorldBorder Expansion)](https://www.spigotmc.org/resources/57000/)**
+> /papi ecloud download WorldBorder
+
+```
+%worldborder_size%
+%worldborder_center_z%
+%worldborder_center_x%
+%worldborder_damage_amount%
+%worldborder_damage_buffer%
+%worldborder_warning_time%
+%worldborder_warning_distance%
 ```
 ----
 
