@@ -280,6 +280,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[GemsEconomy](https://www.spigotmc.org/resources/19655/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#gemseconomy]]**]
+- **[GriefPrevention](https://www.spigotmc.org/resources/1884/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#griefprevention]]**]
 - **[Guilds](https://www.spigotmc.org/resources/48920/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#guilds]]**]
