@@ -86,6 +86,7 @@ If you find any outdated/wrong information, [create an issue](/PlaceholderAPI/Pl
 - **[[GAListener|Placeholders#galistener]]**
 - **[[GangsPlus|Placeholders#gangsplus]]**
 - **[[GemsEconomy|Placeholders#gemseconomy]]**
+- **[[GriefPrevention|Placeholders#griefprevention]]**
 - **[[Guilds|Placeholders#guilds]]**
 
 ## **H**
@@ -213,7 +214,7 @@ If you find any outdated/wrong information, [create an issue](/PlaceholderAPI/Pl
 
 ## **W**
 - **[[WickedSkyWars|Placeholders#wickedskywars]]**
-- **[[WorldBorder (WorldBorder Expansion)|Placeholders#worldborder-worldborder-expansion]]**
+- **[[WorldBorder|Placeholders#worldborder]]**
 - **[[WorldGuard|Placeholders#worldguard]]**
 
 
@@ -1243,6 +1244,21 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ```
 %gemseconomy_balance%
 %gemseconomy_balance_formatted%
+```
+----
+
+- ### **[GriefPrevention](https://www.spigotmc.org/resources/44640/)**
+> /papi ecloud download GriefPrevention
+
+```
+%griefprevention_claims%
+%griefprevention_claims_formatted%
+%griefprevention_bonusclaims%
+%griefprevention_accruedclaims%
+%griefprevention_accruedclaims_formatted%
+%griefprevention_remainingclaims%
+%griefprevention_remainingclaims_formatted%
+%griefprevention_currentclaim_ownername%
 ```
 ----
 
@@ -2705,7 +2721,7 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 ```
 ----
 
-- ### **[WorldBorder (WorldBorder Expansion)](https://www.spigotmc.org/resources/57000/)**
+- ### **[WorldBorder](https://www.spigotmc.org/resources/57000/)**
 > /papi ecloud download WorldBorder
 
 ```
