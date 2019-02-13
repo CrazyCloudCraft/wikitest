@@ -1,10 +1,12 @@
 This is a list of all available placeholders.  
 A download-command for the extenion can be found at the area of the placeholder.  
-If at the place of the download-command is `NO DOWNLOAD COMMAND`, then it does mean, that the placeholders are hard-coded into the plugin and are loaded, when the plugin registers them itself.
+If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, then it means, that the plugin actually has the placeholders hard-coded into them and doesn't require a manual download of any expansion.
 
-Please note that at the point of which a plugins placeholders where added and the plugin where linked, the plugin had an existing page to download/buy it from.  
-We aren't responsible for the links nor placeholders to be up-to-date.  
-If you find any outdated/wrong information, [create an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=change_request.md) and let us know.
+> **Notes**:  
+> We only add placeholders on request.  
+> We aren't responsible, to keep the placeholders of your plugin(s) up to date.  
+> If you changed, removed or added placeholders, or made your plugin(s) and/or expansion(s) no longer available and want us to update this page, [create an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=change_request.md) and let us know.  
+> This is also the case for when you want your plugin to be added to the list.
 
 [[PAPI-placeholders|Placeholders#papi-placeholders-1]]
 ----
