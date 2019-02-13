@@ -1247,7 +1247,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ```
 ----
 
-- ### **[GriefPrevention](https://www.spigotmc.org/resources/44640/)**
+- ### **[GriefPrevention](https://www.spigotmc.org/resources/1884/)**
 > /papi ecloud download GriefPrevention
 
 ```
