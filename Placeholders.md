@@ -2723,7 +2723,7 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 ```
 ----
 
-- ### **[WorldBorder](https://www.spigotmc.org/resources/57000/)**
+- ### **WorldBorder**
 > /papi ecloud download WorldBorder
 
 ```
