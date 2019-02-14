@@ -208,6 +208,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[DiscordSRV](https://www.spigotmc.org/resources/18494/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#discordsrv]]**]
+- **[Disease](https://www.spigotmc.org/resources/3911/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#disease]]**]
 - **DonationParty**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#donationparty]]**]
