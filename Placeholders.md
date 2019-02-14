@@ -65,6 +65,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[DeluxeTags|Placeholders#deluxetags]]**
 - **[[Denize|Placeholders#denize]]**
 - **[[DiscordSRV|Placeholders#discordsrv]]**
+- **[[Disease|Placeholders#disease]]**
 - **[[DonateParty|Placeholders#donateparty]]**
 - **[[Donations Holograms|Placeholders#donations-holograms]]**
 
@@ -975,6 +976,16 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 %discordsrv_guild_members_total%
 %discordsrv_linked_online%
 %discordsrv_linked_total%
+```
+----
+
+- ### **[Disease](https://www.spigotmc.org/resources/3911/)**
+> /papi ecloud download Disease
+
+```
+%disease_disease%
+%disease_sickness%
+%disease_temperature%
 ```
 ----
 
