@@ -730,9 +730,6 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[WonderHUD](https://www.spigotmc.org/resources/12220/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
-- **[WorldBorder (WorldBorder expansion)](https://www.spigotmc.org/resources/57000/)**
-  - [ ] Supports placeholders.
-  - [x] Provides own placeholders. [**[[Link|Placeholders#worldborder-worldborder-expansion]]**]
 - **[WorldGuard](https://dev.bukkit.org/bukkit-plugins/worldguard/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#worldguard]]**]
