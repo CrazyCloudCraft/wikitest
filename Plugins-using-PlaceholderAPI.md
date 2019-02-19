@@ -397,6 +397,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 - **[MobHunting](https://www.spigotmc.org/resources/3582/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#mobhunting]]**]
+- **[MultiChat](https://www.spigotmc.org/resources/26204/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[MultiClan 2.0](https://www.spigotmc.org/resources/23927/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
