@@ -23,9 +23,13 @@ import org.bukkit.OfflinePlayer;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 
 /**
-* This class will automatically register as a placeholder expansion
-* when a jar including this class is added to the directory
+* This class will automatically register as a placeholder expansion 
+* when a jar including this class is added to the directory 
 * {@code /plugins/PlaceholderAPI/expansions} on your server.
+* <br>
+* <br>If you create such a class inside your own plugin, you have to
+* register it manually in your plugins {@code onEbale()} by using 
+* {@code new YourExpansionClass().register();}
 */
 public class ExampleExpansion extends PlaceholderExpansion {
 
@@ -53,9 +57,10 @@ public class ExampleExpansion extends PlaceholderExpansion {
 
   /**
    * The placeholder identifier should go here.
-   * This is what tells PlaceholderAPI to call our onRequest method to obtain
-   * a value if a placeholder starts with our identifier.
-   * This must be unique and can not contain % or _
+   * <br>This is what tells PlaceholderAPI to call our onRequest 
+   * method to obtain a value if a placeholder starts with our 
+   * identifier.
+   * <br>This must be unique and can not contain % or _
    *
    * @return The identifier in {@code %<identifier>_<value>%} as String.
    */
@@ -65,10 +70,10 @@ public class ExampleExpansion extends PlaceholderExpansion {
   }
 
   /**
-   * if an expansion requires another plugin as a dependency, the proper name of the 
-   * dependency should go here.
-   * <br>Set this to {@code null} if your placeholders do not require another plugin 
-   * be installed on the server for them to work.
+   * if the expansion requires another plugin as a dependency, the 
+   * proper name of the dependency should go here.
+   * <br>Set this to {@code null} if your placeholders do not require 
+   * another plugin to be installed on the server for them to work.
    *
    * @return Always {@code null} since we do not have a dependency.
    */
@@ -89,8 +94,8 @@ public class ExampleExpansion extends PlaceholderExpansion {
   }
 
   /**
-   * This is the method called when a placeholder with our identifier is found and 
-   * needs a value.
+   * This is the method called when a placeholder with our identifier 
+   * is found and needs a value.
    * <br>We specify the value identifier in this method.
    * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
    *
@@ -136,11 +141,15 @@ import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import at.helpch.somePlugin.SomePlugin;
 
 /**
-* This class will automatically register as a placeholder expansion
-* when a jar including this class is added to the directory
+* This class will automatically register as a placeholder expansion 
+* when a jar including this class is added to the directory 
 * {@code /plugins/PlaceholderAPI/expansions} on your server.
+* <br>
+* <br>If you create such a class inside your own plugin, you have to
+* register it manually in your plugins {@code onEbale()} by using 
+* {@code new YourExpansionClass().register();}
 */
-public class ExampleExpansion extends PlaceholderExpansion {
+class ExampleExpansion extends PlaceholderExpansion {
 
   // We get an instance of the plugin later.
   private SomePlugin plugin;
@@ -159,7 +168,7 @@ public class ExampleExpansion extends PlaceholderExpansion {
   /**
    * We can optionally override this method if we need to initialize variables 
    * within this class if we need to or even if we have to do other checks to 
-   * ensure the hook is properly setup.
+   * ensure the hook is properly set up.
    *
    * @return true or false depending on if it can register.
    */
@@ -201,9 +210,10 @@ public class ExampleExpansion extends PlaceholderExpansion {
 
   /**
    * The placeholder identifier should go here.
-   * This is what tells PlaceholderAPI to call our onRequest method to obtain
-   * a value if a placeholder starts with our identifier.
-   * This must be unique and can not contain % or _
+   * <br>This is what tells PlaceholderAPI to call our onRequest 
+   * method to obtain a value if a placeholder starts with our 
+   * identifier.
+   * <br>This must be unique and can not contain % or _
    *
    * @return The identifier in {@code %<identifier>_<value>%} as String.
    */
@@ -213,13 +223,13 @@ public class ExampleExpansion extends PlaceholderExpansion {
   }
 
   /**
-   * If an expansion requires another plugin as a dependency, the proper name of the 
-   * dependency should go here.
-   * <br>Set this to {@code null} if your placeholders do not require another plugin 
-   * be installed on the server for them to work.
+   * if the expansion requires another plugin as a dependency, the 
+   * proper name of the dependency should go here.
+   * <br>Set this to {@code null} if your placeholders do not require 
+   * another plugin to be installed on the server for them to work.
    * <br>
-   * <br>This is extremely important to set your plugin here, since if you don't do 
-   * it, your expansion will throw errors.
+   * <br>This is extremely important to set your plugin here, since if 
+   * you don't do it, your expansion will throw errors.
    *
    * @return The name of our dependency.
    */
@@ -240,11 +250,10 @@ public class ExampleExpansion extends PlaceholderExpansion {
   }
 
   /**
-   * This is the method called when a placeholder with our identifier is found and 
-   * needs a value.
+   * This is the method called when a placeholder with our identifier 
+   * is found and needs a value.
    * <br>We specify the value identifier in this method.
    * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
-   * <br>This is not the case for us, since we need an online player.
    *
    * @param  player
    *         A {@link org.bukkit.Player Player}.
