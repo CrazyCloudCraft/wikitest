@@ -89,10 +89,13 @@ depend: [PlaceholderAPI] # If your plugin requires PlaceholderAPI, to work, use 
 ```
 
 ## Adding placeholders to PlaceholderAPI
-**Note**: If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [[here|Creating-Placeholders-using-Expansions]]!  
-**Note 2**: The later mentioned `EZPlaceholderHook` is deprecated since the implementation of PlaceholderExpansion. If you don't want to make a seperate jar for registering placeholders, [[click here|Hook-into-PlaceholderAPI#using-placeholder-expansion-to-register-placeholders-in-your-local-jar]] for how to use another method.
 
-This method lets you register your plugins placeholders in PlaceholderAPI, which then can be used by and other plugin that supports and use PlaceholderAPI-placeholders.
+### NOTES
+- If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [[here|Creating-Placeholders-using-Expansions]]!
+- The later mentioned `EZPlaceholderHook` is deprecated since the implementation of PlaceholderExpansion. If you don't want to make a seperate jar for registering placeholders, [[click here|Hook-into-PlaceholderAPI#using-placeholder-expansion-to-register-placeholders-in-your-local-jar]] for how to use another method.
+
+### EZPlaceholderHook (Deprecated)
+**Please consider using the [PlaceholderExpansion](#placeholderexpansion) instead of EZPlaceholderHook, since this method is deprecated and no longer supported!**
 
 In our example, we set PlaceholderAPI as a softdepend and won't register our placeholders, if the plugin isn't installed and enabled:
 ```java
@@ -199,8 +202,8 @@ public class MyPlaceholderExtension extends EZPlaceholderHook {
          * We register and associate our plugin with an identifier.
          * The format for placeholders is this:
          * %<identifier>_<anything you define below>%
-         * The placeholder identifier can be anything you want, as long as it isn't already registered by
-         * another plugin.
+         * The placeholder identifier can be anything you want, as 
+         * long as it isn't already registered by another plugin.
          * It also can't contain % or _
          */
         super(myPlugin, "exampleplugin");
@@ -266,7 +269,8 @@ public class ExamplePlugin extends JavaPlugin {
 ```
 
 ## Using placeholders from PlaceholderAPI in your plugin
-To use placeholders from other plugins in our own plugin, we simply have to use the `setPlaceholders` method.  
+To use placeholders from other plugins in our own plugin, we simply have to use the `setPlaceholders` method.
+
 Lets assume we want to send a own join message that shows the group a player has.  
 To achieve that, we can do the following:  
 ```java
@@ -299,100 +303,22 @@ public class JoinExample extends JavaPlugin implements Listener {
 
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onJoin(PlayerJoinEvent event) {
-        String withoutPlaceholdersSet = "%player_name% &ajoined the server! He/she is rank &f%vault_rank%";
+        String joinText = "%player_name% &ajoined the server! He/she is rank &f%vault_rank%";
 
         // We parse the placeholders using "setPlaceholders"
-        String withPlaceholdersSet = PlaceholderAPI.setPlaceholders(event.getPlayer(), withoutPlaceholdersSet);
+        joinText = PlaceholderAPI.setPlaceholders(event.getPlayer(), joinText);
 
         event.setJoinMessage(withPlaceholdersSet);
     }
 }
 ```
 
-## Using Placeholder Expansion to register placeholders in your local jar
-We first create the main class like normal:  
-```java
-package at.helpch.placeholderapiexample;
+## PlaceholderExpansion
+We only show, how you register the placeholders, when you have the class in your own plugin.
 
-import org.bukkit.Bukkit;
-import org.bukkit.plugin.java.JavaPlugin;
+A complete explanation of the PlaceholderExpansion and how to create own placeholders/expansions with it is explained [[here|Creating Placeholders using Expansions]] in more detail.
 
-public class ExamplePlugin extends JavaPlugin {
-    
-    @Override
-    public void onEnable(){
-        if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
-            // Your register-code here
-        }
-    }
-}
-```
-
-Now to create the expansion you simply have to create a class, that extends the `PlaceholderExpansion`.  
-For more info, [[click here|Creating-Placeholders-using-Expansions]].  
-```java
-package at.helpch;
-
-import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-
-public class ExampleExpansion extends PlaceholderExpansion {
-
-    /*
-     * The identifier, shouldn't contain any _ or %
-     */
-    public String getIdentifier() {
-        return "exampleplugin";
-    }
-
-    public String getPlugin() {
-        return null;
-    }
-
-    /*
-     * The author of the Placeholder
-     * This cannot be null
-     */
-    public String getAuthor() {
-        return "HelpChat";
-    }
-
-    /*
-     * Same with #getAuthor() but for version
-     * This cannot be null
-     */
-    public String getVersion() {
-        return "OurOwnVersion";
-    }
-
-    /*
-     * Use this method to setup placeholders
-     * This is somewhat similar to EZPlaceholderhook
-     */
-    public String onRequest(Player player, String identifier) {
-        // Placeholder: %exampleplugin_online_players%
-        if(identifier.equalsIgnoreCase("online_players")){
-            return String.valueOf(Bukkit.getOnlinePlayers().size());
-        }
-  
-        // We check if the player is null (not online) before any player-related placeholder
-        if(player == null){
-            return "";
-        }
-  
-        // Placeholder: %exampleplugin_player_name%
-        if(identifier.equalsIgnoreCase("player_name")){
-            return player.getName();
-        }
-        
-        // We return null, if an invalid placeholder was called.
-        return null;
-    }
-}
-```
-
-After that is done, we simply register our PlaceholderExpansion-class:  
+Just register your class like you do with the [EZPlaceholderHook](#ezplaceholderhook-deprecated), but instead of using `.hook()` you use `.register()` to register the class.
 ```java
 package at.helpch.placeholderapiexample;
 
