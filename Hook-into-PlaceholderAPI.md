@@ -92,7 +92,7 @@ depend: [PlaceholderAPI] # If your plugin requires PlaceholderAPI, to work, use 
 
 ### NOTES
 - If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [[here|Creating-Placeholders-using-Expansions]]!
-- The later mentioned `EZPlaceholderHook` is deprecated since the implementation of PlaceholderExpansion. If you don't want to make a seperate jar for registering placeholders, [[click here|Hook-into-PlaceholderAPI#using-placeholder-expansion-to-register-placeholders-in-your-local-jar]] for how to use another method.
+- The later mentioned `EZPlaceholderHook` is deprecated since the implementation of `PlaceholderExpansion`. Just use the method explained in the above-linked page.
 
 ### EZPlaceholderHook (Deprecated)
 **Please consider using the [PlaceholderExpansion](#placeholderexpansion) instead of EZPlaceholderHook, since this method is deprecated and no longer supported!**
