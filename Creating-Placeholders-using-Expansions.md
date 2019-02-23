@@ -1,7 +1,7 @@
 ## Overview
 PlaceholderAPI is using Expansions for it's placeholders, with PlaceholderAPI providing the core. Users can download Expansions from the cloud server using commands in game or [here](https://api.extendedclip.com/home/) if they want to use the Placeholder.
 
-**Note:** It is recommended to create placeholders using expansions for your Plugin instead of creating it inside your Plugin as people can contribute to your placeholders if you upload it onto sites like Github.
+**Note:** It is recommended to create placeholders using expansions for your Plugin instead of creating it inside your Plugin as people can contribute to your placeholders if you upload the code onto sites like Github.
 
 
 To begin, start a new Project using your favorite IDE and create a class that `extends PlaceholderExpansion`.
