@@ -1813,11 +1813,15 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %parkour_rank%
 %parkour_parkoins%
 %parkour_course_record_<course>%
+%parkour_course_record_deaths_<course>%
 %parkour_personal_best_<course>%
+%parkour_personal_best_deaths_<course>%
 %parkour_leader_<course>%
 %parkour_current_course%
 %parkour_current_course_record%
+%parkour_current_course_record_deaths%
 %parkour_current_personal_best%
+%parkour_current_personal_best_deaths%
 %parkour_current_course_leader%
 %parkour_current_course_timer%
 %parkour_course_count%
