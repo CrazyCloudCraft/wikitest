@@ -70,19 +70,6 @@ public class ExampleExpansion extends PlaceholderExpansion {
   }
 
   /**
-   * if the expansion requires another plugin as a dependency, the 
-   * proper name of the dependency should go here.
-   * <br>Set this to {@code null} if your placeholders do not require 
-   * another plugin to be installed on the server for them to work.
-   *
-   * @return Always {@code null} since we do not have a dependency.
-   */
-  @Override
-  public String getPlugin(){
-    return null;
-  }
-
-  /**
    * This is the version of this expansion.
    * <br>You don't have to use numbers, since it is set as a String.
    *
@@ -234,7 +221,7 @@ class ExampleExpansion extends PlaceholderExpansion {
    * @return The name of our dependency.
    */
   @Override
-  public String getPlugin(){
+  public String getRequiredPlugin(){
     return "SomePlugin";
   }
 
