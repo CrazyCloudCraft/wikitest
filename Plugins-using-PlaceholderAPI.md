@@ -1,5 +1,5 @@
 This here is a list of all plugins supporting PlaceholderAPI by either having their own placeholders added, or just allowing other placeholders to be used.  
-If your plugin isn't shown here and you want it to be added, [open an issue](/help-chat/PlaceholderAPI/issues/new?template=feature_request.md) and we will add it!
+If your plugin isn't shown here and you want it to be added, [open an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=feature_request.md) and we will add it!
 
 ## Plugins
 * **[[A|Plugins using PlaceholderAPI#A]]**
@@ -502,6 +502,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/he
 
 ----
 ## Q
+- **[Quests](https://www.spigotmc.org/resources/3711/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[QuestCreator](https://www.spigotmc.org/resources/38734/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#questcreator]]**]
