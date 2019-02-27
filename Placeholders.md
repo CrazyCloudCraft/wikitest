@@ -2528,8 +2528,17 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 > /papi ecloud download TokenEnchant
 
 ```
-%tokenenchant_token%
-%tokenenchant_token_num%
+%tokenenchant_token% (beautified token balance)
+%tokenenchant_token_num% (un-beautified token balance)
+%tokenenchant_XXX_level% (the level of XXX-enchant on the item you're currently holding)
+%tokenenchant_XXX_cost% (the cost of XXX-enchant needed to level up to the next level)
+%tokenenchant_XXX_max% (the max level of XXX-enchant)
+%tokenenchant_XXX_description% (a short description of XXX-enchant, which is specified in TokenEnchant's config.yml)
+%tokenenchant_XXX_version% (the version of currently registered XXX-enchant)
+%tokenenchant_XXX_fullrefund% (the full refund amount of currently registered XXX-enchant)
+%tokenenthcnat_XXX_refund_Y% (refund Y-level of currently registered XXX-enchant)
+%tokenenchant_repair_cost% (the token cost to repair the holding item)
+%tokenenchant_repair_cost_num% (un-beautified token cost to repair the holding item)
 ```
 ----
 
