@@ -2475,19 +2475,19 @@ Per Player/Event placeholders:
 > NO DOWNLOAD COMMANDS
 
 ```
-%TheTime_date_tick%
-%TheTime_date_second%
-%TheTime_date_minute%
-%TheTime_date_hour%
-%TheTime_date_day%
-%TheTime_date_day_name%
-%TheTime_date_dayOfWeek%
-%TheTime_date_week%
-%TheTime_date_month%
-%TheTime_date_month_name%
-%TheTime_date_year%
-%TheTime_date_era%
-%TheTime_date_era_name%
+%thetime_date_tick%
+%thetime_date_second%
+%thetime_date_minute%
+%thetime_date_hour%
+%thetime_date_day%
+%thetime_date_day_name%
+%thetime_date_dayOfWeek%
+%thetime_date_week%
+%thetime_date_month%
+%thetime_date_month_name%
+%thetime_date_year%
+%thetime_date_era%
+%thetime_date_era_name%
 ```
 ----
 
@@ -2527,18 +2527,19 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 - ### **[TokenEnchant](https://www.spigotmc.org/resources/2287/)**
 > /papi ecloud download TokenEnchant
 
+Replace `XXX` with the enchantment.
 ```
-%tokenenchant_token% (beautified token balance)
-%tokenenchant_token_num% (un-beautified token balance)
-%tokenenchant_XXX_level% (the level of XXX-enchant on the item you're currently holding)
-%tokenenchant_XXX_cost% (the cost of XXX-enchant needed to level up to the next level)
-%tokenenchant_XXX_max% (the max level of XXX-enchant)
-%tokenenchant_XXX_description% (a short description of XXX-enchant, which is specified in TokenEnchant's config.yml)
-%tokenenchant_XXX_version% (the version of currently registered XXX-enchant)
-%tokenenchant_XXX_fullrefund% (the full refund amount of currently registered XXX-enchant)
-%tokenenthcnat_XXX_refund_Y% (refund Y-level of currently registered XXX-enchant)
-%tokenenchant_repair_cost% (the token cost to repair the holding item)
-%tokenenchant_repair_cost_num% (un-beautified token cost to repair the holding item)
+%tokenenchant_token%
+%tokenenchant_token_num%
+%tokenenchant_XXX_level%
+%tokenenchant_XXX_cost%
+%tokenenchant_XXX_max%
+%tokenenchant_XXX_description% 
+%tokenenchant_XXX_version%
+%tokenenchant_XXX_fullrefund%
+%tokenenthcnat_XXX_refund_Y%
+%tokenenchant_repair_cost%
+%tokenenchant_repair_cost_num%
 ```
 ----
 
