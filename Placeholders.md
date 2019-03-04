@@ -193,6 +193,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 ## **T**
 - **[[The Time|Placeholders#the-time]]**
+- **[[ThemePark|Placeholders#themepark]]**
 - **[[Thirst|Placeholders#thirst]]**
 - **[[Timed Rewards|Placeholders#timed-rewards]]**
 - **[[TNTRun_Reloaded|Placeholders#tntrun_reloaded]]**
@@ -201,7 +202,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[Towny|Placeholders#towny]]**
 - **[[Treasures|Placeholders#treasures]]**
 - **[[Trey's Double Jump|Placeholders#treys-double-jump]]**
-- **[[ThemePark|Placeholders#themepark]]**
 
 ## **U**
 - **[[USkyBlock|Placeholders#uskyblock]]**
@@ -2494,6 +2494,15 @@ Per Player/Event placeholders:
 ```
 ----
 
+- ### **[ThemePark](https://www.spigotmc.org/resources/48648/)**
+> NO DOWNLOAD COMMAND
+
+```
+%tp_name:<AttractionID>%
+%tp_status:<AttractionID>%
+```
+----
+
 - ### **[Thirst](https://www.spigotmc.org/resources/3316/)**
 > /papi ecloud download Thirst
 
@@ -2593,16 +2602,6 @@ Replace `XXX` with the enchantment.
 %tdj_groundpoundenabled%
 %tdj_canusegroundpound%
 ```
-----
-
-- ### **[ThemePark](https://www.spigotmc.org/resources/themepark.48648/)**
-> NO DOWNLOAD COMMAND
-
-```
-%tp_name:<AttractionID>%
-%tp_status:<AttractionID>%
-```
-Replace the <AttractionID> variable by the AttractionID.
 
 ----
 
