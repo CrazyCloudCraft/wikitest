@@ -201,6 +201,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[Towny|Placeholders#towny]]**
 - **[[Treasures|Placeholders#treasures]]**
 - **[[Trey's Double Jump|Placeholders#treys-double-jump]]**
+- **[[ThemePark|Placeholders#themepark]]**
 
 ## **U**
 - **[[USkyBlock|Placeholders#uskyblock]]**
@@ -2591,6 +2592,15 @@ Replace `XXX` with the enchantment.
 %tdj_doublejumpenabled%
 %tdj_groundpoundenabled%
 %tdj_canusegroundpound%
+```
+----
+
+- ### **[ThemePark](https://www.spigotmc.org/resources/themepark.48648/)**
+> NO DOWNLOAD COMMAND
+
+```
+%tp_name:<AttractionID>%
+%tp_status:<AttractionID>%
 ```
 ----
 
