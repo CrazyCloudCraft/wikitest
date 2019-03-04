@@ -646,6 +646,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[The Time](https://www.spigotmc.org/resources/25146/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#the-time]]**]
+- **[ThemePark](https://www.spigotmc.org/resources/48648/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#themepark]]**]
 - **[Thirst](https://www.spigotmc.org/resources/3316/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#thirst]]**]
