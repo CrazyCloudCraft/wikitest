@@ -2602,6 +2602,8 @@ Replace `XXX` with the enchantment.
 %tp_name:<AttractionID>%
 %tp_status:<AttractionID>%
 ```
+Replace the <AttractionID> variable by the AttractionID.
+
 ----
 
 - ### **[USkyBlock](https://www.spigotmc.org/resources/2280/)**
