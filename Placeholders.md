@@ -93,7 +93,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[GemsEconomy|Placeholders#gemseconomy]]**
 - **[[GriefPrevention|Placeholders#griefprevention]]**
 - **[[Guilds|Placeholders#guilds]]**
-- **[[GuiRedeemMCMMO|Placeholders#guiredeemmcmmo]]
+- **[[GuiRedeemMCMMO|Placeholders#guiredeemmcmmo]]**
 
 ## **H**
 - **[[Heroes|Placeholders#heroes]]**
