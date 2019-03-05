@@ -93,6 +93,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[GemsEconomy|Placeholders#gemseconomy]]**
 - **[[GriefPrevention|Placeholders#griefprevention]]**
 - **[[Guilds|Placeholders#guilds]]**
+- **[[GuiRedeemMCMMO|Placeholders#guiredeemmcmmo]]
 
 ## **H**
 - **[[Heroes|Placeholders#heroes]]**
@@ -1289,6 +1290,14 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %guilds_members_online%
 %guilds_role%
 %guilds_tier%
+```
+----
+
+- ### **[GuiRedeemMCMMO](https://www.spigotmc.org/resources/6784/)**
+> NO DOWNLOAD COMMAND
+
+```
+%guiredeemmcmmo_credits%
 ```
 ----
 
