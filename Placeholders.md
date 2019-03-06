@@ -190,7 +190,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[stTitles|Placeholders#sttitles]]**
 - **[[SuperbVote|Placeholders#superbvote]]**
 - **[[SuperCredits|Placeholders#supercredits]]**
-- **[[SuperVanish|Placeholders#superbvanish]]**
+- **[[SuperVanish|Placeholders#supervanish]]**
 
 ## **T**
 - **[[The Time|Placeholders#the-time]]**
