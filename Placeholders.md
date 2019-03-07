@@ -801,7 +801,7 @@ This placeholders require the corresponding plugin to work.
 > /papi ecloud download CheckNameHistory
 
 ```
-%checknamehistory_previous_names_<#>%
+%checknamehistory_previous_name_<#>%
 %checknamehistory_previous_name_date_<#>%
 ```
 ----
