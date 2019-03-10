@@ -2719,7 +2719,7 @@ Replace `XXX` with the enchantment.
 ----
 
 - ### **[VotingPlugin](https://www.spigotmc.org/resources/15358/)**
-> NO DOWNLOAD COMMAND
+> /papi ecloud download VotingPlugin
 
 ```
 %VotingPlugin_CanVote%
