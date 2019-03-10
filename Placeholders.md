@@ -2728,9 +2728,9 @@ Replace `XXX` with the enchantment.
 %VotingPlugin_Points%
 %VotingPlugin_VotePartyVotesNeeded%
 %VotingPlugin_LastMonthTotal%
-%VotingPlugin_Total_All%
-%VotingPlugin_Total_Month%
-%VotingPlugin_Total_Week%
+%VotingPlugin_Total_AllTime%
+%VotingPlugin_Total_Monthly%
+%VotingPlugin_Total_Weekly%
 %VotingPlugin_Total_Daily%
 %VotingPlugin_top_all_#%
 %VotingPlugin_top_month_#%
