@@ -41,6 +41,7 @@ Shows information about the expansion cloud.
   * `<expansion name>` - Gives info about a expansion.
 * `download`
   * `<expansion name>` - downloads a expansion.
+  * `[version]` - Downloads a specific version of the expansion (optional).
 
 ----
 #### `/papi info`
