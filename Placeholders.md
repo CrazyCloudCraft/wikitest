@@ -1970,7 +1970,7 @@ Player-specific placeholder (Gets mine at the current location)
 ----
 
 - ### **[ProQuest](https://www.spigotmc.org/resources/18249/)**
-> /papi ecloud download ProQuest
+> NO DOWNLOAD COMMAND
 
 ```
 %proquests_completed_quests%
