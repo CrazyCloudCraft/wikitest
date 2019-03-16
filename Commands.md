@@ -17,10 +17,13 @@ This page shows all commands, including with a detailed description of what ever
 Parses an expansion and broadcasts the result to all players.
 
 **Arguments**:
-* `<expansion name>`
+* `<player|me>` - The Player to parse values of the placeholder (Use `me` for yourself).
+* `<Text with placeholders>` - The text to parse.
 
-**Example**:
-* `/papi bcparse %player_name%`
+**Example**:  
+```
+/papi bcparse funnycube My name is %player_name%!
+```
 
 ----
 #### `/papi disablecloud`
@@ -30,18 +33,34 @@ Disables the connection to the expansion-cloud.
 ----
 #### `/papi ecloud`
 **Description**:  
-Shows information about the expansion cloud.
+Shows info about the expansion cloud and performs actions with it.
 
-**Arguments**:  
-* `status` - Shows the actual status of the ecloud.  
+**Arguments**:
+* `clear` - Clears the expansion cloud cache.
+* `download` - Download an expansion.
+  * `<expansion name>` - Name of the expansion to download.
+  * `[version]` - A specific version of the expansion to download (Optional).
+* `info` - Get info about an expansion.
+  * `<expansion name>` - Name of the expansion to get info from.
 * `list`
-  * `<all/author>` - Lists all or author-specific placeholders.
-  * `<page>` - used to scroll through multiple pages.
-* `info`
-  * `<expansion name>` - Gives info about a expansion.
-* `download`
-  * `<expansion name>` - downloads a expansion.
-  * `[version]` - Downloads a specific version of the expansion (optional).
+  * `<all|author <author>|installed>` - List either all expansions, only those of a author or all installed ones.
+  * `[page]` - The page to list.
+* `placeholders` - Lists placeholders of an expansion.
+  * `<expansion name>` - The expansion to show the placeholders from.
+* `refresh` - Refreshes the cached data of the expansion cloud.
+* `status` - Shows the actual status of the ecloud.
+* `versioninfo` - Get info of a specific expansion version.
+  * `<expansion name>` - Name of the expansion to get info from.
+  * `<version>` - The specific version to get the info from.
+
+**Examples**:  
+```
+/papi ecloud download Vault
+/papi ecloud info Vault
+/papi ecloud list author clip
+/papi ecloud placeholders Vault
+/papi ecloud versioninfo Vault 1.5.0
+```
 
 ----
 #### `/papi info`
@@ -49,27 +68,32 @@ Shows information about the expansion cloud.
 Gives you information about the specified expansion.
 
 **Argument(s)**:  
-* `<expansion name>`
+* `<expansion name>` - The expansion to get info from (Needs to be registered and active).
 
 **Example**:  
-`/papi info Vault`
+```
+/papi info Vault
+```
 
 ----
 #### `/papi list`
 **Description**:  
 Lists all active/registered expansions.  
-This is different to [/papi ecloud list installed](#papi-ecloud) in the fact, that it also includes expansions that where installed through a plugin (That aren't a seperate jar-file).
+This is different to [/papi ecloud list installed](#papi-ecloud) in the fact, that it also includes expansions that were installed through a plugin (That aren't a separate jar-file) and it also doesn't show which one have updates available.
 
 ----
 #### `/papi parse`
 **Description**:  
-Shows you the output of the given placeholder.
+Parses the placeholders in a given text and shows the result.
 
-**Argument(s)**:  
-* `<%placeholder%>`
+**Argument(s)**:
+* `<player|me>` - The Player to parse values of the placeholder (Use `me` for yourself).
+* `<Text with placeholders>` - The text to parse.
 
 **Example**:  
-`/papi parse %vault_group%`
+```
+/papi parse funnycube My group is %vault_group%
+```
 
 ----
 #### `/papi parserel`
@@ -77,24 +101,29 @@ Shows you the output of the given placeholder.
 Parses a relational placeholder.
 
 **Arguments**:  
-* `<player1>`  
-* `<player2>`  
-* `<args>`
+* `<player1>` - The first player.
+* `<player2>` - the second player to compare with.
+* `<%placeholder%>` - The actual placeholder to parse.
 
 **Example**:  
-`/papi parserel funnycube extended_clip %placeholder%`
+```
+/papi parserel funnycube extended_clip %placeholder%
+```
 
 ----
 #### `/papi register`
 **Description**:  
-Registers a expansion from a specified filename.  
-This is usefull in cases, where you downloaded the expansion manually and don't want to restart the server.
+Registers an expansion from a specified filename.  
+This is useful in cases, where you downloaded the expansion manually and don't want to restart the server.  
+The file needs to be inside `/plugins/PlaceholderAPI/expansions`.
 
 **Arguments**:
-* `<filename>`
+* `<filename>` - The file to register (including the file-extension).
 
-**Example**:
-* `/papi register MyExpansion.jar`
+**Example**:  
+```
+/papi register MyExpansion.jar
+```
 
 ----
 #### `/papi reload`
@@ -107,7 +136,9 @@ Reloads the config settings.
 Unregisters the specified expansion.
 
 **Arguments**:
-* `<filename>`
+* `<filename>` - The expansion to unregister.
 
-**Example**:
-* `/papi unregister MyExpansion.jar`
+**Example**:  
+```
+/papi unregister MyExpansion.jar
+```
