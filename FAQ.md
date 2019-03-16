@@ -4,7 +4,8 @@ Here are frequently asked questions about stuff related to PlaceholderAPI.
 Make sure, that you've tried the following steps:
 - PlaceholderAPI is installed and running
 - You downloaded the expansion with `/papi ecloud download [expansion]`  
-A list of available expansions and their placeholders can be found [[here|Placeholders]]!
+A list of available expansions and their placeholders can be found [[here|Placeholders]]!  
+Also note that not all placeholders are in a seperate expansion. Some are "hardcoded" into a plugin.
 - You reloaded PlaceholderAPI with `/papi reload` after downloading an expansion.
 - Any possible dependency for the expansion (Plugin) is installed and running.
 
