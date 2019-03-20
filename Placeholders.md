@@ -1014,21 +1014,22 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 ```
 ----
 
-- ### **[DungeonsXL](https://www.spigotmc.org/resources/dungeonsxl.9488/)**
+- ### **[DungeonsXL](https://www.spigotmc.org/resources/9488/)**
 > NO DOWNLOAD COMMAND
 
 ```
+%dxl_floor_player_count%
+%dxl_dungeon_name%
+%dxl_game_player_count%
+%dxl_global_dungeon_count%
+%dxl_global_floor_count%
+%dxl_global_instance_count%
 %dxl_group_members%
 %dxl_group_name%
 %dxl_group_name_raw%
 %dxl_group_player_count%
-%dxl_game_player_count%
-%dxl_floor_player_count%
-%dxl_dungeon_name%
-%dxl_global_dungeon_count%
-%dxl_global_floor_count%
-%dxl_global_instance_count%
 ```
+----
 
 - ### **[Enjin & DonationCraft 2.x](https://dev.bukkit.org/projects/emp)**
 > /papi ecloud download Enjin
