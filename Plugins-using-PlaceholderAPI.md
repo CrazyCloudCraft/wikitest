@@ -424,6 +424,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## N
+- **[Nameless Plugin](https://www.spigotmc.org/resources/59032/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#nameless-plugin]]**]
 - **[Nicknamer](https://www.spigotmc.org/resources/5341/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#nicknamer]]**]
