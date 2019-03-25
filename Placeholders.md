@@ -138,6 +138,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[MySQLTokens|Placeholders#mysqltokens]]**
 
 ## **N**
+- **[[Nameless Plugin|Placeholders#nameless-plugin]]**
 - **[[Nicknamer|Placeholders#nicknamer]]**
 - **[[NickReloaded|Placeholders#nickreloaded]]**
 - **[[Nicky|Placeholders#nicky]]**
@@ -1765,6 +1766,14 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 
 ```
 %mysqltokens_tokens%
+```
+----
+
+- ### **[Nameless Plugin](https://www.spigotmc.org/resources/59032/)**
+> NO DOWNLOAD COMMAND
+
+```
+%namelessmc_notifications%
 ```
 ----
 
