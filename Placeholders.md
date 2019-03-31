@@ -917,9 +917,6 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 %deluxechat_is_pm_toggled%
 %deluxechat_pm_recipient%
 %deluxechat_social_spy_enabled%
-%deluxechat_is_pm_toggled%
-%deluxechat_pm_recipient%
-%deluxechat_social_spy_enabled%
 ```
 ----
 
