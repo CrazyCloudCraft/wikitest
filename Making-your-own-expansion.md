@@ -15,4 +15,4 @@ The developer of the expansion can update the single expansion to support the ne
 Do you have your own expansion, that you want to share with all the PlaceholderAPI-users?  
 [[Click here|Expansion-cloud]] to get info on how to do that.
 
-If you want to make a own expansion, read the page [[Creating Placeholders using Expansions]]
+If you want to make a own expansion, read the [[PlaceholderExpansion]] page.
