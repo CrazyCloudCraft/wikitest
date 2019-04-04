@@ -9,7 +9,7 @@
 - [[First steps|Hook-into-PlaceholderAPI#first-steps]]
 - [[Adding placeholders to PlaceholderAPI (deprecated)|Hook-into-PlaceholderAPI#adding-placeholders-to-placeholderapi]]
 - [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
-- [[PlaceholderExpansion|Hook-into-PlaceholderAPI#PlaceholderExpansion]]
+- [[PlaceholderExpansion]]
 
 **[[Create your own expansion|Making-your-own-expansion]]**
 
