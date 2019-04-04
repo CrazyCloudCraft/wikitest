@@ -52,14 +52,14 @@ dependencies {
 ```
 
 ### Import manually
-You have to import PlaceholderAPI manually, if you don't use maven.  
-The following example shows the manual import in Eclipse:
+Do the following steps, if you can't import PlaceholderAPI through Maven or Gradle.
 
+#### Eclipse
 Rightclick your project and choose "Properties -> Java Build Path".  
 Click on "Add external jar" and add the PlaceholderAPI.jar ([Pluginpage](https://www.spigotmc.org/resources/placeholderapi.6245/)) to your project.  
 ![](https://img.extendedclip.com/02-23-16-11:50:21.png)
 
-If you use IntelliJ, do the following steps:  
+#### IntelliJ  
 1. Click on **File** -> **Project Structure** (Ctrl + Alt + Shift + S on windows)
 2. Go to the tab **Modules**
 3. Click the **+** on the right side and choose **Library...** -> **Java**
@@ -91,7 +91,7 @@ depend: [PlaceholderAPI] # If your plugin requires PlaceholderAPI, to work, use 
 ## Adding placeholders to PlaceholderAPI
 
 ### NOTES
-- If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [[here|Creating-Placeholders-using-Expansions]]!
+- If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [[here|PlaceholderExpansion]]!
 - The later mentioned `EZPlaceholderHook` is deprecated since the implementation of `PlaceholderExpansion`. Just use the method explained in the above-linked page.
 
 ### EZPlaceholderHook (Deprecated)
@@ -115,22 +115,21 @@ public class ExamplePlugin extends JavaPlugin {
 }
 ```
 
-There are multiple ways to register your own placeholders. The best (and also cleanest) way would be to make a seperate class that extend the abstract `PlaceholderHook` or `EZPlaceholderHook` to handle it.
+There are multiple ways to register your own placeholders. The best (and also cleanest) way would be to make a separate class that extends the abstract `PlaceholderHook` or `EZPlaceholderHook` to handle it.
 
-**Note**: These two abstract methods are basicly the same, but `EZPlaceholderHook` makes it easier for you to register your placeholders, because it has a few methods built in to do the work in terms of registering.
+**Note**: These two abstract methods are basically the same, but `EZPlaceholderHook` makes it easier for you to register your placeholders because it has a few methods built in to do the work in terms of registering.
 
-Lets assume I made the class `MyPlaceholderExtension` wich extends `EZPlaceholderHook`.  
+Let's assume I made the class `MyPlaceholderExtension` which extends `EZPlaceholderHook`.  
 As soon as I did that, does it make a constructor for me and tells me, that I need to implement some methods that are missing.  
-This method will do the work for us, when a value is needed.
+This method will do the work for us when a value is needed.
 
 In our example will we keep track of who's staff and how many staff are online.  
-In the main class did we made some eventlisteners, to determine if a player is staff, when he joins. If they are, add them to a set of player names of the staff online. On quit we do the oposite and remove them from the set.  
+In the main class did we made some event listeners, to determine if a player is a staff when he joins. If they are, add them to a set of player names of the staff online. On disconnect, we do the opposite and remove them from the set.  
 ```java
 package at.helpch.placeholderapiexample;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -185,7 +184,7 @@ public class ExamplePlugin extends JavaPlugin implements Listener {
 }
 ```
 
-Now we can setup the stuff in our placeholder-class to make it work!  
+Now we can set up the stuff in our placeholder-class to make it work!  
 ```java
 package at.helpch.placeholderapiexample;
 
@@ -243,7 +242,6 @@ package at.helpch.placeholderapiexample;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -271,7 +269,7 @@ public class ExamplePlugin extends JavaPlugin {
 ## Using placeholders from PlaceholderAPI in your plugin
 To use placeholders from other plugins in our own plugin, we simply have to use the `setPlaceholders` method.
 
-Lets assume we want to send a own join message that shows the group a player has.  
+Let's assume we want to send an own join message that shows the group a player has.  
 To achieve that, we can do the following:  
 ```java
 package at.helpch.placeholderapi;
@@ -284,6 +282,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+import me.clip.placeholderapi.PlaceholderAPI;
 
 public class JoinExample extends JavaPlugin implements Listener {
 
@@ -309,29 +308,6 @@ public class JoinExample extends JavaPlugin implements Listener {
         joinText = PlaceholderAPI.setPlaceholders(event.getPlayer(), joinText);
 
         event.setJoinMessage(withPlaceholdersSet);
-    }
-}
-```
-
-## PlaceholderExpansion
-We only show, how you register the placeholders, when you have the class in your own plugin.
-
-A complete explanation of the PlaceholderExpansion and how to create own placeholders/expansions with it is explained [[here|Creating Placeholders using Expansions]] in more detail.
-
-Just register your class like you do with the [EZPlaceholderHook](#ezplaceholderhook-deprecated), but instead of using `.hook()` you use `.register()` to register the class.
-```java
-package at.helpch.placeholderapiexample;
-
-import org.bukkit.Bukkit;
-import org.bukkit.plugin.java.JavaPlugin;
-
-public class ExamplePlugin extends JavaPlugin {
-    
-    @Override
-    public void onEnable(){
-        if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
-            new ExampleExpansion().register();
-        }
     }
 }
 ```
