@@ -12,8 +12,6 @@
   * [[PlaceholderExpansion]]
 * [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
 
-**[[Create your own expansion|Making-your-own-expansion]]**
-
 ### Other
 **[[Commands]]**  
 **[[Expansion cloud]]**  
