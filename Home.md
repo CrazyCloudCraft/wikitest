@@ -7,9 +7,10 @@ It also has a list with all available placeholders (Work in progress).
 ### Setup
 **[[Hook into PlaceholderAPI]]**
 * [[First steps|Hook-into-PlaceholderAPI#first-steps]]
-* [[Adding placeholders to PlaceholderAPI (deprecated)|Hook-into-PlaceholderAPI#adding-placeholders-to-placeholderapi]]
+* [[Adding placeholders to PlaceholderAPI|Hook-into-PlaceholderAPI#adding-placeholders-to-placeholderapi]]
+  * [[EZPlaceholderHook (Deprecated)|Hook-into-PlaceholderAPI#ezplaceholderhook-deprecated]]
+  * [[PlaceholderExpansion]]
 * [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
-* [[Using PlaceholderExpansion to register placeholders in your local jar|Hook-into-PlaceholderAPI#using-placeholder-expansion-to-register-placeholders-in-your-local-jar]]
 
 **[[Create your own expansion|Making-your-own-expansion]]**
 
