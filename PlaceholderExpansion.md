@@ -40,7 +40,7 @@ import me.clip.placeholderapi.expansion.PlaceholderExpansion;
  * register it manually in your plugins {@code onEbale()} by using 
  * {@code new YourExpansionClass().register();}
  */
-public class ExampleExpansion extends PlaceholderExpansion {
+public class SomeExpansion extends PlaceholderExpansion {
 
     /**
      * This method should always return true unless we
@@ -124,7 +124,7 @@ public class ExampleExpansion extends PlaceholderExpansion {
 ----
 
 ### With external plugin
-This example here applies to people who want to provide information from their own plugin through placeholders from PlaceholderAPI.  
+Those examples here applies to people who want to provide information from their own plugin through placeholders from PlaceholderAPI.  
 There exists a repository showcasing an [example-expansion](/PlaceholderAPI/Example-Expansion) with what you can/should do.
 
 In our examples do we have the plugin `SomePlugin` and want to show certain placeholders with it.
@@ -140,7 +140,7 @@ package at.helpch.placeholderapi.example.expansions;
 
 import org.bukkit.OfflinePlayer;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import at.helpch.somePlugin.SomePlugin;
+import at.helpch.placeholderapi.example.SomePlugin;
 
 /**
  * This class will automatically register as a placeholder expansion 
@@ -151,7 +151,7 @@ import at.helpch.somePlugin.SomePlugin;
  * register it manually in your plugins {@code onEbale()} by using 
  * {@code new YourExpansionClass().register();}
  */
-class ExampleExpansion extends PlaceholderExpansion {
+class SomeExpansion extends PlaceholderExpansion {
 
     // We get an instance of the plugin later.
     private SomePlugin plugin;
@@ -290,7 +290,7 @@ class ExampleExpansion extends PlaceholderExpansion {
 
 #### Internal class
 You can have the class inside your plugin.  
-This has some advantages, but can also have some disadvantages.
+This has some advantages but can also have some disadvantages.
 
 
 ```java
@@ -298,13 +298,13 @@ package at.helpch.placeholderapi.example.expansions;
 
 import org.bukkit.OfflinePlayer;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import at.helpch.somePlugin.SomePlugin;
+import at.helpch.placeholderapi.example.SomePlugin;
 
 /**
  * This class will be registered through the register-method in the 
  * plugins onEnable-method.
  */
-class ExampleExpansion extends PlaceholderExpansion {
+class SomeExpansion extends PlaceholderExpansion {
 
     private SomePlugin plugin;
 
@@ -357,7 +357,7 @@ class ExampleExpansion extends PlaceholderExpansion {
     }
 
     /**
-     * This is the version of this expansion.
+     * This is the version of the expansion.
      * <br>You don't have to use numbers, since it is set as a String.
      *
      * For convienience do we return the version from the plugin.yml
@@ -406,7 +406,7 @@ class ExampleExpansion extends PlaceholderExpansion {
 }
 ```
 
-As you can see is this method pretty similar to the one without any external plugins, since we can get an instance of our plugin much more easy and also have a 100% guarantee that the plugin is installed and running.
+As you can see is this method pretty similar to the one without any external plugins, since we can get an instance of our plugin much easier and also have a 100% guarantee that the plugin is installed and running.
 
 Our final step now is to register the class and its placeholders. The plugin doesn't do this on its own.  
 To achieve this, add the following to your `onEnable()` section (Use your expansion name of course):  
@@ -422,7 +422,7 @@ public class SomePlugin extends JavaPlugin{
     public void onEnable(){
         // Small check to make sure that PlaceholderAPI is installed
         if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null){
-              new ExampleExpansion().register();
+              new SomeExpansion().register();
         }
     }
 }
