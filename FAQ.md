@@ -8,6 +8,7 @@ A list of available expansions and their placeholders can be found [[here|Placeh
 Also note that not all placeholders are in a seperate expansion. Some are "hardcoded" into a plugin.
 - You reloaded PlaceholderAPI with `/papi reload` after downloading an expansion.
 - Any possible dependency for the expansion (Plugin) is installed and running.
+- The placeholder doesn't contain any typos.
 
 ## I can't download the expansion
 Make sure, that the connection to the cloud (https://api.extendedclip.com for PlaceholderAPI and https://api.extendedclip.com/home for normal users) isn't blocked by a firewall or similar.  
