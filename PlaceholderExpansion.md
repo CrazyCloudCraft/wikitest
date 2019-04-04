@@ -288,6 +288,7 @@ class SomeExpansion extends PlaceholderExpansion {
 }
 ```
 
+----
 #### Internal class
 You can have the class inside your plugin.  
 This has some advantages but can also have some disadvantages.
