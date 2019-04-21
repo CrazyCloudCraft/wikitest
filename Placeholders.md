@@ -39,6 +39,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[ASkyBlock|Placeholders#askyblock]]**
 - **[[AutoRank|Placeholders#autorank]]**
 - **[[AutoSell|Placeholders#autosell]]**
+- **[[AngelCards|Placeholders#angelcards]]**
 
 ## **B**
 - **[[BattleLevels|Placeholders#battlelevels]]**
