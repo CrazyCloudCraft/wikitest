@@ -117,6 +117,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[KP-PVP|Placeholders#kp-pvp]]**
 
 ## **L**
+- **[[LastLoginAPI|Placeholders#lastloginapi]]**
 - **[[LeaderHeads|Placeholders#leaderheads]]**
 - **[[LegendQuest|Placeholders#legendquest]]**
 - **[[LemonMobCoins|Placeholders#lemonmobcoins]]**
@@ -146,6 +147,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 ## **O**
 - **[[OnTime|Placeholders#ontime]]**
+- **[[OreAnnouncer|Placeholders#oreannouncer]]**
 - **[[Outpost|Placeholders#outpost]]**
 
 ## **P**
@@ -1493,6 +1495,18 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ```
 ----
 
+- ### **[LastLoginAPI](https://www.spigotmc.org/resources/66348/)**
+> NO DOWNLOAD COMMAND
+
+```
+%lastloginapi_name%
+%lastloginapi_last_login_date%
+%lastloginapi_last_login_elapsed%
+%lastloginapi_last_logout_date%
+%lastloginapi_last_logout_elapsed%
+```
+----
+
 - ### **[LeaderHeads](https://www.spigotmc.org/resources/2079/)**
 > /papi ecloud download LeaderHeads
 
@@ -1822,6 +1836,15 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %ontime_time_played_week%
 %ontime_referrals_week%
 %ontime_votes_week%
+```
+----
+
+- ### **[OreAnnouncer](https://www.spigotmc.org/resources/33464/)**
+> NO DOWNLOAD COMMAND
+
+```
+%oreannouncer_player_destroyed%
+%oreannouncer_player_destroyed_<Material>%
 ```
 ----
 
