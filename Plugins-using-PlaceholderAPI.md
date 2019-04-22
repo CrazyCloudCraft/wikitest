@@ -346,6 +346,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## L
+- **[LastLoginAPI](https://www.spigotmc.org/resources/66348/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#lastloginapi]]**]
 - **[LeaderHeads](https://www.spigotmc.org/resources/2079/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#leaderheads]]**]
@@ -445,6 +448,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[OnTime](http://dev.bukkit.org/bukkit-plugins/ontime/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#ontime]]**]
+- **[OreAnnouncer](https://www.spigotmc.org/resources/33464/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#oreannouncer]]**]
 - **[Outpost](https://www.spigotmc.org/resources/38657/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#outpost]]**]
