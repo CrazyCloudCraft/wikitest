@@ -2125,22 +2125,28 @@ Player-specific placeholder (Gets mine at the current location)
 ----
 
 - ### **[Rankup](https://www.spigotmc.org/resources/17933/)**
-> NON DOWNLOAD COMMAND
+> NO DOWNLOAD COMMAND
 
 ```
-%rankup_player%
 %rankup_current_rank%
-%rankup_current_rank_prefix%
-%rankup_current_rank_cost%
-%rankup_current_rank_cost_formatted%
-%rankup_next_rank%
-%rankup_next_rank_prefix%
-%rankup_next_rank_cost%
-%rankup_next_rank_cost_formatted%
-%rankup_percent_done%
-%rankup_percent_done_formatted%
+%rankup_next_rank% 	
+%rankup_current_prestige% 	
+%rankup_next_prestige% 	
+%rankup_money%
+%rankup_money_formatted% 	
+%rankup_prestige_money% 	
+%rankup_prestige_money_formatted% 	
+%rankup_money_left% 	
+%rankup_money_left_formatted% 	
 %rankup_percent_left%
-%rankup_percent_left_formatted%
+%rankup_percent_left_formatted% 	
+%rankup_percent_done_formatted% 	
+%rankup_percent_done_formatted% 	
+%rankup_requirement_<requirement>[_<left/percent_left/percent_done>]
+%rankup_rank_requirement_<rank>_<requirement>[_<left/percent_left/percent_done>]
+%rankup_rank_money_<rank>
+%rankup_rank_money_<rank>_left%
+%rankup_rank_requirement_<rank>_money_percent_[done/left]
 ```
 ----
 
