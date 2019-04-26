@@ -2094,6 +2094,33 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 1 is most recent, 2 is second most, 3 third most, etc.
 
+----
+
+- ### **[Rankup](https://www.spigotmc.org/resources/17933/)**
+> NO DOWNLOAD COMMAND
+
+```
+%rankup_current_rank%
+%rankup_next_rank% 	
+%rankup_current_prestige% 	
+%rankup_next_prestige% 	
+%rankup_money%
+%rankup_money_formatted% 	
+%rankup_prestige_money% 	
+%rankup_prestige_money_formatted% 	
+%rankup_money_left% 	
+%rankup_money_left_formatted% 	
+%rankup_percent_left%
+%rankup_percent_left_formatted% 	
+%rankup_percent_done_formatted%	
+%rankup_requirement_<requirement>[_<left/percent_left/percent_done>]%
+%rankup_rank_requirement_<rank>_<requirement>[_<left/percent_left/percent_done>]%
+%rankup_rank_money_<rank>%
+%rankup_rank_money_<rank>_left%
+%rankup_rank_requirement_<rank>_money_percent_[done/left]%
+```
+----
+
 - ### **[RedProtect](http://otmc.org/resources/15841/)**
 > NO DOWNLOAD COMMAND
 
@@ -2121,32 +2148,6 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 %rs_points%
 %rs_referrals%
-```
-----
-
-- ### **[Rankup](https://www.spigotmc.org/resources/17933/)**
-> NO DOWNLOAD COMMAND
-
-```
-%rankup_current_rank%
-%rankup_next_rank% 	
-%rankup_current_prestige% 	
-%rankup_next_prestige% 	
-%rankup_money%
-%rankup_money_formatted% 	
-%rankup_prestige_money% 	
-%rankup_prestige_money_formatted% 	
-%rankup_money_left% 	
-%rankup_money_left_formatted% 	
-%rankup_percent_left%
-%rankup_percent_left_formatted% 	
-%rankup_percent_done_formatted% 	
-%rankup_percent_done_formatted% 	
-%rankup_requirement_<requirement>[_<left/percent_left/percent_done>]
-%rankup_rank_requirement_<rank>_<requirement>[_<left/percent_left/percent_done>]
-%rankup_rank_money_<rank>
-%rankup_rank_money_<rank>_left%
-%rankup_rank_requirement_<rank>_money_percent_[done/left]
 ```
 ----
 
