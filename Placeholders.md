@@ -61,6 +61,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[CraftingStore.net|Placeholders#craftingstorenet]]**
 
 ## **D**
+- **[[Daily Rewards|Placeholders#daily-rewards]]**
 - **[[DeliveryMan|Placeholders#deliveryman]]**
 - **[[DeluxeChat|Placeholders#deluxechat]]**
 - **[[DeluxePM|Placeholders#deluxepm]]**
@@ -899,6 +900,20 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 %craftingstore_payment_3%
 %craftingstore_payment_4%
 %craftingstore_payment_5%
+```
+----
+
+- ### **[Daily Rewards](https://www.spigotmc.org/resources/16708)**
+> NO DOWNLOAD COMMAND
+
+```
+%dailyrewards_remaining_time%
+%dailyrewards_remaining_hours%
+%dailyrewards_remaining_minutes%
+%dailyrewards_remaining_seconds%
+%dailyrewards_player_reward_available%
+%dailyrewards_player_no_rewards%
+%dailyrewards_player_test_qualification%
 ```
 ----
 
