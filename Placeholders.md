@@ -169,10 +169,10 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[[QuickSell|Placeholders#quicksell]]**
 
 ## **R**
+- **[[Rankup|Placeholders#rankup]]**
 - **[[RedProtect|Placeholders#redprotect]]**
 - **[[RoyalCommands|Placeholders#royalcommands]]**
 - **[[ReferralSystem|Placeholders#referralsystem]]**
-- **[[Rankup|Placeholders#rankup]]**
 
 ## **S**
 - **[[SellAll|Placeholders#sellall]]**
