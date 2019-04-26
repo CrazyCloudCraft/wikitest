@@ -2,29 +2,29 @@ This here is a list of all plugins supporting PlaceholderAPI by either having th
 If your plugin isn't shown here and you want it to be added, [open an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=feature_request.md) and we will add it!
 
 ## Plugins
-* **[[A|Plugins using PlaceholderAPI#A]]**
-* **[[B|Plugins using PlaceholderAPI#B]]**
-* **[[C|Plugins using PlaceholderAPI#C]]**
-* **[[D|Plugins using PlaceholderAPI#D]]**
-* **[[E|Plugins using PlaceholderAPI#E]]**
-* **[[F|Plugins using PlaceholderAPI#F]]**
-* **[[G|Plugins using PlaceholderAPI#G]]**
-* **[[H|Plugins using PlaceholderAPI#H]]**
-* **[[I|Plugins using PlaceholderAPI#I]]**
-* **[[J|Plugins using PlaceholderAPI#J]]**
-* **[[K|Plugins using PlaceholderAPI#K]]**
-* **[[L|Plugins using PlaceholderAPI#L]]**
-* **[[M|Plugins using PlaceholderAPI#M]]**
-* **[[N|Plugins using PlaceholderAPI#N]]**
-* **[[O|Plugins using PlaceholderAPI#O]]**
-* **[[P|Plugins using PlaceholderAPI#P]]**
-* **[[Q|Plugins using PlaceholderAPI#Q]]**
-* **[[R|Plugins using PlaceholderAPI#R]]**
-* **[[S|Plugins using PlaceholderAPI#S]]**
-* **[[T|Plugins using PlaceholderAPI#T]]**
-* **[[U|Plugins using PlaceholderAPI#U]]**
-* **[[V|Plugins using PlaceholderAPI#V]]**
-* **[[W|Plugins using PlaceholderAPI#W]]**
+* **[A](#a)**
+* **[B](#b)**
+* **[C](#c)**
+* **[D](#d)**
+* **[E](#e)**
+* **[F](#f)**
+* **[G](#g)**
+* **[H](#h)**
+* **[I](#i)**
+* **[J](#j)**
+* **[K](#k)**
+* **[L](#l)**
+* **[M](#m)**
+* **[N](#n)**
+* **[O](#o)**
+* **[P](#p)**
+* **[Q](#q)**
+* **[R](#r)**
+* **[S](#s)**
+* **[T](#t)**
+* **[U](#u)**
+* **[V](#v)**
+* **[W](#w)**
 
 ----
 ## A
@@ -187,6 +187,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## D
+- **[Daily Rewards](https://www.spigotmc.org/resources/16708)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#daily-rewards]]**]
 - **[DeliveryMan](https://www.spigotmc.org/resources/14131/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#deliveryman]]**]
