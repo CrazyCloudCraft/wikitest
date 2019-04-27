@@ -10,224 +10,224 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 > If you changed, removed or added placeholders, or made your plugin(s) and/or expansion(s) no longer available and want us to update this page, [create an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=change_request.md) and let us know.  
 > This is also the case for when you want your plugin to be added to the list.
 
-[[PAPI-placeholders|Placeholders#papi-placeholders-1]]
+[PAPI-placeholders](##papi-placeholders-1)
 ----
-- **[[BungeeCord|Placeholders#bungeecord]]**
-- **[[Javascript|Placeholders#javascript]]**
-- **[[ListPlayers|Placeholders#listplayers]]**
-- **[[Math|Placeholders#math]]**
-- **[[MVdW placeholders|Placeholders#mvdw-placeholders]]**
-- **[[OtherPlayer|Placeholders#otherplayer]]**
-- **[[Pinger|Placeholders#pinger]]**
-- **[[Player|Placeholders#player]]**
-- **[[Plugin|Placeholders#plugin]]**
-- **[[RedisBungee|Placeholders#redisbungee]]**
-- **[[ScoreboardObjectives|Placeholders#scoreboardobjectives]]**
-- **[[Server|Placeholders#server]]**
-- **[[Sound|Placeholders#sound]]**
-- **[[Statistic|Placeholders#statistic]]**
+- **[BungeeCord](#bungeecord)**
+- **[Javascript](#javascript)**
+- **[ListPlayers](#listplayers)**
+- **[Math](#math)**
+- **[MVdW placeholders](#mvdw-placeholders)**
+- **[OtherPlayer](#otherplayer)**
+- **[Pinger](#pinger)**
+- **[Player](#player)**
+- **[Plugin](#plugin)**
+- **[RedisBungee](#redisbungee)**
+- **[ScoreboardObjectives](#scoreboardobjectives)**
+- **[Server](#server)**
+- **[Sound](#sound)**
+- **[Statistic](#statistic)**
 ----
 
-[[Plugin-placeholders|Placeholders#plugin-placeholders-1]]
+[Plugin-placeholders](#plugin-placeholders-1)
 ----
 ## **A**
-- **[[AcidIsland|Placeholders#acidisland]]**
-- **[[Advanced Abilities|Placeholders#advanced-abilities]]**
-- **[[AdvancedCustomMenu+|Placeholders#advancedcustommenu]]**
-- **[[AdvancedModReq|Placeholders#advancedmodreq]]**
-- **[[Animated Menu|Placeholders#animated-menu]]**
-- **[[ASkyBlock|Placeholders#askyblock]]**
-- **[[AutoRank|Placeholders#autorank]]**
-- **[[AutoSell|Placeholders#autosell]]**
+- **[AcidIsland](#acidisland)**
+- **[Advanced Abilities](#advanced-abilities)**
+- **[AdvancedCustomMenu+](#advancedcustommenu)**
+- **[AdvancedModReq](#advancedmodreq)**
+- **[Animated Menu](#animated-menu)**
+- **[ASkyBlock](#askyblock)**
+- **[AutoRank](#autorank)**
+- **[AutoSell](#autosell)**
 
 ## **B**
-- **[[BattleLevels|Placeholders#battlelevels]]**
-- **[[BedWars1058|Placeholders#bedwars1058]]**
-- **[[BeautyQuests|Placeholders#beautyquests]]**
-- **[[BlockQuests|Placeholders#blockquests]]**
+- **[BattleLevels](#battlelevels)**
+- **[BedWars1058](#bedwars1058)**
+- **[BeautyQuests](#beautyquests)**
+- **[BlockQuests](#blockquests)**
 
 ## **C**
-- **[[CarlTheCreeper|Placeholders#carlthecreeper]]**
-- **[[ChatColor+|Placeholders#chatcolor]]**
-- **[[ChatColor+ Premium|Placeholders#chatcolor-premium]]**
-- **[[ChatReaction|Placeholders#chatreaction]]**
-- **[[CheckNameHistory|Placeholders#checknamehistory]]**
-- **[[Clans-API for Spigot/Clan tag in chat|Placeholders#clans-api-for-spigotclan-tag-in-chat]]**
-- **[[Clans|Placeholders#clans]]**
-- **[[CombatLogX|Placeholders#combatlogx]]**
-- **[[Compassance|Placeholders#compassance]]**
-- **[[Country on Join|Placeholders#country-on-join]]**
-- **[[CraftConomy|Placeholders#craftconomy]]**
-- **[[CraftingStore.net|Placeholders#craftingstorenet]]**
+- **[CarlTheCreeper](#carlthecreeper)**
+- **[ChatColor+](#chatcolor)**
+- **[ChatColor+ Premium](#chatcolor-premium)**
+- **[ChatReaction](#chatreaction)**
+- **[CheckNameHistory](#checknamehistory)**
+- **[Clans-API for Spigot/Clan tag in chat](#clans-api-for-spigotclan-tag-in-chat)**
+- **[Clans](#clans)**
+- **[CombatLogX](#combatlogx)**
+- **[Compassance](#compassance)**
+- **[Country on Join](#country-on-join)**
+- **[CraftConomy](#craftconomy)**
+- **[CraftingStore.net](#craftingstorenet)**
 
 ## **D**
-- **[[Daily Rewards|Placeholders#daily-rewards]]**
-- **[[DeliveryMan|Placeholders#deliveryman]]**
-- **[[DeluxeChat|Placeholders#deluxechat]]**
-- **[[DeluxePM|Placeholders#deluxepm]]**
-- **[[DeluxeTags|Placeholders#deluxetags]]**
-- **[[Denize|Placeholders#denize]]**
-- **[[DiscordSRV|Placeholders#discordsrv]]**
-- **[[Disease|Placeholders#disease]]**
-- **[[DonateParty|Placeholders#donateparty]]**
-- **[[Donations Holograms|Placeholders#donations-holograms]]**
-- **[[DungeonsXL|Placeholders#dungeonsxl]]**
+- **[Daily Rewards](#daily-rewards)**
+- **[DeliveryMan](#deliveryman)**
+- **[DeluxeChat](#deluxechat)**
+- **[DeluxePM](#deluxepm)**
+- **[DeluxeTags](#deluxetags)**
+- **[Denize](#denize)**
+- **[DiscordSRV](#discordsrv)**
+- **[Disease](#disease)**
+- **[DonateParty](#donateparty)**
+- **[Donations Holograms](#donations-holograms)**
+- **[DungeonsXL](#dungeonsxl)**
 
 ## **E**
-- **[[Enjin & DonationCraft 2.x|Placeholders#enjin--donationcraft-2x]]**
-- **[[Envoys|Placeholders#envoys]]**
-- **[[EpicFriends|Placeholders#epicfriends]]**
-- **[[essCore|Placeholders#esscore]]**
-- **[[Essentials|Placeholders#essentials]]**
-- **[[EZBlocks|Placeholders#ezblocks]]**
-- **[[EZPrestige|Placeholders#ezprestige]]**
-- **[[EZRanksPro|Placeholders#ezrankspro]]**
+- **[Enjin & DonationCraft 2.x](#enjin--donationcraft-2x)**
+- **[Envoys](#envoys)**
+- **[EpicFriends](#epicfriends)**
+- **[essCore](#esscore)**
+- **[Essentials](#essentials)**
+- **[EZBlocks](#ezblocks)**
+- **[EZPrestige](#ezprestige)**
+- **[EZRanksPro](#ezrankspro)**
 
 ## **F**
-- **[[Factions MCore|Placeholders#factions-mcore]]**
-- **[[FactionsUUID|Placeholders#factionsuuid]]**
-- **[[Factions relation placeholders|Placeholders#factions-relation-placeholders]]**
-- **[[FunnyGuilds|Placeholders#funnyguilds]]**
+- **[Factions MCore](#factions-mcore)**
+- **[FactionsUUID](#factionsuuid)**
+- **[Factions relation placeholders](#factions-relation-placeholders)**
+- **[FunnyGuilds](#funnyguilds)**
 
 ## **G**
-- **[[GAListener|Placeholders#galistener]]**
-- **[[GangsPlus|Placeholders#gangsplus]]**
-- **[[GemsEconomy|Placeholders#gemseconomy]]**
-- **[[GriefPrevention|Placeholders#griefprevention]]**
-- **[[Guilds|Placeholders#guilds]]**
-- **[[GuiRedeemMCMMO|Placeholders#guiredeemmcmmo]]**
+- **[GAListener](#galistener)**
+- **[GangsPlus](#gangsplus)**
+- **[GemsEconomy](#gemseconomy)**
+- **[GriefPrevention](#griefprevention)**
+- **[Guilds](#guilds)**
+- **[GuiRedeemMCMMO](#guiredeemmcmmo)**
 
 ## **H**
-- **[[Heroes|Placeholders#heroes]]**
-- **[[HoloBlock|Placeholders#holoblock]]**
-- **[[Hugs|Placeholders#hugs]]**
+- **[Heroes](#heroes)**
+- **[HoloBlock](#holoblock)**
+- **[Hugs](#hugs)**
 
 ## **I**
-- **[[Island Border (ASkyblock / BentoBox / uSkyBlock / AcidIsland)|Placeholders#island-border-askyblock--bentobox--uskyblock--acidisland]]**
-- **[[IslandRate (ASkyBlock Addon)|Placeholders#islandrate-askyblock-addon]]**
-- **[[IslandRate (AcidIsland Addon)|Placeholders#islandrate-acidisland-addon]]**
-- **[[IslandWorld|Placeholders#islandworld]]**
+- **[Island Border (ASkyblock / BentoBox / uSkyBlock / AcidIsland)](#island-border-askyblock--bentobox--uskyblock--acidisland)**
+- **[IslandRate (ASkyBlock Addon)](#islandrate-askyblock-addon)**
+- **[IslandRate (AcidIsland Addon)](#islandrate-acidisland-addon)**
+- **[IslandWorld](#islandworld)**
 
 ## **J**
-- **[[Jobs Reborn|Placeholders#jobs-reborn]]**
+- **[Jobs Reborn](#jobs-reborn)**
 
 ## **K**
-- **[[KillStats|Placeholders#killstats]]**
-- **[[Kingdoms+|Placeholders#kindoms]]**
-- **[[KP-PVP|Placeholders#kp-pvp]]**
+- **[KillStats](#killstats)**
+- **[Kingdoms+](#kindoms)**
+- **[KP-PVP](#kp-pvp)**
 
 ## **L**
-- **[[LastLoginAPI|Placeholders#lastloginapi]]**
-- **[[LeaderHeads|Placeholders#leaderheads]]**
-- **[[LegendQuest|Placeholders#legendquest]]**
-- **[[LemonMobCoins|Placeholders#lemonmobcoins]]**
-- **[[LuckPerms|Placeholders#luckperms]]**
-- **[[LWC|Placeholders#lwc]]**
+- **[LastLoginAPI](#lastloginapi)**
+- **[LeaderHeads](#leaderheads)**
+- **[LegendQuest](#legendquest)**
+- **[LemonMobCoins](#lemonmobcoins)**
+- **[LuckPerms](#luckperms)**
+- **[LWC](#lwc)**
 
 ## **M**
-- **[[Marriage (Reloaded)|Placeholders#marriage-reloaded]]**
-- **[[MarriageMaster|Placeholders#marriagemaster]]**
-- **[[McInfected|Placeholders#mcinfected]]**
-- **[[McInfected-Ranks|Placeholders#mcinfected-ranks]]**
-- **[[McMMO|Placeholders#mcmmo]]**
-- **[[MineCord|Placeholders#minecord]]**
-- **[[MineCrates|Placeholders#minecrates]]**
-- **[[MobHunting|Placeholders#mobhunting]]**
-- **[[Multiverse-Core|Placeholders#multiverse-core]]**
-- **[[MyCommand|Placeholders#mycommand]]**
-- **[[MyPet|Placeholders#mypet-premium]] [[Premium](https://www.spigotmc.org/resources/17566/)]**
-- **[[MyPrefixSystem|Placeholders#myprefixsystem]]**
-- **[[MySQLTokens|Placeholders#mysqltokens]]**
+- **[Marriage (Reloaded)](#marriage-reloaded)**
+- **[MarriageMaster](#marriagemaster)**
+- **[McInfected](#mcinfected)**
+- **[McInfected-Ranks](#mcinfected-ranks)**
+- **[McMMO](#mcmmo)**
+- **[MineCord](#minecord)**
+- **[MineCrates](#minecrates)**
+- **[MobHunting](#mobhunting)**
+- **[Multiverse-Core](#multiverse-core)**
+- **[MyCommand](#mycommand)**
+- **[MyPet](#mypet)**
+- **[MyPrefixSystem](#myprefixsystem)**
+- **[MySQLTokens](#mysqltokens)**
 
 ## **N**
-- **[[Nameless Plugin|Placeholders#nameless-plugin]]**
-- **[[Nicknamer|Placeholders#nicknamer]]**
-- **[[NickReloaded|Placeholders#nickreloaded]]**
-- **[[Nicky|Placeholders#nicky]]**
+- **[Nameless Plugin](#nameless-plugin)**
+- **[Nicknamer](#nicknamer)**
+- **[NickReloaded](#nickreloaded)**
+- **[Nicky](#nicky)**
 
 ## **O**
-- **[[OnTime|Placeholders#ontime]]**
-- **[[OreAnnouncer|Placeholders#oreannouncer]]**
-- **[[Outpost|Placeholders#outpost]]**
+- **[OnTime](#ontime)**
+- **[OreAnnouncer](#oreannouncer)**
+- **[Outpost](#outpost)**
 
 ## **P**
-- **[[Parkour|Placeholders#parkour]]**
-- **[[Parties|Placeholders#parties]]**
-- **[[PixelVip|Placeholders#pixelvip]]**
-- **[[PlayTime|Placeholders#playtime]]**
-- **[[PlayerPoints|Placeholders#playerpoints]]**
-- **[[PlotSquared|Placeholders#plotsquared]]**
-- **[[PointsAPI|Placeholders#pointsapi]]**
-- **[[PremiumVanish|Placeholders#premiumvanish]]**
-- **[[PrisonMines|Placeholders#prisonmines]]**
-- **[[PrisonRanksX|Placeholders#prisonranksx]]**
-- **[[ProQuest|Placeholders#proquest]]**
-- **[[PVPLevels|Placeholders#pvplevels]]**
-- **[[PVP Stats|Placeholders#pvp-stats]]**
+- **[Parkour](#parkour)**
+- **[Parties](#parties)**
+- **[PixelVip](#pixelvip)**
+- **[PlayTime](#playtime)**
+- **[PlayerPoints](#playerpoints)**
+- **[PlotSquared](#plotsquared)**
+- **[PointsAPI](#pointsapi)**
+- **[PremiumVanish](#premiumvanish)**
+- **[PrisonMines](#prisonmines)**
+- **[PrisonRanksX](#prisonranksx)**
+- **[ProQuest](#proquest)**
+- **[PVPLevels](#pvplevels)**
+- **[PVP Stats](#pvp-stats)**
 
 ## **Q**
-- **[[QuestCreator|Placeholders#questcreator]]**
-- **[[QuickSell|Placeholders#quicksell]]**
+- **[QuestCreator](#questcreator)**
+- **[QuickSell](#quicksell)**
 
 ## **R**
-- **[[Rankup|Placeholders#rankup]]**
-- **[[RedProtect|Placeholders#redprotect]]**
-- **[[RoyalCommands|Placeholders#royalcommands]]**
-- **[[ReferralSystem|Placeholders#referralsystem]]**
+- **[Rankup](#rankup)**
+- **[RedProtect](#redprotect)**
+- **[RoyalCommands](#royalcommands)**
+- **[ReferralSystem](#referralsystem)**
 
 ## **S**
-- **[[SellAll|Placeholders#sellall]]**
-- **[[SignLink|Placeholders#signlink]]**
-- **[[SimpleClans|Placeholders#simpleclans]]**
-- **[[SimpleCoinsAPI|Placeholders#simplecoinsapi]]**
-- **[[SimpleKillTracker|Placeholders#simplekilltracker]]**
-- **[[SimplePrefix|Placeholders#simpleprefix]]**
-- **[[Simple Suffix|Placeholders#simple-suffix]]**
-- **[[SkillAPI|Placeholders#skillapi]]**
-- **[[Skript|Placeholders#skript]]**
-- **[[Skywars|Placeholders#skywars]]**
-- **[[Skywars X|Placeholders#skywars-x]]**
-- **[[SkywarsReloaded|Placeholders#skywarsreloaded]]**
-- **[[SQLPerms|Placeholders#sqlperms]]**
-- **[[SQLTokens|Placeholders#sqltokens]]**
-- **[[Statz|Placeholders#statz]]**
-- **[[StrikePractice 2|Placeholders#strikepractice-2]]**
-- **[[stTitles|Placeholders#sttitles]]**
-- **[[SuperbVote|Placeholders#superbvote]]**
-- **[[SuperCredits|Placeholders#supercredits]]**
-- **[[SuperVanish|Placeholders#supervanish]]**
+- **[SellAll](#sellall)**
+- **[SignLink](#signlink)**
+- **[SimpleClans](#simpleclans)**
+- **[SimpleCoinsAPI](#simplecoinsapi)**
+- **[SimpleKillTracker](#simplekilltracker)**
+- **[SimplePrefix](#simpleprefix)**
+- **[Simple Suffix](#simple-suffix)**
+- **[SkillAPI](#skillapi)**
+- **[Skript](#skript)**
+- **[Skywars](#skywars)**
+- **[Skywars X](#skywars-x)**
+- **[SkywarsReloaded](#skywarsreloaded)**
+- **[SQLPerms](#sqlperms)**
+- **[SQLTokens](#sqltokens)**
+- **[Statz](#statz)**
+- **[StrikePractice 2](#strikepractice-2)**
+- **[stTitles](#sttitles)**
+- **[SuperbVote](#superbvote)**
+- **[SuperCredits](#supercredits)**
+- **[SuperVanish](#supervanish)**
 
 ## **T**
-- **[[The Time|Placeholders#the-time]]**
-- **[[ThemePark|Placeholders#themepark]]**
-- **[[Thirst|Placeholders#thirst]]**
-- **[[Timed Rewards|Placeholders#timed-rewards]]**
-- **[[TNTRun_Reloaded|Placeholders#tntrun_reloaded]]**
-- **[[TokenEnchant|Placeholders#tokenenchant]]**
-- **[[TokenManager|Placeholders#tokenmanager]]**
-- **[[Towny|Placeholders#towny]]**
-- **[[Treasures|Placeholders#treasures]]**
-- **[[Trey's Double Jump|Placeholders#treys-double-jump]]**
+- **[The Time](#the-time)**
+- **[ThemePark](#themepark)**
+- **[Thirst](#thirst)**
+- **[Timed Rewards](#timed-rewards)**
+- **[TNTRun_Reloaded](#tntrun_reloaded)**
+- **[TokenEnchant](#tokenenchant)**
+- **[TokenManager](#tokenmanager)**
+- **[Towny](#towny)**
+- **[Treasures](#treasures)**
+- **[Trey's Double Jump](#treys-double-jump)**
 
 ## **U**
-- **[[USkyBlock|Placeholders#uskyblock]]**
-- **[[UltimateChat|Placeholders#ultimatechat]]**
-- **[[UltimateVotes|Placeholders#ultimatevotes]]**
-- **[[UnityGen|Placeholders#unitygen]]**
+- **[USkyBlock](#uskyblock)**
+- **[UltimateChat](#ultimatechat)**
+- **[UltimateVotes](#ultimatevotes)**
+- **[UnityGen](#unitygen)**
 
 ## **V**
-- **[[Vault|Placeholders#vault]]**
-  - [[Economy|Placeholders#economy]]
-  - [[Permissions|Placeholders#permissions]]
-- **[[ViaVersion|Placeholders#viaversion]]**
-- **[[VoteParty|Placeholders#voteparty]]**
-- **[[VoteRoulette|Placeholders#voteroulette]]**
-- **[[VotingPlugin|Placeholders#votingplugin]]**
+- **[Vault](#vault)**
+  - [Economy](#economy)
+  - [Permissions](#permissions)
+- **[ViaVersion](#viaversion)**
+- **[VoteParty](#voteparty)**
+- **[VoteRoulette](#voteroulette)**
+- **[VotingPlugin](#votingplugin)**
 
 ## **W**
-- **[[WickedSkyWars|Placeholders#wickedskywars]]**
-- **[[WorldBorder|Placeholders#worldborder]]**
-- **[[WorldGuard|Placeholders#worldguard]]**
+- **[WickedSkyWars](#wickedskywars)**
+- **[WorldBorder](#worldborder)**
+- **[WorldGuard](#worldguard)**
 
 
 ***
@@ -1763,7 +1763,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ```
 ----
 
-- ### **[MyPet](https://www.spigotmc.org/resources/12725/) [[Premium](https://www.spigotmc.org/resources/17566/)]**
+- ### **[MyPet](https://www.spigotmc.org/resources/12725/)**
 > NO DOWNLOAD COMMAND
 
 ```
