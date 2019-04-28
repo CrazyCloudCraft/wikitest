@@ -19,6 +19,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Pinger](#pinger)**
 - **[Player](#player)**
 - **[Plugin](#plugin)**
+- **[Progress](#progress)**
 - **[RedisBungee](#redisbungee)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
@@ -417,10 +418,28 @@ Returns information about the specified plugin.
 %plugin_isenabled_<plugin name>%
 %plugin_isdisabled_<plugin name>%
 %plugin_exists_<plugin name>%
-
-
 ```
 ----
+
+- ### **Progress**
+> /papi ecloud download progress
+
+Allows you to create a progress bar in combination with a placeholder.  
+Default placeholder is `%progress_bar_{placeholder}%` where `{placeholder}` is any placeholder that returns a number (You need to use `{}` instead of `%%` for the placeholder).
+
+More info about the expansion can be found on the [GitHub-Repository](https://github.com/aBo0oDyy/Progress-Expansion).
+
+```
+%progress_bar_{placeholder}%
+%progress_bar_{placeholder}_c:<completed Symbol>%
+%progress_bar_{placeholder}_p:<progress Symbol>%
+%progress_bar_{placeholder}_r:<remaining Symbol>%
+%progress_bar_{placeholder}_l:<max length>%
+%progress_bar_{placeholder}_m:<max value>%
+%progress_bar_{placeholder}_fullbar:<text>%
+
+%progress_bar_{placeholder}_c:&a■_p:&e■_r:&7■_l:10_m:100_fullbar:&aCompleted!%
+```
 
 - ### **RedisBungee**
 > /papi ecloud download RedisBungee
