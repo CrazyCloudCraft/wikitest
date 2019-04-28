@@ -440,6 +440,7 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 
 %progress_bar_{placeholder}_c:&a■_p:&e■_r:&7■_l:10_m:100_fullbar:&aCompleted!%
 ```
+----
 
 - ### **RedisBungee**
 > /papi ecloud download RedisBungee
