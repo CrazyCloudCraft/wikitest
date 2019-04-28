@@ -137,6 +137,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[MyCommand](#mycommand)**
 - **[MyPet](#mypet)**
 - **[MyPrefixSystem](#myprefixsystem)**
+- **[MySQL](#mysql)**
 - **[MySQLTokens](#mysqltokens)**
 
 ## **N**
@@ -1799,6 +1800,16 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %myprefixsystem_rank_suffix%
 %myprefixsystem_rank_color%
 ```
+----
+
+- ### **MySQL**
+> NO DOWNLOAD COMMAND
+
+```
+%mysql_<key>%
+```  
+`<key>` is a set query that can be found in the config.yml under `plugins/MySQL`.  
+
 ----
 
 - ### **MySQLTokens**
