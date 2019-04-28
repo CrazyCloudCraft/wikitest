@@ -3,8 +3,6 @@ A download-command for the extenion can be found at the area of the placeholder.
 If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, then it means, that the plugin actually has the placeholders hard-coded into them and doesn't require a manual download of any expansion.
 
 > ## Notes (Please read)  
-> **Do not change this page yourself! If you want changes to be made, open an issue!**
-> 
 > We only add and/or update placeholders on request.  
 > We aren't responsible, to keep the placeholders of your plugin(s) up to date.  
 > If you changed, removed or added placeholders, or made your plugin(s) and/or expansion(s) no longer available and want us to update this page, [create an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=change_request.md) and let us know.  
