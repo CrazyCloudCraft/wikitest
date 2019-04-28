@@ -462,7 +462,14 @@ Lets you get information of the server.
 %server_ram_total%
 %server_ram_max%
 %server_tps%
+%server_tps_1%
+%server_tps_5%
+%server_tps_15%
+%server_tps_1_colored%
+%server_tps_5_colored%
+%server_tps_15_colored%
 %server_online_<world>%
+%server_has_whitelist%
 %server_time_<SimpleDateFormat>%
 %server_countdown_<SimpleDateFormat>_<time>%
 ```
