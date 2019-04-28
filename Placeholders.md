@@ -1808,7 +1808,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ```
 %mysql_<key>%
 ```  
-`<key>` is a set query that can be found in the config.yml under `plugins/MySQL`.  
+`<key>` is a set query that can be found in the config.yml under `plugins/PlaceholderAPI/expansion/MySQL`.  
 
 ----
 
