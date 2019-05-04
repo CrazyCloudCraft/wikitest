@@ -517,6 +517,7 @@ Lets you get information of the server.
 %server_has_whitelist%
 %server_time_<SimpleDateFormat>%
 %server_countdown_<SimpleDateFormat>_<time>%
+e.g. %server_countdown_dd.MM.yyyy_01.01.2020%
 ```
 `<time>` is the date and time for the countdown. **It needs to match the `<SimpleDateTime>`**
 
