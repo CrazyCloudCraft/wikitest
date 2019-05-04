@@ -11,6 +11,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 [PAPI-placeholders](##papi-placeholders-1)
 ----
 - **[BungeeCord](#bungeecord)**
+- **[CheckItem](#checkitem)**
 - **[Javascript](#javascript)**
 - **[ListPlayers](#listplayers)**
 - **[Math](#math)**
@@ -244,6 +245,30 @@ Allows you to show, how many players are online on the entire network, or just o
 %bungee_total%
 %bungee_<servername>%
 ```
+----
+- ### **CheckItem**
+> /papi ecloud CheckItem
+
+Allows you to check the inventory of a player for a certain item.
+
+```
+%checkitem_<modifier1>,<modifier2>,<...>%
+```
+
+**Modifiers**  
+You can combine different modifiers to check for different values.  
+Available modifiers are:
+- `namecontains:<name>` - Checks if the items display name contains `<name>`*
+- `namestartswith:<name>` - Checks if the items display name starts with `<name>`*
+- `nameequals:<name>` - Checks if the items display name equals `<name>` (Case sensitive)*
+- `mat:<material>` - Checks if the item is `<material>` (For example: `STONE`)
+- `amt:<number>` - Checks if the player has `<number>` of items
+- `data:<number>` - Checks if the item has data `<data>` (Example: Red wool has `14` as data (`WOOL:14`)).  
+This is only for 1.12 and older!
+- `lorecontains:<text>` - Checks if the items lore contains `<text>`
+
+*You can only use one of those modifiers in the placeholder and they are case-sensitive!
+
 ----
 
 - ### **Javascript**
@@ -755,17 +780,35 @@ This placeholders require the corresponding plugin to work.
 - ### **[BedWars1058](https://www.spigotmc.org/resources/50942/)**
 > NO DOWNLOAD COMMAND
 
+**Player**:  
 ```
-%bw1058_stats_firstplay%
-%bw1058_stats_lastplay%
-%bw1058_stats_kills%
-%bw1058_stats_wins%
-%bw1058_stats_finalkills%
-%bw1058_stats_deaths%
-%bw1058_stats_looses%
-%bw1058_stats_finaldeaths%
+%bw1058_player_level%
+%bw1058_player_progress%
+%bw1058_player_rerq_xp%
+%bw1058_player_rerq_xp_formatted%
+%bw1058_player_team%
+%bw1058_player_xp%
+%bw1058_player_xp_formatted%
+```
+
+**Stats**:  
+```
 %bw1058_stats_bedsdestroyed%
+%bw1058_stats_deaths%
+%bw1058_stats_finalkills%
+%bw1058_stats_finaldeaths%
+%bw1058_stats_firstplay%
 %bw1058_stats_gamesplayed%
+%bw1058_stats_kills%
+%bw1058_stats_lastplay%
+%bw1058_stats_losses%
+%bw1058_stats_wins%
+```
+
+**Other**:  
+```
+%bw1058_arena_status_[arena]%
+%bw1058_arena_count_[arena]%
 %bw1058_current_playing%
 %bw1058_current_arenas%
 ```
