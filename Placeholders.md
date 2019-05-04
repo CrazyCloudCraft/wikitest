@@ -172,8 +172,9 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ## **R**
 - **[Rankup](#rankup)**
 - **[RedProtect](#redprotect)**
-- **[RoyalCommands](#royalcommands)**
 - **[ReferralSystem](#referralsystem)**
+- **[RoyalCommands](#royalcommands)**
+- **[RPGInventory](#rpginventory)**
 
 ## **S**
 - **[SellAll](#sellall)**
@@ -2191,6 +2192,15 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 ----
 
+- ### **[ReferralSystem](https://www.spigotmc.org/resources/29709/)**
+> NO DOWNLOAD COMMAND
+
+```
+%rs_points%
+%rs_referrals%
+```
+----
+
 - ### **[RoyalCommands](https://www.spigotmc.org/resources/4113/)**
 > NO DOWNLOAD COMMAND
 
@@ -2199,12 +2209,18 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 ----
 
-- ### **[ReferralSystem](https://www.spigotmc.org/resources/29709/)**
+- ### **[RPGInventory](https://www.spigotmc.org/resources/12498/)**
 > NO DOWNLOAD COMMAND
 
 ```
-%rs_points%
-%rs_referrals%
+%rpginv_damage_bonus%
+%rpginv_bow_damage_bonus%
+%rpginv_hand_damage_bonus%
+%rpginv_crit_damage_bonus%
+%rpginv_crit_chance%
+%rpginv_armor_bonus%
+%rpginv_speed_bonus%
+%rpginv_jump_bonus%
 ```
 ----
 
