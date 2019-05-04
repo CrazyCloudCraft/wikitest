@@ -535,6 +535,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[RankedHelp](https://www.spigotmc.org/resources/61919/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[Rankup](https://www.spigotmc.org/resources/17933/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#rankup]]**]
 - **[RecentFind (Treasures Add-on)](https://www.spigotmc.org/resources/33366/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#recentfind]]**]
@@ -550,12 +553,12 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[ReferralSystem](https://www.spigotmc.org/resources/29709/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#referralsystem]]**]
-- **[Rankup](https://www.spigotmc.org/resources/17933/)**
-  - [ ] Supports placeholders.
-  - [x] Provides own placeholders. [**[[Link|Placeholders#rankup]]**]
 - **[Residence](https://www.spigotmc.org/resources/11480/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[RPGInventory](https://www.spigotmc.org/resources/12498/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#rpginventory]]**]
 
 ----
 ## S
