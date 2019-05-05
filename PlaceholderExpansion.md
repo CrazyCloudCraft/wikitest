@@ -194,10 +194,10 @@ class SomeExpansion extends PlaceholderExpansion {
         }
 
         /*
-         * Since we override the register method, we need to manually
+         * Since we override the register method, we need to call the super method to actually
          * register this hook
          */
-        return PlaceholderAPI.registerPlaceholderHook(getIdentifier(), this);
+        return super.register();
     }
 
     /**
