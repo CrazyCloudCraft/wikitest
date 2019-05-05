@@ -292,6 +292,8 @@ class SomeExpansion extends PlaceholderExpansion {
 #### Internal class
 You can have the class inside your plugin.  
 This has some advantages but can also have some disadvantages.
+If you include a PlaceholderExpansion class in your plugin, you MUST add and override the persist() method to return true
+otherwise if PlaceholderAPI is reloaded, your expansion will be unregistered and lost forever.
 
 
 ```java
@@ -319,6 +321,18 @@ class SomeExpansion extends PlaceholderExpansion {
      */
     public ExampleExpansion(SomePlugin plugin){
         this.plugin = plugin;
+    }
+
+    /**
+     * Because this is an internal class,
+     * you must override this method to let PlaceholderAPI know to not unregister your expansion class when
+     * PlaceholderAPI is reloaded
+     *
+     * @return true to persist through reloads
+     */
+    @Override
+    public boolean persist(){
+        return true;
     }
 
     /**
