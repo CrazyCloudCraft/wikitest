@@ -400,7 +400,7 @@ class SomeExpansion extends PlaceholderExpansion {
     @Override
     public String onPlaceholderRequest(Player player, String identifier){
 
-        if(p == null){
+        if(player == null){
             return "";
         }
 
