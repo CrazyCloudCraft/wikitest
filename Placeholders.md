@@ -59,6 +59,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Country on Join](#country-on-join)**
 - **[CraftConomy](#craftconomy)**
 - **[CraftingStore.net](#craftingstorenet)**
+- **[CursedVIP](#cursedvip)**
 
 ## **D**
 - **[Daily Rewards](#daily-rewards)**
@@ -977,6 +978,16 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 %craftingstore_payment_3%
 %craftingstore_payment_4%
 %craftingstore_payment_5%
+```
+----
+- ### **[CursedVIP](https://www.spigotmc.org/resources/67068/)**
+> NO DOWNLOAD COMMAND
+
+```
+%cursedvip_is_vip%
+%cursedvip_active_vip%
+%cursedvip_days_left%
+%cursedvip_initial_date%
 ```
 ----
 
