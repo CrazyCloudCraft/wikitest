@@ -37,6 +37,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[AdvancedModReq](#advancedmodreq)**
 - **[Animated Menu](#animated-menu)**
 - **[ASkyBlock](#askyblock)**
+- **[AsyncKeepAlive](#asynckeepalive)**
 - **[AutoRank](#autorank)**
 - **[AutoSell](#autosell)**
 
@@ -727,6 +728,14 @@ This placeholders require the corresponding plugin to work.
 %askyblock_coop_islands%
 %askyblock_has_island%
 %askyblock_owner%
+```
+----
+
+- ### **[AsyncKeepAlive](https://www.spigotmc.org/resources/64676/)**
+> NO DOWNLOAD COMMAND
+
+```
+%asynckeepalive_ping%
 ```
 ----
 
