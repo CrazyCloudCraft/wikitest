@@ -64,6 +64,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[ASkyBlock](https://www.spigotmc.org/resources/1220/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#askyblock]]**]
+- **[AsyncKeepAlive](https://www.spigotmc.org/resources/64676/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#asynckeepalive]]**]
 - **[AutoCommandsPlus](https://www.spigotmc.org/resources/11083/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
@@ -766,3 +769,6 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[WorldGuard](https://dev.bukkit.org/bukkit-plugins/worldguard/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#worldguard]]**]
+- **[WorldJoin](https://www.spigotmc.org/resources/63892/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
