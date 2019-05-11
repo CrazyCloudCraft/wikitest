@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/8z0Cw70.png" alt="PlaceholderAPI">
+  <img src="https://i.imgur.com/Adp7xdh.png" alt="PlaceholderAPI">
 </p>
 
 **[[Main page|Home]]**
