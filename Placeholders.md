@@ -2671,7 +2671,6 @@ Per Player/Event placeholders:
 %supervanish_isvanished%
 %supervanish_vanishedplayers%
 %supervanish_playercount%
-%supervanish_bungeeplayercount%
 ```
 ----
 
