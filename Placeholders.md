@@ -21,6 +21,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Player](#player)**
 - **[Plugin](#plugin)**
 - **[Progress](#progress)**
+- **[RandomColor](#RandomColor)**
 - **[RedisBungee](#redisbungee)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
@@ -466,6 +467,19 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 %progress_bar_{placeholder}_fullbar:<text>%
 
 %progress_bar_{placeholder}_c:&a■_p:&e■_r:&7■_l:10_m:100_fullbar:&aCompleted!%
+```
+----
+
+- ### **RandomColor**
+> /papi ecloud download RandomColor
+
+More info about the expansion can be found on the [GitHub-Repository](https://github.com/Andre601/RandomColor).
+
+```
+%randomcolor_all%
+%randomcolor_color%
+%randomcolor_format%
+%randomcolor_selected_<option1,option2,option3,...>%
 ```
 ----
 
