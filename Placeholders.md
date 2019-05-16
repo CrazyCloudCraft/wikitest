@@ -419,7 +419,6 @@ Gives you various placeholders for the player, that triggers the action.
 %player_remaining_air%
 %player_saturation%
 %player_seconds_lived%
-%player_server%
 %player_sleep_ticks%
 %player_ticks_lived%
 %player_time%
@@ -500,6 +499,7 @@ Get info from a scoreboard objective.
 Lets you get information of the server.
 
 ```
+%server_name%
 %server_online%
 %server_max_players%
 %server_unique_joins%
