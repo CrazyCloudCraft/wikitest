@@ -2090,7 +2090,10 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %premiumvanish_vanishedplayers%
 %premiumvanish_playercount%
 %premiumvanish_bungeeplayercount%
+%premiumvanish_bungeeplayercount@<server>%
 ```
+`<server>` is the name of the server it should show the playercount of.
+
 ----
 
 - ### **[PrisonMines](https://www.spigotmc.org/resources/4046/)**
