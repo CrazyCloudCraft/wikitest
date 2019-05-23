@@ -515,6 +515,7 @@ Lets you get information of the server.
 ```
 %server_name%
 %server_online%
+%server_version%
 %server_max_players%
 %server_unique_joins%
 %server_uptime%
