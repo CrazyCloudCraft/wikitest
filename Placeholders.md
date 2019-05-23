@@ -2875,6 +2875,12 @@ Replace `XXX` with the enchantment.
 %vault_eco_balance_commas%
 %vault_eco_balance_fixed%
 %vault_eco_balance_formatted%
+%vault_eco_top_balance_#%
+%vault_eco_top_balance_fixed_#%
+%vault_eco_top_balance_formatted_#%
+%vault_eco_top_balance_commas_#%
+%vault_eco_top_player_#%
+%vault_eco_top_rank%
 ```
 
 #### Permissions
@@ -2887,6 +2893,7 @@ Replace `XXX` with the enchantment.
 %vault_ranksuffix%
 %vault_ranksuffix_#%
 %vault_prefix_color%
+%vault_rank_capital%
 ```
 ----
 
