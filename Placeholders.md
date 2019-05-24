@@ -44,8 +44,9 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 ## **B**
 - **[BattleLevels](#battlelevels)**
-- **[BedWars1058](#bedwars1058)**
 - **[BeautyQuests](#beautyquests)**
+- **[BedWars1058](#bedwars1058)**
+- **[BentoBox](#bentobox)**
 - **[BlockQuests](#blockquests)**
 
 ## **C**
@@ -803,6 +804,17 @@ This placeholders require the corresponding plugin to work.
 ```
 ----
 
+- ### **[BeautyQuests](https://www.spigotmc.org/resources/39255/)**
+> NO DOWNLOAD COMMAND
+
+```
+%beautyquests_player_inprogress_amount%
+%beautyquests_player_finished_amount%
+%beautyquests_total_amount%
+%beautyquests_advancement_ID%
+```
+----
+
 - ### **[BedWars1058](https://www.spigotmc.org/resources/50942/)**
 > NO DOWNLOAD COMMAND
 
@@ -840,14 +852,17 @@ This placeholders require the corresponding plugin to work.
 ```
 ----
 
-- ### **[BeautyQuests](https://www.spigotmc.org/resources/39255/)**
+- ### **[BentoBox](https://github.com/BentoBoxWorld/BentoBox)**
 > NO DOWNLOAD COMMAND
 
 ```
-%beautyquests_player_inprogress_amount%
-%beautyquests_player_finished_amount%
-%beautyquests_total_amount%
-%beautyquests_advancement_ID%
+%bentobox_[gamemode]-world-friendlyname%
+%bentobox_[gamemode]-island-distance%
+%bentobox_[gamemode]-island-protection-range%
+%bentobox_[gamemode]-island-owner%
+%bentobox_[gamemode]-island-creation-date%
+%bentobox_[gamemode]-island-spawnpoint%
+%bentobox_[gamemode]-island-name%
 ```
 ----
 
