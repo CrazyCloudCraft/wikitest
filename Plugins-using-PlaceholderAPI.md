@@ -85,12 +85,15 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[BattleLevels](https://www.spigotmc.org/resources/2218/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#battlelevels]]**]
-- **[BedWars1058](https://www.spigotmc.org/resources/50942/)**
-  - [ ] Supports placeholders.
-  - [x] Provides own placeholders. [**[[Link|Placeholders#bedwars1058]]**]
 - **[BeautyQuests](https://www.spigotmc.org/resources/39255/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#beautyquests]]**]
+- **[BedWars1058](https://www.spigotmc.org/resources/50942/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#bedwars1058]]**]
+- **[BentoBox](https://github.com/BentoBoxWorld/BentoBox)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#bentobox]]**]
 - **[BlockQuests](https://www.spigotmc.org/resources/32729/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#blockquests]]**]
