@@ -547,6 +547,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Rankup](https://www.spigotmc.org/resources/17933/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#rankup]]**]
+- **[RawMSG](https://www.spigotmc.org/resources/35864/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
 - **[RecentFind (Treasures Add-on)](https://www.spigotmc.org/resources/33366/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#recentfind]]**]
