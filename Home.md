@@ -23,6 +23,7 @@ It also has a list with all available placeholders (Work in progress).
   <summary> [[PAPI-placeholders|Placeholders#papi-placeholders-1]] </summary>
 
   - [[BungeeCord|Placeholders#bungeecord]]
+  - [[CheckItem|Placeholders#checkitem]]
   - [[Javascript|Placeholders#javascript]]
   - [[ListPlayers|Placeholders#listplayer]]
   - [[Math|Placeholders#math]]
