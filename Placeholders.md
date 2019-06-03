@@ -251,7 +251,7 @@ Allows you to show, how many players are online on the entire network, or just o
 ```
 ----
 - ### **CheckItem**
-> /papi ecloud CheckItem
+> /papi ecloud download CheckItem
 
 Allows you to check the inventory of a player for a certain item.
 
