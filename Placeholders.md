@@ -21,6 +21,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Player](#player)**
 - **[Plugin](#plugin)**
 - **[Progress](#progress)**
+- **[RainbowColor](#RainbowColor)**
 - **[RandomColor](#RandomColor)**
 - **[RedisBungee](#redisbungee)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
@@ -468,6 +469,19 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 %progress_bar_{placeholder}_fullbar:<text>%
 
 %progress_bar_{placeholder}_c:&a■_p:&e■_r:&7■_l:10_m:100_fullbar:&aCompleted!%
+```
+----
+
+- ### **RainbowColor**
+> /papi ecloud download RainbowColor
+
+More info about the expansion can be found on the [GitHub-Repository](https://github.com/aBo0oDyy/RainbowColor-Expansion).
+
+```
+%RainbowColor_<Text>%
+%RainbowColor_custom_<Color 1>,<Color 2>,<etc>_<Text>%
+
+e.g. %RainbowColor_custom_a,f,e,b_This is an example%
 ```
 ----
 
