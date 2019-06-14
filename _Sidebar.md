@@ -32,12 +32,14 @@
   - [[Pinger|Placeholders#pinger]]
   - [[Player|Placeholders#player]]
   - [[Plugin|Placeholders#plugin]]
+  - [[Progress|Placeholders#progress]]
+  - [[RainbowColor|Placeholders#rainbowcolor]]
+  - [[RandomColor|Placeholders#randomcolor]]
   - [[RedisBungee|Placeholders#redisbungee]]
   - [[ScoreboardObjectives|Placeholders#scoreboardobjectives]]
   - [[Server|Placeholders#server]]
   - [[Sound|Placeholders#sound]]
   - [[Statistic|Placeholders#statistic]]
-  - [[TrueFalse|Placeholders#truefalse]]
 </details>
 <details>
   <summary> [[Plugin-placeholders|Placeholders#plugin-placeholders-1]] </summary>
