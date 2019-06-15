@@ -9,8 +9,7 @@
 [versionImg]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version
 [plugin-page]: https://spigotmc.org/resources/6245
 
-> **Main contributor**: [Andre601](/Andre601)  
-> **Additional contributors**: [iGabyTM](/iGabyTM)
+> Thanks for using PlaceholderAPI.
 >
 > **[Plugin-page]** | **[[Placeholders]]** | **[[Plugins using PlaceholderAPI]]** | **[[Hook into PlaceholderAPI]]**
  
