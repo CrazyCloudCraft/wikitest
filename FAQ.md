@@ -9,6 +9,8 @@ Also note that not all placeholders are in a seperate expansion. Some are "hardc
 - You reloaded PlaceholderAPI with `/papi reload` after downloading an expansion.
 - Any possible dependency for the expansion (Plugin) is installed and running.
 - The placeholder doesn't contain any typos.
+- The plugin that should use the placeholder actually supports PlaceholderAPI.
+For a list of plugins supporting PlaceholderAPI go [[here|Plugins-using-PlaceholderAPI]].
 
 ## I can't download the expansion
 Make sure, that the connection to the cloud (https://api.extendedclip.com for PlaceholderAPI and https://api.extendedclip.com/home for normal users) isn't blocked by a firewall or similar.  
