@@ -399,6 +399,7 @@ Gives you various placeholders for the player, that triggers the action.
 %player_food_level%
 %player_gamemode%
 %player_has_empty_slot%
+%player_empty_slots%
 %player_has_permission_<permission>%
 %player_health%
 %player_health_scale%
