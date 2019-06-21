@@ -36,6 +36,7 @@
   - [[RainbowColor|Placeholders#rainbowcolor]]
   - [[RandomColor|Placeholders#randomcolor]]
   - [[RedisBungee|Placeholders#redisbungee]]
+  - [[RelCon|Placeholders#relcon]]
   - [[ScoreboardObjectives|Placeholders#scoreboardobjectives]]
   - [[Server|Placeholders#server]]
   - [[Sound|Placeholders#sound]]
