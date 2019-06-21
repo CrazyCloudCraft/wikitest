@@ -24,6 +24,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RainbowColor](#RainbowColor)**
 - **[RandomColor](#RandomColor)**
 - **[RedisBungee](#redisbungee)**
+- **[RelCon](#relcon)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
 - **[Sound](#sound)**
@@ -507,6 +508,17 @@ Same like the BungeeCord-placeholders, but for RedisBungee
 ```
 %redisbungee_total%
 %redisbungee_<servername>%
+```
+----
+
+- ### **RelCon**
+> /papi ecloud download RelCon
+
+More info about the expansion can be found on the [GitHub-Repository](https://github.com/PlaceholderAPI/RelCon-Expansion).
+
+```
+%rel_relcon_<permission>_<text1>_[text2]%
+%rel_relcon_<permission>_<text1>%
 ```
 ----
 
