@@ -1258,9 +1258,16 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %essentials_kit_time_until_available_<kitname>%
 %essentials_pm_recipient%
 %essentials_afk%
+%essentials_afk_reason%
 %essentials_vanished%
 %essentials_fly%
+%essentials_is_muted%
+%essentials_unique%
+%essentials_msg_ignore%
+%essentials_homes_set%
+%essentials_homes_max%
 %essentials_safe_online%
+%essentials_worth%
 ```
 ----
 
