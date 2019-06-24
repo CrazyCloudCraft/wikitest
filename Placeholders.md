@@ -517,8 +517,10 @@ Same like the BungeeCord-placeholders, but for RedisBungee
 More info about the expansion can be found on the [GitHub-Repository](https://github.com/PlaceholderAPI/RelCon-Expansion).
 
 ```
-%rel_relcon_<permission>_<text1>_[text2]%
-%rel_relcon_<permission>_<text1>%
+%rel_relcon_player_<permission>_<text1>_[text2]%
+%rel_relcon_player_<permission>_<text1>%
+%rel_relcon_viewer_<permission>_<text1>_[text2]%
+%rel_relcon_viewer_<permission>_<text1>%
 ```
 ----
 
@@ -1734,22 +1736,27 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 > /papi ecloud download LuckPerms
 
 ```
-%luckperms_group_name%
-%luckperms_context_<context key>%
 %luckperms_groups%
-%luckperms_has_permission_<permission>%
+%luckperms_primary_group_name%
+%luckperms_group_expiry_time_<groupname>%
 %luckperms_in_group_<group>%
-%luckperms_inherits_group_<group>%
-%luckperms_gon_track_<track>%
 %luckperms_has_groups_on_track_<track>%
-%luckperms_highest_group_by_weight%
-%luckperms_lowest_group_by_weight%
 %luckperms_first_group_on_tracks_<tracks>%
 %luckperms_last_group_on_tracks_<tracks>%
-%luckperms_expiry_time_<permission>%
-%luckperms_group_expiry_time_<group name>%
+%luckperms_lowest_group_by_weight%
+%luckperms_highest_group_by_weight%
 %luckperms_prefix%
+%luckperms_prefix_element_<element>%
 %luckperms_suffix%
+%luckperms_suffix_element_<element>%
+%luckperms_context_<contextkey>%
+%luckperms_has_permission_<permission>%
+%luckperms_inherits_permission_<permission>%
+%luckperms_check_permission_<permission>%
+%luckperms_expiry_time_<permission>%
+%luckperms_inherits_group_<group>%
+%luckperms_on_track_<track>%
+%luckperms_inherited_expiry_time_<permission>%
 %luckperms_meta_<meta key>%
 ```
 ----
