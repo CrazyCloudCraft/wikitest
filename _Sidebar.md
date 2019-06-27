@@ -8,8 +8,9 @@
 **[[Hook into PlaceholderAPI]]**
 * [[First steps|Hook-into-PlaceholderAPI#first-steps]]
 * [[Adding placeholders to PlaceholderAPI|Hook-into-PlaceholderAPI#adding-placeholders-to-placeholderapi]]
-  * [[EZPlaceholderHook (Deprecated)|Hook-into-PlaceholderAPI#ezplaceholderhook-deprecated]]
   * [[PlaceholderExpansion]]
+      * [[Without external plugin|PlaceholderExpansion#without-external-plugin]]
+      * [[With external plugin|PlaceholderExpansion#with-external-plugin]]
 * [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
 
 ### Other
