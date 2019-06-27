@@ -408,9 +408,12 @@ Gives you various placeholders for the player, that triggers the action.
 %player_is_op%
 %player_item_in_hand%
 %player_item_in_hand_name%
+%player_item_in_hand_data%
+%player_item_in_hand_level_<enchantment>%
 %player_item_in_offhand%
-%player_item_in_offhand_level_<enchantment>%
 %player_item_in_offhand_name%
+%player_item_in_offhand_data%
+%player_item_in_offhand_level_<enchantment>%
 %player_last_damage%
 %player_level%
 %player_max_air%
