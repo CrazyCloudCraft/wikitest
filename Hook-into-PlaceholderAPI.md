@@ -90,9 +90,15 @@ depend: [PlaceholderAPI] # If your plugin requires PlaceholderAPI, to work, use 
 
 ## Adding placeholders to PlaceholderAPI
 
-### NOTES
-- If you are not including placeholders from within the dependency, you probably want to create a placeholder expansion. A guide on how to create placeholder expansions can be found [[here|PlaceholderExpansion]]!
-- The later mentioned `EZPlaceholderHook` is deprecated since the implementation of `PlaceholderExpansion`. Just use the method explained in the above-linked page.
+You can add your placeholders to PlaceholderAPI plugin by making an external expansion or by implementing that into your plugin itself if you're adding placeholders from a plugin.
+
+### Without external plugin
+[[Here|PlaceholderExpansion#without-external-plugin]] you can see how to make an external expansion that doesn't require a plugin (Placeholders without a plugin).
+
+### With external plugin
+You can add your plugin's placeholders to PlaceholderAPI with [[two ways|PlaceholderExpansion#with-external-plugin]]:
+1. By making an external expansion ([[Separate jar file|PlaceholderExpansion#separate-jar]]).
+2. By creating a class inside your plugin ([[Inner class|PlaceholderExpansion#internal-class]]).
 
 ## Using placeholders from PlaceholderAPI in your plugin
 To use placeholders from other plugins in our own plugin, we simply have to use the `setPlaceholders` method.
