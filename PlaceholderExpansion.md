@@ -1,7 +1,7 @@
 ## Overview
 This page covers how you can use the `PlaceholderExpansion` to add own placeholders to PlaceholderAPI, which then can be used by other plugins.
 
-PlaceholderAPI is using Expansions for it's placeholders, with PlaceholderAPI providing the core. Users can download Expansions from the cloud server using commands in-game or by going [here](https://api.extendedclip.com/home/) if they want to use the placeholder.
+PlaceholderAPI is using Expansions for its placeholders, with PlaceholderAPI providing the core. Users can download Expansions from the cloud server using commands in-game or by going [here](https://api.extendedclip.com/home/) if they want to use the placeholder.
 
 ## Note
 You can either make a separate jar file, to upload it to the expansion-cloud (recommended) or have it as a local class inside your plugin.
@@ -15,7 +15,7 @@ Those depend on what you want to display through the placeholders in the end.
   * [Separate jar](#separate-jar)
   * [Internal class](#internal-class)
 
-### Without external plugin
+### Without an external plugin
 This part here covers how you create an expansion that doesn't require any external/additional plugins to function.  
 Examples of such expansions are:
 - [Player expansion](/PlaceholderAPI/Player-Expansion)
@@ -37,7 +37,7 @@ import me.clip.placeholderapi.expansion.PlaceholderExpansion;
  * {@code /plugins/PlaceholderAPI/expansions} on your server.
  * <br>
  * <br>If you create such a class inside your own plugin, you have to
- * register it manually in your plugins {@code onEbale()} by using 
+ * register it manually in your plugins {@code onEnable()} by using 
  * {@code new YourExpansionClass().register();}
  */
 public class SomeExpansion extends PlaceholderExpansion {
@@ -292,8 +292,8 @@ class SomeExpansion extends PlaceholderExpansion {
 #### Internal class
 You can have the class inside your plugin.  
 This has some advantages but can also have some disadvantages.
-If you include a PlaceholderExpansion class in your plugin, you MUST add and override the persist() method to return true
-otherwise if PlaceholderAPI is reloaded, your expansion will be unregistered and lost forever.
+If you include a PlaceholderExpansion class in your plugin, you MUST add an override the persist() method to return true
+otherwise, if PlaceholderAPI is reloaded, your expansion will be unregistered and lost forever.
 
 
 ```java
