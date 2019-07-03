@@ -407,6 +407,7 @@ Gives you various placeholders for the player, that triggers the action.
 %player_health%
 %player_health_scale%
 %player_ip%
+%player_online%
 %player_is_op%
 %player_item_in_hand%
 %player_item_in_hand_name%
