@@ -272,6 +272,8 @@ Available modifiers are:
 - `data:<number>` - Checks if the item has data `<data>` (Example: Red wool has `14` as data (`WOOL:14`)).  
 This is only for 1.12 and older!
 - `lorecontains:<text>` - Checks if the items lore contains `<text>`
+- `strict` - Requires `mat:` modiifer. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
+- `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
 *You can only use one of those modifiers in the placeholder and they are case-sensitive!
 
