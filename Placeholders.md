@@ -38,6 +38,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Advanced Abilities](#advanced-abilities)**
 - **[AdvancedCustomMenu+](#advancedcustommenu)**
 - **[AdvancedModReq](#advancedmodreq)**
+- **[ajParkour](#ajparkour)**
 - **[Animated Menu](#animated-menu)**
 - **[ASkyBlock](#askyblock)**
 - **[AsyncKeepAlive](#asynckeepalive)**
@@ -751,6 +752,16 @@ This placeholders require the corresponding plugin to work.
 %advancedmodreq_unflagged%
 %advancedmodreq_unflagged_closed%
 %advancedmodreq_unflagged_open%
+```
+----
+
+- ### **[ajParkour](https://www.spigotmc.org/resources/60909/)**
+> NO DOWNLOAD COMMAND
+
+```
+%ajpk_stats_top_name_%
+%ajpk_stats_top_score_%
+%ajpk_stats_highscore%
 ```
 ----
 
