@@ -608,6 +608,9 @@ This placeholder is for all players on the server.
 - ### **Statistic**
 > /papi ecloud download Statistic
 
+For MC v1.12.2 or older:
+> /papi ecloud download Statistic 1.7.0
+
 Gives you a lot of statistics...
 
 For specific blocks, items, entities, ...
