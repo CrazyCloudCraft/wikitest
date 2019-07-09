@@ -178,6 +178,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[QuickSell](#quicksell)**
 
 ## **R**
+- **[RageMode](#ragemode)**
 - **[Rankup](#rankup)**
 - **[RedProtect](#redprotect)**
 - **[ReferralSystem](#referralsystem)**
@@ -2310,6 +2311,30 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 1 is most recent, 2 is second most, 3 third most, etc.
 
+----
+
+- ### **[RageMode](https://www.spigotmc.org/resources/69169/)**
+> NO DOWNLOAD COMMAND
+
+```
+%ragemode_kills%
+%ragemode_axe_kills%
+%ragemode_direct_arrow_kills%
+%ragemode_explosion_kills%
+%ragemode_knife_kills%
+%ragemode_deaths%
+%ragemode_axe_deaths%
+%ragemode_direct_arrow_deaths%
+%ragemode_explosion_deaths%
+%ragemode_knife_deaths%
+%ragemode_current_streak%
+%ragemode_longest_streak%
+%ragemode_points%
+%ragemode_games%
+%ragemode_wins%
+%ragemode_kd%
+%ragemode_rank%
+```
 ----
 
 - ### **[Rankup](https://www.spigotmc.org/resources/17933/)**
