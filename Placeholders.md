@@ -2152,7 +2152,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ----
 
 - ### **[PlotSquared](https://www.spigotmc.org/resources/1177/)**
-> /papi ecloud download PlotSquared
+> UNAVAILABLE
 
 ```
 %plotsquared_currentplot_alias%
