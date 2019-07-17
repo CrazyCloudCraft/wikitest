@@ -617,6 +617,8 @@ For MC v1.12.2 or older:
 
 Gives you a lot of statistics...
 
+Supports all statistics in [SpigotAPI](https://helpch.at/docs/1.13.1/org/bukkit/Statistic.html). `%statistic_<StatisticType>%`
+
 For specific blocks, items, entities, ...
 ```
 %statistic_mine_block:<material>%
