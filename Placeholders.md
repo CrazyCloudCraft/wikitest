@@ -174,6 +174,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[PVP Stats](#pvp-stats)**
 
 ## **Q**
+- **[Quests](#quests)**
 - **[QuestCreator](#questcreator)**
 - **[QuickSell](#quicksell)**
 
@@ -2279,6 +2280,25 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 ----
 
+- ### **[Quests](https://www.spigotmc.org/resources/3711/)**
+> /papi ecloud download Quests
+
+```
+%quests_player_quest_points%
+%quests_player_has_journal%
+%quests_player_current_quest_amount%
+%quests_player_completed_quest_amount%
+%quests_player_current_quest_names%
+%quests_player_completed_quest_names%
+%quests_player_current_objectives_<quest>%
+%quests_player_has_current_quest_<quest>%
+%quests_player_has_completed_quest_<quest>%
+%quests_player_cooldown_time_remaining_<quest>%
+%quests_player_current_stage_number_<quest>%
+%quests_player_can_accept_quest_<quest>%
+%quests_player_meets_requirements_to_start_<quest>%
+```
+----
 - ### **[QuestCreator](https://www.spigotmc.org/resources/38734/)**
 > NO DOWNLOAD COMMAND
 
