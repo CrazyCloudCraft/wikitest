@@ -407,6 +407,7 @@ Gives you various placeholders for the player, that triggers the action.
 %player_empty_slots%
 %player_has_permission_<permission>%
 %player_health%
+%player_health_rounded%
 %player_health_scale%
 %player_ip%
 %player_online%
@@ -423,6 +424,7 @@ Gives you various placeholders for the player, that triggers the action.
 %player_level%
 %player_max_air%
 %player_max_health%
+%player_max_health_rounded%
 %player_max_no_damage_ticks%
 %player_minutes_lived%
 %player_name%
@@ -435,7 +437,6 @@ Gives you various placeholders for the player, that triggers the action.
 %player_sleep_ticks%
 %player_ticks_lived%
 %player_time%
-%player_timestamp%
 %player_time_offset%
 %player_total_exp%
 %player_uuid%
