@@ -46,6 +46,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Advance Tab](https://www.spigotmc.org/resources/21958/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[ajParkour](https://www.spigotmc.org/resources/60909/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#ajparkour]]**]
 - **[AnimatedBoard](https://www.spigotmc.org/resources/13632/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
@@ -531,7 +534,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 ## Q
 - **[Quests](https://www.spigotmc.org/resources/3711/)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders. [Link]
+  - [x] Provides own placeholders. [**[[Link|Placeholders#quests]]**]
 - **[QuestCreator](https://www.spigotmc.org/resources/38734/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#questcreator]]**]
@@ -543,7 +546,11 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [x] Provides own placeholders. [**[[Link|Placeholders#quicksell]]**]
 
 ----
+
 ## R
+- **[RageMode](https://www.spigotmc.org/resources/69169/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#ragemode]]**]
 - **[RankedHelp](https://www.spigotmc.org/resources/61919/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
