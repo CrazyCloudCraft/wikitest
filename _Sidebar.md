@@ -24,6 +24,7 @@
   <summary> [[PAPI-placeholders|Placeholders#papi-placeholders-1]] </summary>
 
   - [[BungeeCord|Placeholders#bungeecord]]
+  - [[CooldownBar|Placeholders#cooldownbar]]
   - [[CheckItem|Placeholders#checkitem]]
   - [[Javascript|Placeholders#javascript]]
   - [[ListPlayers|Placeholders#listplayer]]
