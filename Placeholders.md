@@ -12,6 +12,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ----
 - **[BungeeCord](#bungeecord)**
 - **[CheckItem](#checkitem)**
+- **[CooldownBar](#cooldownbar)**
 - **[Javascript](#javascript)**
 - **[ListPlayers](#listplayers)**
 - **[Math](#math)**
@@ -282,6 +283,27 @@ This is only for 1.12 and older!
 
 ----
 
+- ### **CooldownBar**
+> /papi ecloud download CooldownBar
+
+More info about this expansion can be found on the [GitHub-Repository](https://github.com/aBo0oDyy/CooldownBar-Expansion).
+
+```
+%cooldownbar_{placeholder}%
+%cooldownbar_{placeholder}_p:<PassedTimeSymbol>%
+%cooldownbar_{placeholder}_i:<InProgressSymbol>%
+%cooldownbar_{placeholder}_r:<RemainingSymbol>%
+%cooldownbar_{placeholder}_l:<Maxlength>%
+%cooldownbar_{placeholder}_c:<MainCooldown>%
+%cooldownbar_{placeholder}_rdy:<ReadyText>%
+%cooldownbar_{essentials_kit_time_until_available_tools}_p:&a■_i:&e■_r:&7■_l:5_c:100_rdy:&aReadytoclaim!%
+%cooldownbar_percentage_{placeholder}%
+%cooldownbar_percentage_{placeholder}_c:<MainCooldown>%
+%cooldownbar_percentage_{placeholder}_d:<AmountOfDecimal>%
+%cooldownbar_percentage_{essentials_kit_time_until_available_tools}_c:120_d:0%
+```
+----
+
 - ### **Javascript**
 > /papi ecloud download Javascript
 
@@ -466,10 +488,7 @@ Returns information about the specified plugin.
 - ### **Progress**
 > /papi ecloud download progress
 
-Allows you to create a progress bar in combination with a placeholder.  
-Default placeholder is `%progress_bar_{placeholder}%` where `{placeholder}` is any placeholder that returns a number (You need to use `{}` instead of `%%` for the placeholder).
-
-More info about the expansion can be found on the [GitHub-Repository](https://github.com/aBo0oDyy/Progress-Expansion).
+More info about this expansion can be found on the [GitHub-Repository](https://github.com/aBo0oDyy/Progress-Expansion).
 
 ```
 %progress_bar_{placeholder}%
