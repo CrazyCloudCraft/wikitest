@@ -8,8 +8,9 @@ It also has a list with all available placeholders (Work in progress).
 **[[Hook into PlaceholderAPI]]**
 * [[First steps|Hook-into-PlaceholderAPI#first-steps]]
 * [[Adding placeholders to PlaceholderAPI|Hook-into-PlaceholderAPI#adding-placeholders-to-placeholderapi]]
-  * [[EZPlaceholderHook (Deprecated)|Hook-into-PlaceholderAPI#ezplaceholderhook-deprecated]]
   * [[PlaceholderExpansion]]
+      * [[Without external plugin|PlaceholderExpansion#without-external-plugin]]
+      * [[With external plugin|PlaceholderExpansion#with-external-plugin]]
 * [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
 
 ### Other
@@ -23,6 +24,7 @@ It also has a list with all available placeholders (Work in progress).
   <summary> [[PAPI-placeholders|Placeholders#papi-placeholders-1]] </summary>
 
   - [[BungeeCord|Placeholders#bungeecord]]
+  - [[CooldownBar|Placeholders#cooldownbar]]
   - [[CheckItem|Placeholders#checkitem]]
   - [[Javascript|Placeholders#javascript]]
   - [[ListPlayers|Placeholders#listplayer]]
@@ -32,12 +34,15 @@ It also has a list with all available placeholders (Work in progress).
   - [[Pinger|Placeholders#pinger]]
   - [[Player|Placeholders#player]]
   - [[Plugin|Placeholders#plugin]]
+  - [[Progress|Placeholders#progress]]
+  - [[RainbowColor|Placeholders#rainbowcolor]]
+  - [[RandomColor|Placeholders#randomcolor]]
   - [[RedisBungee|Placeholders#redisbungee]]
+  - [[RelCon|Placeholders#relcon]]
   - [[ScoreboardObjectives|Placeholders#scoreboardobjectives]]
   - [[Server|Placeholders#server]]
   - [[Sound|Placeholders#sound]]
   - [[Statistic|Placeholders#statistic]]
-  - [[TrueFalse|Placeholders#truefalse]]
 </details>
 <details>
   <summary> [[Plugin-placeholders|Placeholders#plugin-placeholders-1]] </summary>
