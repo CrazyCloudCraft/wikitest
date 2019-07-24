@@ -1134,6 +1134,9 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 %deluxetags_identifier%
 %deluxetags_description%
 %deluxetags_amount%
+%deluxetags_tag_<TagID>%
+%deluxetags_description_<TagID>%
+%deluxetags_has_tag_<TagID>%
 ```
 ----
 
