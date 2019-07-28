@@ -1640,38 +1640,45 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ----
 
 - ### **[Jobs Reborn](https://www.spigotmc.org/resources/4216/)**
->  /papi ecloud download Jobs
+> NO DOWNLOAD COMMAND
 
 ```
-%jobs_jobs%
-%jobs_format%
-%jobs_exp_limit%
-%jobs_money_limit%
-%jobs_points_limit%
-%jobs_exp_payment_limit_amt%
-%jobs_money_payment_limit_amt%
-%jobs_points_payment_limit_amt%
-%jobs_exp_payment_limit_time_left%
-%jobs_money_payment_limit_time_left%
-%jobs_points_payment_limit_time_left%
-%jobs_seen%
-%jobs_total_levels%
-%jobs_user_id%
-%jobs_is_saved%
-%jobs_level_<jobname/number>%
-%jobs_exp_<jobname/number>%
-%jobs_total_players_<jobname/number>%
-%jobs_max_level_<jobname/number>%
-%jobs_vip_max_level_<jobname/number>%
-%jobs_bonus_<jobname/number>%
-%jobs_exp_boost_<jobname/number>%
-%jobs_money_boost_<jobname/number>%
-%jobs_points_boost_<jobname/number>%
-%jobs_chat_color_<jobname/number>%
-%jobs_description_<jobname/number>%
-%jobs_max_slots_<jobname/number>%
-%jobs_name_<jobname/number>%
-%jobs_short_name_<jobname/number>%
+%jobsr_user_id%
+%jobsr_user_bstandcount%
+%jobsr_user_maxbstandcount%
+%jobsr_user_furncount%
+%jobsr_user_maxfurncount%
+%jobsr_user_doneq%
+%jobsr_user_seen%
+%jobsr_user_totallevels%
+%jobsr_user_issaved%
+%jobsr_user_displayhonorific%
+%jobsr_user_joinedjobcount%
+%jobsr_user_boost_(jname/number)_(money/exp/points)%
+%jobsr_user_isin_(jname/number)%
+%jobsr_user_canjoin_(jname/number)%
+%jobsr_user_jlevel_(jname/number)%
+%jobsr_user_jexp_(jname/number)%
+%jobsr_user_jmaxexp_(jname/number)%
+%jobsr_user_jmaxlvl_(jname/number)%
+%jobsr_user_points%
+%jobsr_user_total_points%
+%jobsr_user_archived_jobs%
+%jobsr_maxjobs%
+%jobsr_limit_(money/exp/points)%
+%jobsr_plimit_(money/exp/points)%
+%jobsr_plimit_tleft_(money/exp/points)%
+%jobsr_total_workers%
+%jobsr_totalplayers_(jname/number)%
+%jobsr_name_(jname/number)%
+%jobsr_shortname_(jname/number)%
+%jobsr_chatcolor_(jname/number)%
+%jobsr_description_(jname/number)%
+%jobsr_maxdailyq_(jname/number)%
+%jobsr_maxlvl_(jname/number)%
+%jobsr_maxviplvl_(jname/number)%
+%jobsr_maxslots_(jname/number)%
+%jobsr_bonus_(jname/number)%
 ```
 ----
 
