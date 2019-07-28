@@ -2944,10 +2944,12 @@ Replace `XXX` with the enchantment.
 ----
 
 - ### **[TokenManager](https://www.spigotmc.org/resources/8610/)**
-> /papi ecloud download TokenManager
+> NO DOWNLOAD COMMAND
 
 ```
-%tokenmanager_tokens%
+%tm_tokens%
+%tm_tokens_formatted%
+%tm_tokens_raw%
 ```
 ----
 
