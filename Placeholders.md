@@ -1849,11 +1849,37 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ----
 
 - ### **[MarriageMaster](http://dev.bukkit.org/bukkit-plugins/marriage-master/)**
-> /papi ecloud download MarriageMaster
+> NO DOWNLOAD COMMAND
 
 ```
-%marriagemaster_married%
-%marriagemaster_partner%
+%marriagemaster_StatusHeart%
+%marriagemaster_MagicHeart%
+%marriagemaster_Heart%
+%marriagemaster_IsMarried%
+%marriagemaster_IsPriest%
+%marriagemaster_Partner%
+%marriagemaster_PartnerDisplayName%
+%marriagemaster_Surname%
+%marriagemaster_HasHome%
+%marriagemaster_HomeX%
+%marriagemaster_HomeY%
+%marriagemaster_HomeZ%
+%marriagemaster_HomeWorld%
+```
+
+Available if multiple partners are allowed on the server:
+```
+%marriagemaster_NearestPartnerName%
+%marriagemaster_NearestPartnerDisplayName%
+%marriagemaster_NearestSurname%
+%marriagemaster_HasNearestHome%
+%marriagemaster_NearestHomeX%
+%marriagemaster_NearestHomeY%
+%marriagemaster_NearestHomeZ%
+%marriagemaster_NearestHomeWorld%
+%marriagemaster_PartnerCount%
+%marriagemaster_PartnerList%
+%marriagemaster_PartnerDisplayNameList%
 ```
 ----
 
