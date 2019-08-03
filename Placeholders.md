@@ -173,6 +173,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[ProQuest](#proquest)**
 - **[PVPLevels](#pvplevels)**
 - **[PVP Stats](#pvp-stats)**
+- **[PvPStats Plugin](#pvpstats-plugin)**
 
 ## **Q**
 - **[Quests](#quests)**
@@ -2334,6 +2335,17 @@ Player-specific placeholder (Gets mine at the current location)
 %pvpstats_elo%
 %pvpstats_killstreak%
 %pvpstats_maxstreak%
+```
+----
+
+- ### **[PvPStats Plugin](https://www.spigotmc.org/resources/69984/)**
+> NO DOWNLOAD COMMAND
+
+```
+%pvpstats_kills%
+%pvpstats_deaths%
+%pvpstats_killstreak%
+%pvpstats_kdr%
 ```
 ----
 
