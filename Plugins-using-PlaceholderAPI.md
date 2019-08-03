@@ -526,6 +526,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[PvP Stats](http://dev.bukkit.org/bukkit-plugins/pvp-stats/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#pvp-stats]]**]
+- **[PvPStats Plugin](https://www.spigotmc.org/resources/69984/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#pvpstats-plugin]]**]
 - **[PyrCore](https://www.spigotmc.org/resources/24180/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
