@@ -1504,8 +1504,10 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 > /papi ecloud download GemsEconomy
 
 ```
-%gemseconomy_balance%
-%gemseconomy_balance_formatted%
+%gemseconomy_balance_default%
+%gemseconomy_balance_default_formatted%
+%gemseconomy_balance_<currency plural or singular>%
+%gemseconomy_balance_<currency plural or singular>_formatted%
 ```
 ----
 
