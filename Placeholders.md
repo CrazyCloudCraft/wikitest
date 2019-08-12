@@ -201,6 +201,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Skywars](#skywars)**
 - **[Skywars X](#skywars-x)**
 - **[SkywarsReloaded](#skywarsreloaded)**
+- **[Spark](#spark)**
 - **[SQLPerms](#sqlperms)**
 - **[SQLTokens](#sqltokens)**
 - **[Statz](#statz)**
@@ -2724,6 +2725,27 @@ The following placeholders are the same as above but instead of specifying the s
 %skywarsreloaded_time_vote%
 %skywarsreloaded_opvote%
 %skywarsreloaded_op_vote%
+```
+----
+
+- ### **[Spark](https://github.com/lucko/spark)**
+> NO DOWNLOAD COMMAND
+
+```
+%spark_tps%
+%spark_tps_5s%
+%spark_tps_10s%
+%spark_tps_1m%
+%spark_tps_5m%
+%spark_tps_15m%
+%spark_cpu_system%
+%spark_cpu_system_10s%
+%spark_cpu_system_1m%
+%spark_cpu_system_15m%
+%spark_cpu_process%
+%spark_cpu_process_10s%
+%spark_cpu_process_1m%
+%spark_cpu_process_15m%
 ```
 ----
 
