@@ -208,6 +208,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[DeluxeChat](https://www.spigotmc.org/resources/1277/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#deluxechat]]**]
+- **[DeluxeCombat](https://www.spigotmc.org/resources/63970/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#deluxecombat]]**]
 - **[DeluxeCommands](https://www.spigotmc.org/resources/8033/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
@@ -638,6 +641,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[SkyWarsReloaded](https://www.spigotmc.org/resources/3796/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#skywarsreloaded]]**]
+- **[Spark](https://github.com/lucko/spark)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#spark]]**]
 - **[SpigotBoard](https://www.spigotmc.org/resources/47497/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
