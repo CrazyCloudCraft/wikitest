@@ -72,6 +72,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Daily Rewards](#daily-rewards)**
 - **[DeliveryMan](#deliveryman)**
 - **[DeluxeChat](#deluxechat)**
+- **[DeluxeCombat](#deluxecombat)**
 - **[DeluxePM](#deluxepm)**
 - **[DeluxeTags](#deluxetags)**
 - **[Denize](#denize)**
@@ -1136,6 +1137,20 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 %deluxechat_is_pm_toggled%
 %deluxechat_pm_recipient%
 %deluxechat_social_spy_enabled%
+```
+----
+
+- ### **[DeluxeCombat](https://www.spigotmc.org/resources/63970/)**
+> NO DOWNLOAD COMMAND 
+
+```
+%deluxecombat_ranking_points%
+%deluxecombat_ranking_kills%
+%deluxecombat_ranking_deaths%
+%deluxecombat_ranking_combatlogs%
+%deluxecombat_ranking_kd%
+%deluxecombat_ranking_rank%
+%deluxecombat_in_combat%
 ```
 ----
 
