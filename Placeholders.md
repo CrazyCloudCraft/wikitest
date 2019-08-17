@@ -931,6 +931,8 @@ This placeholders require the corresponding plugin to work.
 - ### **[BentoBox](https://github.com/BentoBoxWorld/BentoBox)**
 > NO DOWNLOAD COMMAND
 
+Check out [BentoBox placeholders wiki](https://github.com/BentoBoxWorld/BentoBox/wiki/Placeholders) for more information.
+
 Available gamemodes:
 `acidisland`, `bskyblock`, `caveblock` and `skygrid`.
 
