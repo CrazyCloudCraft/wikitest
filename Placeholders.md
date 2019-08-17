@@ -931,6 +931,9 @@ This placeholders require the corresponding plugin to work.
 - ### **[BentoBox](https://github.com/BentoBoxWorld/BentoBox)**
 > NO DOWNLOAD COMMAND
 
+Available gamemodes:
+`acidisland`, `bskyblock`, `caveblock` and `skygrid`.
+
 ```
 %bentobox_[gamemode]-world-friendlyname%
 %bentobox_[gamemode]-island-distance%
@@ -939,6 +942,17 @@ This placeholders require the corresponding plugin to work.
 %bentobox_[gamemode]-island-creation-date%
 %bentobox_[gamemode]-island-spawnpoint%
 %bentobox_[gamemode]-island-name%
+```
+
+**Level add-on**
+
+Available gamemodes:
+`acidisland`, `bskyblock`, and `caveblock`.
+
+```
+%level_[gamemode]-island-level%
+%level_[gamemode]-island-level-top-value-#%
+%level_[gamemode]-island-level-top-name-#%
 ```
 ----
 
