@@ -122,6 +122,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 ## **K**
 - **[KillStats](#killstats)**
+- **[KitPvP](#kitpvp)**
 - **[Kingdoms+](#kindoms)**
 - **[KP-PVP](#kp-pvp)**
 
@@ -1729,6 +1730,20 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %killstats_streakrank%
 %killstats_kdr%
 %killstats_kdrrank%
+```
+----
+
+- ### **[KitPvP](https://www.spigotmc.org/resources/27107/)**
+> NO DOWNLOAD COMMAND
+
+```
+%kitpvp_stats_kills%
+%kitpvp_stats_deaths%
+%kitpvp_stats_kdr%
+%kitpvp_stats_level%
+%kitpvp_stats_experience%
+%kitpvp_player_killstreak%
+%kitpvp_player_kit%
 ```
 ----
 
