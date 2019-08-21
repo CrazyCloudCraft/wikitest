@@ -355,6 +355,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[KillStats](http://dev.bukkit.org/bukkit-plugins/killstats-v1-0/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#killstats]]**]
+- **[KitPvP](https://www.spigotmc.org/resources/27107/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#kitpvp]]**]
 - **[Kingdoms+](https://www.spigotmc.org/resources/11833/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#kingdoms]]**]
