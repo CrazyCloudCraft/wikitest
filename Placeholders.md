@@ -3292,13 +3292,18 @@ Replace `XXX` with the enchantment.
 
 ```
 %worldguard_region_name%
+%worldguard_region_name_capitalized%
 %worldguard_region_owner%
+%worldguard_region_owner_groups%
 %worldguard_region_members%
+%worldguard_region_members_groups%
 %worldguard_region_flags%
+%worldguard_region_has_flag_<FlagName>%
 %worldguard_region_min_point_x%
 %worldguard_region_min_point_y%
 %worldguard_region_min_point_z%
 %worldguard_region_max_point_x%
 %worldguard_region_max_point_y%
 %worldguard_region_max_point_z%
+%worldguard_<AnyWGPlaceholder>:<World>,<X>,<Y>,<Z>%
 ```
