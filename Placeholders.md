@@ -787,6 +787,7 @@ This placeholders require the corresponding plugin to work.
 > NO DOWNLOAD COMMAND
 
 ```
+%ajpk_current%
 %ajpk_stats_top_name_%
 %ajpk_stats_top_score_%
 %ajpk_stats_highscore%
