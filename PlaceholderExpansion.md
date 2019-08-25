@@ -151,7 +151,7 @@ import at.helpch.placeholderapi.example.SomePlugin;
  * register it manually in your plugins {@code onEbale()} by using 
  * {@code new YourExpansionClass().register();}
  */
-class SomeExpansion extends PlaceholderExpansion {
+public class SomeExpansion extends PlaceholderExpansion {
 
     // We get an instance of the plugin later.
     private SomePlugin plugin;
@@ -307,7 +307,7 @@ import at.helpch.placeholderapi.example.SomePlugin;
  * This class will be registered through the register-method in the 
  * plugins onEnable-method.
  */
-class SomeExpansion extends PlaceholderExpansion {
+public class SomeExpansion extends PlaceholderExpansion {
 
     private SomePlugin plugin;
 
