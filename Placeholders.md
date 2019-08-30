@@ -1316,10 +1316,20 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 ```
 %epiclevels_level%
 %epiclevels_experience%
-%%
-%%
-%%
-%%
+%epiclevels_kills%
+%epiclevels_deaths%
+%epiclevels_killstreak%
+%epiclevels_bestkillstreak%
+%epiclevels_kdr%
+%epiclevels_nextlevel%
+%epiclevels_neededfornextlevel%
+%epiclevels_boosterenabled%
+%epiclevels_booster%
+%epiclevels_globalboosterenabled%
+%epiclevels_globalbooster%
+%epiclevels_progressbar%
+%epiclevels_playerkills%
+%epiclevels_mobkills%
 ```
 ----
 
