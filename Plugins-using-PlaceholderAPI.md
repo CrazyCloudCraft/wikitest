@@ -259,6 +259,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[EpicFriends](https://www.spigotmc.org/resources/11294/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#epicfriends]]**]
+- **[EpicLevels](https://songoda.com/marketplace/product/44)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#epiclevels]]**]
 - **[Ersatz](https://www.spigotmc.org/resources/49433/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
