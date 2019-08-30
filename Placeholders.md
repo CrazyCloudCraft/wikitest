@@ -86,6 +86,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Enjin & DonationCraft 2.x](#enjin--donationcraft-2x)**
 - **[Envoys](#envoys)**
 - **[EpicFriends](#epicfriends)**
+- **[EpicLevels](#epiclevels)**
 - **[essCore](#esscore)**
 - **[Essentials](#essentials)**
 - **[EZBlocks](#ezblocks)**
@@ -1306,6 +1307,19 @@ This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
 ```
 %epicfriends_friendcount%
 %epicfriends_friendcount_online%
+```
+----
+
+- ### **[EpicLevels](https://songoda.com/marketplace/product/44)**
+> NO DOWNLOAD COMMAND 
+
+```
+%epiclevels_level%
+%epiclevels_experience%
+%%
+%%
+%%
+%%
 ```
 ----
 
