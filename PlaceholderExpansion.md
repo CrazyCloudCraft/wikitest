@@ -437,7 +437,7 @@ public class SomePlugin extends JavaPlugin{
     public void onEnable(){
         // Small check to make sure that PlaceholderAPI is installed
         if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null){
-              new SomeExpansion().register();
+              new SomeExpansion(this).register();
         }
     }
 }
