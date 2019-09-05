@@ -313,6 +313,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Guilds](https://www.spigotmc.org/resources/48920/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#guilds]]**]
+- **[GUIPlus](https://www.spigotmc.org/resources/38664/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
 
 ----
 ## H
