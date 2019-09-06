@@ -1,5 +1,5 @@
 This is a list of all available placeholders.  
-A download-command for the extenion can be found at the area of the placeholder.  
+A download-command for the extension can be found at the area of the placeholder.  
 If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, then it means, that the plugin actually has the placeholders hard-coded into them and doesn't require a manual download of any expansion.
 
 > ## Notes (Please read)  
@@ -110,6 +110,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ## **H**
 - **[Heroes](#heroes)**
 - **[HoloBlock](#holoblock)**
+- **[HPWizard](#hpwizard)**
 - **[Hugs](#hugs)**
 
 ## **I**
@@ -249,7 +250,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 ***
 ## PAPI-placeholders
-This placeholders are from PlaceholderAPI and don't require any additional plugin to function (unless mentioned).
+These placeholders are from PlaceholderAPI and don't require any additional plugin to function (unless mentioned).
 
 - ### **BungeeCord**
 > /papi ecloud download Bungee
@@ -281,7 +282,7 @@ Available modifiers are:
 - `data:<number>` - Checks if the item has data `<data>` (Example: Red wool has `14` as data (`WOOL:14`)).  
 This is only for 1.12 and older!
 - `lorecontains:<text>` - Checks if the items lore contains `<text>`
-- `strict` - Requires `mat:` modiifer. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
+- `strict` - Requires `mat:` modifier. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
 *You can only use one of those modifiers in the placeholder and they are case-sensitive!
@@ -384,12 +385,12 @@ Lets you get placeholders for other players. (Not the one that triggers the acti
 - ### **Pinger**
 > /papi ecloud download Pinger
 
-Lets you ping a server through a IP or domain (with port), to check the online-status and to receive some information.  
+Lets you ping a server through an IP or domain (with port), to check the online-status and to receive some information.  
 The placeholders have a "warmup" time of around one or two minutes after installing the expansion.  
 
-**Note**: This placeholders have a seperate update-delay in the config.yml of PlaceholderAPI
+**Note**: These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
 
-Replace `testplugins.com:25565` with your own server/ip.
+Replace `testplugins.com:25565` with your own server/IP.
 ```
 %pinger_gameversion_testplugins.com:25565%
 %pinger_version_testplugins.com:25565%
@@ -574,7 +575,7 @@ Get info from a scoreboard objective.
 - ### **Server**
 > /papi ecloud download Server
 
-Lets you get information of the server.
+Lets you get information about the server.
 
 ```
 %server_name%
@@ -602,7 +603,7 @@ e.g. %server_countdown_dd.MM.yyyy_01.01.2020%
 ```
 `<time>` is the date and time for the countdown. **It needs to match the `<SimpleDateTime>`**
 
-You can use the following placeholders for the SimpleDateFormat (They are case-sensitve):
+You can use the following placeholders for the SimpleDateFormat (They are case-sensitive):
 - `d` for day
 - `M` for month
 - `y` for year
@@ -611,7 +612,7 @@ You can use the following placeholders for the SimpleDateFormat (They are case-s
 - `H` for hours
 
 The output of the SimpleDateTime will look different, depending on how many letters you use.  
-Example: `MM` turns into `01` while `MMM` turns into `Jan` (If the month is january).  
+Example: `MM` turns into `01` while `MMM` turns into `Jan` (If the month is January).  
 
 More info can be found here: http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
 
@@ -727,7 +728,7 @@ Other statistics
 
 ***
 ## Plugin-placeholders
-This placeholders require the corresponding plugin to work.  
+These placeholders require the corresponding plugin to work.  
 **The developer of the plugin is responsible for the placeholders to work!**
 
 - ### **[AcidIsland](https://www.spigotmc.org/resources/581/)** 
@@ -1092,7 +1093,7 @@ CraftConomy's placeholders allow the addition of extra "arguments", to return a 
 - `@[number]` Returns [number] times of the players balance in the specified currency.  
 Example: `%craftconomy_YourCurrency_@10%` returns 100 YourCurrency, if the player has 10 YourCurrency.
 - `@int` CraftConomy normally returns the value as a double. This option returns it as an integer.  
-This can be used in plugins, that require a integer. (e.g. DeluxeMenus)
+This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 ----
 
 - ### **[CraftingStore.net](https://www.spigotmc.org/resources/31331/)**
@@ -1490,7 +1491,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %rel_[factions/factionsuuid]_relation%
 %rel_[factions/factionsuuid]_relation_color%
 ```
-> **NOTE:** These placeholders works with FactionsUUID and MCore all you need is downloading the expansion of the plugin you're using. if you're using these placeholders in DeluxeChat you need to enable this option "relation_placeholders_enabled: true" you can find that in the config.
+> **NOTE:** These placeholders work with FactionsUUID and MCore all you need is downloading the expansion of the plugin you're using. if you're using these placeholders in DeluxeChat you need to enable this option "relation_placeholders_enabled: true" you can find that in the config.
 ----
 
 - ### **[FunnyGuilds](https://github.com/FunnyGuilds/FunnyGuilds)**
@@ -1642,6 +1643,22 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %holoblock_isColor:<player>%
 %holoblock_isCustomSkin:<player>%
 %holoblock_isItemLine:<player>%
+```
+----
+
+- ### **[HPWizard](https://www.spigotmc.org/resources/26821/)**
+> NO DOWNLOAD COMMAND
+
+```
+%hpw_house%
+%hpw_house_coloured%
+%hpw_amount_of_spells%
+%hpw_housepoints%
+%hpw_{house}_housepoints%
+%hpw_hogwarts_last_winner%
+%hpw_hogwarts_last_winner_coloured%
+%hpw_ministry_last_winner%
+%hpw_ministry_last_winner_coloured%
 ```
 ----
 
@@ -2032,8 +2049,8 @@ Available if multiple partners are allowed on the server:
 ```
 %mobhunting_rank%             (Only updated when leaderboards is updated)
 %mobhunting_total_kills%      (Number of killed mobs (for the player))
-%mobhunting_total_cash%       (The amount of money dropped on ground)
-%mobhunting_dropped_rewards%  (Number of rewards left on ground)
+%mobhunting_total_cash%       (The amount of money dropped on the ground)
+%mobhunting_dropped_rewards%  (Number of rewards left on the ground)
 %mobhunting_dropped_money%    (Amount of money left on the ground)
 %mobhunting_balance%          (The amount of money in BagOfGold, in the player inventory)
 ```
