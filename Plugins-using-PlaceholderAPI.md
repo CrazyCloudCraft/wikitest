@@ -331,6 +331,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[HoloBlock](https://www.spigotmc.org/resources/43192/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#holoblock]]**]
+- **[HPWizard](https://www.spigotmc.org/resources/26821/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#hpwizard]]**]
 - **[Hugs](https://www.spigotmc.org/resources/hugs.39722/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#hugs]]**]
