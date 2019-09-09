@@ -97,6 +97,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[BentoBox](https://github.com/BentoBoxWorld/BentoBox)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#bentobox]]**]
+- **[BlockParty](https://www.spigotmc.org/resources/7264/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#blockparty]]**]
 - **[BlockQuests](https://www.spigotmc.org/resources/32729/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#blockquests]]**]
