@@ -1597,7 +1597,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ----
 
 - ### **[Guilds](https://www.spigotmc.org/resources/48920/)**
-> /papi ecloud download Guilds
+> NO DOWNLOAD COMMAND
 
 ```
 %guilds_name%
