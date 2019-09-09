@@ -51,6 +51,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[BeautyQuests](#beautyquests)**
 - **[BedWars1058](#bedwars1058)**
 - **[BentoBox](#bentobox)**
+- **[BlockParty](#blockparty)**
 - **[BlockQuests](#blockquests)**
 
 ## **C**
@@ -959,6 +960,16 @@ Available gamemodes:
 %level_[gamemode]-island-level%
 %level_[gamemode]-island-level-top-value-#%
 %level_[gamemode]-island-level-top-name-#%
+```
+----
+
+- ### **[BlockParty](https://www.spigotmc.org/resources/7264/)**
+> /papi ecloud download BlockParty
+
+```
+%blockparty_wins%
+%blockparty_points%
+%blockparty_gamesplayed%
 ```
 ----
 
