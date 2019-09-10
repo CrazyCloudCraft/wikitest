@@ -2319,8 +2319,13 @@ Available if multiple partners are allowed on the server:
 ```
 %plotsquared_currentplot_alias%
 %plotsquared_currentplot_owner%
-%plotsquared_currentplot_members_size%
+%plotsquared_currentplot_members%
+%plotsquared_currentplot_members_added%
+%plotsquared_currentplot_members_trusted%
+%plotsquared_currentplot_members_denied%
 %plotsquared_currentplot_world%
+%plotsquared_currentplot_x%
+%plotsquared_currentplot_y%
 %plotsquared_has_plot%
 %plotsquared_has_build_rights%
 %plotsquared_plot_count%
