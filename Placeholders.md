@@ -53,6 +53,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[BentoBox](#bentobox)**
 - **[BlockParty](#blockparty)**
 - **[BlockQuests](#blockquests)**
+- **[BuildBattlePro](#buildbattlepro)**
 
 ## **C**
 - **[CarlTheCreeper](#carlthecreeper)**
@@ -124,6 +125,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Jobs Reborn](#jobs-reborn)**
 
 ## **K**
+- **[Karma](#karma)**
 - **[KillStats](#killstats)**
 - **[KitPvP](#kitpvp)**
 - **[Kingdoms+](#kindoms)**
@@ -983,6 +985,19 @@ Available gamemodes:
 ```
 ----
 
+- ### **[BuildBattlePro](https://www.spigotmc.org/resources/49587/)**
+> /papi ecloud download BuildBattlePro
+
+```
+%buildbattlepro_wins%
+%buildbattlepro_played%
+%buildbattlepro_most_points%
+%buildbattlepro_particles_placed%
+%buildbattlepro_blocks_placed%
+%buildbattlepro_super_votes%
+```
+----
+
 - ### **[CarlTheCreeper](https://www.spigotmc.org/resources/18008/)**
 > NO DOWNLOAD COMMAND
 
@@ -1768,6 +1783,18 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %jobsr_maxviplvl_(jname/number)%
 %jobsr_maxslots_(jname/number)%
 %jobsr_bonus_(jname/number)%
+```
+----
+
+- ### **[Karma](https://www.spigotmc.org/resources/71156/)**
+> /papi ecloud download Karma
+
+```
+%karma_alignment%
+%karma_aligned_name%
+%karma_score%
+%karma_recent_points_gained%
+%karma_last_source%
 ```
 ----
 
