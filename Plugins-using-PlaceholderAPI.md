@@ -112,6 +112,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[BossVote](https://www.spigotmc.org/resources/16497/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[BuildBattlePro](https://www.spigotmc.org/resources/49587/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#buildbattlepro]]**]
 
 ----
 ## C
@@ -364,6 +367,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## K
+- **[Karma](https://www.spigotmc.org/resources/71156/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#karma]]**]
 - **[KillStats](http://dev.bukkit.org/bukkit-plugins/killstats-v1-0/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#killstats]]**]
