@@ -2363,6 +2363,9 @@ Available if multiple partners are allowed on the server:
 %plotsquared_currentplot_world%
 %plotsquared_currentplot_x%
 %plotsquared_currentplot_y%
+%plotsquared_currentplot_xy%
+%plotsquared_currentplot_rating%
+%plotsquared_currentplot_biome%
 %plotsquared_has_plot%
 %plotsquared_has_build_rights%
 %plotsquared_plot_count%
