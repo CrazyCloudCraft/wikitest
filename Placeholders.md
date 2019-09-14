@@ -996,6 +996,7 @@ Available gamemodes:
 %buildbattlepro_particles_placed%
 %buildbattlepro_blocks_placed%
 %buildbattlepro_super_votes%
+%buildbattlepro_status_<arena>%
 ```
 ----
 
