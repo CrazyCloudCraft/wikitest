@@ -601,6 +601,9 @@ Lets you get information about the server.
 %server_tps_15_colored%
 %server_online_<world>%
 %server_has_whitelist%
+%server_total_chunks%
+%server_total_living_entities%
+%server_total_entities%
 %server_time_<SimpleDateFormat>%
 %server_countdown_<SimpleDateFormat>_<time>%
 e.g. %server_countdown_dd.MM.yyyy_01.01.2020%
