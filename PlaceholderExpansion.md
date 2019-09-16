@@ -19,7 +19,7 @@ Those depend on what you want to display through the placeholders in the end.
 This part here covers how you create an expansion that doesn't require any external/additional plugins to function.  
 Examples of such expansions are:
 - [Player expansion](/PlaceholderAPI/Player-Expansion)
-- [Math expansion](/PlaceholderAPI/Math-Expansion)
+- [Math expansion](https://github.com/Andre601/Math-Expansion)
 - [Statistics expansion](/PlaceholderAPI/Statistics-Expansion)
 
 Since it would be weird (and also make no real sense) to have this inside your plugin, we assume you make a separate jar-file as an expansion.
