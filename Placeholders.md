@@ -10,6 +10,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 [PAPI-placeholders](##papi-placeholders-1)
 ----
+- **[Advancements](#advancements)**
 - **[BungeeCord](#bungeecord)**
 - **[CheckItem](#checkitem)**
 - **[CooldownBar](#cooldownbar)**
@@ -230,6 +231,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Towny](#towny)**
 - **[Treasures](#treasures)**
 - **[Trey's Double Jump](#treys-double-jump)**
+- **[TrickOrTreat](#trickortreat)**
 
 ## **U**
 - **[USkyBlock](#uskyblock)**
@@ -255,6 +257,18 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ***
 ## PAPI-placeholders
 These placeholders are from PlaceholderAPI and don't require any additional plugin to function (unless mentioned).
+
+- ### **Advancements**
+> /papi ecloud download Advancements
+
+```
+%Advancements_<advancement>%
+%Advancements_player_<player>;<advancement>%
+%Advancements_playerList_<player>%
+%Advancements_playerList_<player>,<command>%
+%Advancements_playerListFormat_<player>%
+```
+----
 
 - ### **BungeeCord**
 > /papi ecloud download Bungee
@@ -3210,6 +3224,22 @@ Replace `XXX` with the enchantment.
 %tdj_canusegroundpound%
 ```
 
+----
+
+- ### **[TrickOrTreat](https://www.spigotmc.org/resources/61370/)**
+> NO DOWNLOAD COMMAND
+
+```
+%trickortreat_sweets%
+%trickortreat_doors_found%
+%trickortreat_sweets_average%
+%trickortreat_is_at_door%
+%trickortreat_current_ingredient%
+%trickortreat_current_head%
+%trickortreat_chestplate%
+%trickortreat_leggings%
+%trickortreat_boots%
+```
 ----
 
 - ### **[USkyBlock](https://www.spigotmc.org/resources/2280/)**
