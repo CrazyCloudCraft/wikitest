@@ -41,13 +41,12 @@ Replace `{VERSION}` with the version listed at the top of this page.
 ```gradle
 repositories {
     maven {
-        name = 'placeholderapi'
         url = 'http://repo.extendedclip.com/content/repositories/placeholderapi/'
     }
 }
 
 dependencies {
-    compile group: 'me.clip', project: 'placeholderapi', version: '{VERSION}'
+    compileOnly 'me.clip:placeholderapi:{VERSION}'
 }
 ```
 
