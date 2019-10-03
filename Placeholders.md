@@ -253,6 +253,9 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[WorldBorder](#worldborder)**
 - **[WorldGuard](#worldguard)**
 
+## **Z**
+- **[XLTournaments](#xltournaments)**
+
 
 ***
 ## PAPI-placeholders
@@ -3438,4 +3441,19 @@ Replace `XXX` with the enchantment.
 %worldguard_region_max_point_y%
 %worldguard_region_max_point_z%
 %worldguard_<AnyWGPlaceholder>:<World>,<X>,<Y>,<Z>%
+```
+
+- ### **[XLTournaments](https://www.spigotmc.org/resources/70630/)**
+> /papi ecloud download XLTournaments
+
+```
+%xlt_{tournamentId}_top1name%
+%xlt_{tournamentId}_top2name%
+%xlt_{tournamentId}_top3name%
+%xlt_{tournamentId}_top1score%
+%xlt_{tournamentId}_top2score%
+%xlt_{tournamentId}_top3score%
+%xlt_{tournamentId}_score%
+%xlt_{tournamentId}_position%
+%xlt_{tournamentId}_type%
 ```
