@@ -23,6 +23,7 @@
 <details>
   <summary> [[PAPI-placeholders|Placeholders#papi-placeholders-1]] </summary>
 
+  - [[Advancements|Placeholders#advancements]]
   - [[BungeeCord|Placeholders#bungeecord]]
   - [[CooldownBar|Placeholders#cooldownbar]]
   - [[CheckItem|Placeholders#checkitem]]
