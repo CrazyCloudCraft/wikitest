@@ -743,6 +743,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Trey's Double Jump](https://www.spigotmc.org/resources/19630/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#treys-double-jump]]**]
+- **[TrickOrTreat](https://www.spigotmc.org/resources/61370/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#trickortreat]]**]
 
 ----
 ## U
