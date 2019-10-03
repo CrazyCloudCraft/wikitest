@@ -23,6 +23,7 @@ It also has a list with all available placeholders (Work in progress).
 <details>
   <summary> [[PAPI-placeholders|Placeholders#papi-placeholders-1]] </summary>
 
+  - [[Advancements|Placeholders#advancements]]
   - [[BungeeCord|Placeholders#bungeecord]]
   - [[CooldownBar|Placeholders#cooldownbar]]
   - [[CheckItem|Placeholders#checkitem]]
@@ -70,4 +71,5 @@ It also has a list with all available placeholders (Work in progress).
   - [[U|Placeholders#u]]
   - [[V|Placeholders#v]]
   - [[W|Placeholders#w]]
+  - [[Z|Placeholders#z]]
 </details>
