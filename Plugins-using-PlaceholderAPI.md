@@ -25,6 +25,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 * **[U](#u)**
 * **[V](#v)**
 * **[W](#w)**
+* **[Z](#z)**
 
 ----
 ## A
@@ -821,3 +822,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[WorldJoin](https://www.spigotmc.org/resources/63892/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders.
+
+----
+## Z
+- **[XLTournaments](https://www.spigotmc.org/resources/70630/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#xltournaments]]**]
