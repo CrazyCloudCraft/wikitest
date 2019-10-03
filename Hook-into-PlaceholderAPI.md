@@ -95,7 +95,7 @@ You can add your placeholders to PlaceholderAPI plugin by making an external exp
 [[Here|PlaceholderExpansion#without-external-plugin]] you can see how to make an external expansion that doesn't require a plugin (Placeholders without a plugin).
 
 ### With external plugin
-You can add your plugin's placeholders to PlaceholderAPI with [[two ways|PlaceholderExpansion#with-external-plugin]]:
+You can add your plugin's placeholders to PlaceholderAPI with [[two ways|PlaceholderExpansion#with-an-external-plugin]]:
 1. By making an external expansion ([[Separate jar file|PlaceholderExpansion#separate-jar]]).
 2. By creating a class inside your plugin ([[Inner class|PlaceholderExpansion#internal-class]]).
 
