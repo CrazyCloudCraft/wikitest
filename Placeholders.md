@@ -1509,6 +1509,7 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %factionsuuid_player_name%
 %factionsuuid_player_power% 
 %factionsuuid_player_role%
+%factionsuuid_player_role_name%
 
 %factionsuuid_faction_allies%
 %factionsuuid_faction_bank_balance%
