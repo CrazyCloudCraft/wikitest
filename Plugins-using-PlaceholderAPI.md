@@ -297,7 +297,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#factions-mcore]]**]
 - **[FactionsUUID](https://www.spigotmc.org/resources/1035/)**
-  - [ ] Supports placeholders.
+  - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#factionsuuid]]**]
 - **[FunnyGuilds](https://github.com/FunnyGuilds/FunnyGuilds)**
   - [ ] Supports placeholders.
