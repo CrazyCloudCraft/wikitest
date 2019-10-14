@@ -229,6 +229,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[TokenEnchant](#tokenenchant)**
 - **[TokenManager](#tokenmanager)**
 - **[Towny](#towny)**
+- **[TownyChat](#townychat)**
 - **[Treasures](#treasures)**
 - **[Trey's Double Jump](#treys-double-jump)**
 - **[TrickOrTreat](#trickortreat)**
@@ -3212,6 +3213,37 @@ Replace `XXX` with the enchantment.
 %townyadvanced_towny_prefix%
 %townyadvanced_towny_postfix%
 %townyadvanced_towny_colour%
+```
+----
+
+- ### **[TownyChat](https://github.com/TownyAdvanced/TownyChat)**
+> /papi ecloud download TownyChat
+
+```
+%townychat_channel_tag%
+%townychat_channel_name%
+%townychat_message_color%
+%townychat_world%
+%townychat_town%
+%townychat_townformatted%
+%townychat_towntag%
+%townychat_towntagoverride%
+%townychat_nation%
+%townychat_nationformatted%
+%townychat_nationtag%
+%townychat_nationtagoverride%
+%townychat_townytag%
+%townychat_townyformatted%
+%townychat_townytagoverride%
+%townychat_title%
+%townychat_surname%
+%townychat_townynameprefix%
+%townychat_townynamepostfix%
+%townychat_townycolor%
+%townychat_group%
+%townychat_permprefix%
+%townychat_permsuffix%
+%townychat_channeltag%
 ```
 ----
 
