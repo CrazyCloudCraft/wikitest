@@ -3188,22 +3188,30 @@ Replace `XXX` with the enchantment.
 ```
 ----
 
-- ### **[Towny](http://palmergames.com/towny/)**
-> /papi ecloud download Towny
+- ### **[Towny](https://github.com/TownyAdvanced/Towny)**
+> NO DOWNLOAD COMMAND
 
 ```
-%towny_town%
-%towny_friends%
-%towny_nation%
-%towny_title%
-%towny_town_residents%
-%towny_town_size%
-%towny_town_tag%
-%towny_town_balance%
-%towny_town_mayor%
-%towny_surname%
-%towny_town_rank%
-%towny_nation_rank%
+%townyadvanced_town%
+%townyadvanced_town_formatted%
+%townyadvanced_nation%
+%townyadvanced_nation_formatted%
+%townyadvanced_town_balance%
+%townyadvanced_nation_balance%
+%townyadvanced_town_tag%
+%townyadvanced_town_tag_override%
+%townyadvanced_nation_tag%
+%townyadvanced_nation_tag_override%
+%townyadvanced_towny_tag%
+%townyadvanced_towny_tag_override%
+%townyadvanced_towny_tag_formatted%
+%townyadvanced_title%
+%townyadvanced_surname%
+%townyadvanced_towny_name_prefix%
+%townyadvanced_towny_name_postfix%
+%townyadvanced_towny_prefix%
+%townyadvanced_towny_postfix%
+%townyadvanced_towny_colour%
 ```
 ----
 
