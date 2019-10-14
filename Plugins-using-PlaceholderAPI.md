@@ -740,7 +740,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [x] Provides own placeholders. [**[[Link|Placeholders#towny]]**]
 - **[TownyChat](https://github.com/TownyAdvanced/TownyChat)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#townychat]]**]
 - **[Treasures](https://www.spigotmc.org/resources/14178/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#treasures]]**]
