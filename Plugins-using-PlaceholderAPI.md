@@ -735,9 +735,12 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[TokenManager](https://www.spigotmc.org/resources/8610/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#tokenmanager]]**]
-- **[Towny](http://palmergames.com/towny/)**
+- **[Towny](https://github.com/TownyAdvanced/Towny)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#towny]]**]
+- **[TownyChat](https://github.com/TownyAdvanced/TownyChat)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
 - **[Treasures](https://www.spigotmc.org/resources/14178/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#treasures]]**]
