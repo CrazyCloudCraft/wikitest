@@ -1,5 +1,5 @@
 This here is a list of all plugins supporting PlaceholderAPI by either having their own placeholders added, or just allowing other placeholders to be used.  
-If your plugin isn't shown here and you want it to be added, [open an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=feature_request.md) and we will add it!
+If your plugin isn't shown here and you want it to be added, [open an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=change_request_wiki.md) and we will add it!
 
 ## Plugins
 * **[A](#a)**
