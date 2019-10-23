@@ -3146,9 +3146,7 @@ Per Player/Event placeholders:
 ----
 
 - ### **[TNTRun_Reloaded](https://www.spigotmc.org/resources/53359/)**
-> /papi ecloud download TNTRun
-
-Separate download link: https://www.spigotmc.org/resources/53945/
+> NO DOWNLOAD COMMANDS
 
 ```
 %tntrun_played%
@@ -3157,6 +3155,7 @@ Separate download link: https://www.spigotmc.org/resources/53945/
 %tntrun_version%
 %tntrun_arena_count%
 %tntrun_player_count%
+%tntrun_leaderboard_<position>%
 ```
 ----
 
