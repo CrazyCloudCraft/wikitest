@@ -55,6 +55,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[BlockParty](#blockparty)**
 - **[BlockQuests](#blockquests)**
 - **[BuildBattlePro](#buildbattlepro)**
+- **[BungeePerms](#bungeeperms)**
 
 ## **C**
 - **[CarlTheCreeper](#carlthecreeper)**
@@ -1018,6 +1019,21 @@ Available gamemodes:
 %buildbattlepro_blocks_placed%
 %buildbattlepro_super_votes%
 %buildbattlepro_status_<arena>%
+```
+----
+
+- ### **[BungeePerms](https://www.spigotmc.org/resources/25/)**
+> NO DOWNLOAD COMMAND
+
+```
+%bungeeperms_groups%
+%bungeeperms_primary_group_name%
+%bungeeperms_prefix%
+%bungeeperms_prefix_primary_group%
+%bungeeperms_suffix%
+%bungeeperms_suffix_primary_group%
+%bungeeperms_in_group_<Group>%
+%bungeeperms_has_permission_<Permission>%
 ```
 ----
 
