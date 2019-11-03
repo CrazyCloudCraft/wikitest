@@ -116,6 +116,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[BuildBattlePro](https://www.spigotmc.org/resources/49587/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#buildbattlepro]]**]
+- **[BungeePerms](https://www.spigotmc.org/resources/25/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#bungeeperms]]**]
 
 ----
 ## C
