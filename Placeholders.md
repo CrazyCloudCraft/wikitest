@@ -147,6 +147,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[MarriageMaster](#marriagemaster)**
 - **[McInfected](#mcinfected)**
 - **[McInfected-Ranks](#mcinfected-ranks)**
+- **[McJobs](#mcjobs)**
 - **[McMMO](#mcmmo)**
 - **[MineCord](#minecord)**
 - **[MineCrates](#minecrates)**
@@ -2082,6 +2083,26 @@ Available if multiple partners are allowed on the server:
 ```
 %mcinfected-ranks_rank%
 %mcinfected-ranks_prefix%
+```
+----
+
+- ### **[McJobs](https://dev.bukkit.org/projects/mcjobs/)**
+> NO DOWNLOAD COMMAND
+
+```
+%mcjobs_jobslist%
+%mcjobs_playerjobs%
+%mcjobs_ranks%
+%mcjobs_levels%
+%mcjobs_(original jobname)_name%
+%mcjobs_(original jobname)_has%
+%mcjobs_(original jobname)_rank%
+%mcjobs_(original jobname)_level%
+%mcjobs_(original jobname)_exp%
+%mcjobs_(original jobname)_exptolvlup%
+%mcjobs_(original jobname)_nextlvlexp%
+%mcjobs_(original jobname)_language%
+%mcjobs_paycache%
 ```
 ----
 
