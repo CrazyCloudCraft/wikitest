@@ -425,6 +425,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[MCInfected-Ranks](https://www.spigotmc.org/resources/2826/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#mcinfected-ranks]]**]
+- **[McJobs](https://dev.bukkit.org/projects/mcjobs/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#mcjobs]]**]
 - **[McMMO](https://www.spigotmc.org/resources/2445/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#mcmmo]]**]
