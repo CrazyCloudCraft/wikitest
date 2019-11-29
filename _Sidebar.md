@@ -43,6 +43,7 @@
   - [[ScoreboardObjectives|Placeholders#scoreboardobjectives]]
   - [[Server|Placeholders#server]]
   - [[Sound|Placeholders#sound]]
+  - [[Spectators|Placeholders#spectators]]
   - [[Statistic|Placeholders#statistic]]
 </details>
 <details>
