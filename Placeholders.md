@@ -30,6 +30,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
 - **[Sound](#sound)**
+- **[Spectators](#spectators)**
 - **[Statistic](#statistic)**
 ----
 
@@ -658,6 +659,16 @@ This placeholder is for the player, that triggers the action.
 This placeholder is for all players on the server.
 ```
 %sound_all_<sound>-<volume>-<pitch>%
+```
+----
+
+- ### **Spectators**
+> /papi ecloud download Spectators
+
+```
+%spectator_isSpectating%
+%spectator_lookFrom%
+%spectator_infoFrom_health%
 ```
 ----
 
