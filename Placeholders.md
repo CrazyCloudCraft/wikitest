@@ -1071,16 +1071,16 @@ Available gamemodes:
 > NO DOWNLOAD COMMAND 
 
 ```
-%chatcolorpremium_chat_color%
-%chatcolorpremium_tab_color%
-%chatcolorpremium_sign_color%
-%chatcolorpremium_font%
+%chatcolorpluspremium_chat_color%
+%chatcolorpluspremium_tab_color%
+%chatcolorpluspremium_sign_color%
+%chatcolorpluspremium_font%
 
-%chatcolorpremium_chat_color_name%
-%chatcolorpremium_sign_color_name%
-%chatcolorpremium_name_color_name%
-%chatcolorpremium_tab_color_name%
-%chatcolorpremium_name_color%
+%chatcolorpluspremium_chat_color_name%
+%chatcolorpluspremium_sign_color_name%
+%chatcolorpluspremium_name_color_name%
+%chatcolorpluspremium_tab_color_name%
+%chatcolorpluspremium_name_color%
 ```
 ----
 
