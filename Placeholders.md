@@ -109,6 +109,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[GAListener](#galistener)**
 - **[GangsPlus](#gangsplus)**
 - **[GemsEconomy](#gemseconomy)**
+- **[GriefDefender](#griefdefender)**
 - **[GriefPrevention](#griefprevention)**
 - **[Guilds](#guilds)**
 - **[GuiRedeemMCMMO](#guiredeemmcmmo)**
@@ -1654,6 +1655,29 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %gemseconomy_balance_default_formatted%
 %gemseconomy_balance_<currency plural or singular>%
 %gemseconomy_balance_<currency plural or singular>_formatted%
+```
+----
+
+- ### **[GriefDefender](https://www.spigotmc.org/resources/68900/)**
+> NO DOWNLOAD COMMAND
+
+```
+%griefdefender_blocks_left%
+%griefdefender_blocks_total%
+%griefdefender_claim_admin%	
+%griefdefender_claim_basic%	
+%griefdefender_claim_subdivision%	
+%griefdefender_claim_town%	
+%griefdefender_claims_admin%	
+%griefdefender_claims_basic%	
+%griefdefender_claims_subdivision%	
+%griefdefender_claims_town%	
+%griefdefender_claim_name%	
+%griefdefender_claim_owner%	
+%griefdefender_claim_trust%	
+%griefdefender_claim_type%	
+%griefdefender_claim_for_sale%	
+%griefdefender_pvp%	
 ```
 ----
 
