@@ -317,6 +317,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[GemsEconomy](https://www.spigotmc.org/resources/19655/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#gemseconomy]]**]
+- **[GriefDefender](https://www.spigotmc.org/resources/68900/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#griefdefender]]**]
 - **[GriefPrevention](https://www.spigotmc.org/resources/1884/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#griefprevention]]**]
