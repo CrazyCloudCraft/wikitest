@@ -1701,12 +1701,24 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 
 ```
 %guilds_name%
-%guilds_prefix%
 %guilds_master%
 %guilds_member_count%
+%guilds_prefix%
 %guilds_members_online%
+%guilds_status%
 %guilds_role%
 %guilds_tier%
+%guilds_balance%
+%guilds_tier_name%
+%guilds_role_node%
+%guilds_id%
+%guilds_code_amount%
+%guilds_max_members%
+%guilds_max_balance%
+%guilds_formatted%
+%guilds_challenge_wins%
+%guilds_challenge_loses%
+%guilds_motd%
 ```
 ----
 
