@@ -512,6 +512,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Parties](https://www.spigotmc.org/resources/3709/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#parties]]**]
+- **[Party and Friends](https://www.spigotmc.org/resources/11633/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#party-and-friends]]**]
 - **[PingTest](https://www.spigotmc.org/resources/69580/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders.
