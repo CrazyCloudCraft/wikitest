@@ -175,6 +175,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ## **P**
 - **[Parkour](#parkour)**
 - **[Parties](#parties)**
+- **[Party and Friends](#party-and-friends)**
 - **[PixelVip](#pixelvip)**
 - **[PlayTime](#playtime)**
 - **[PlayerPoints](#playerpoints)**
@@ -2425,6 +2426,16 @@ Available if multiple partners are allowed on the server:
 %parties_party%
 %parties_rank_chat%
 %parties_rank_name%
+```
+----
+
+- ### **[Party and Friends](https://www.spigotmc.org/resources/11633/)**
+> NO DOWNLOAD COMMAND
+
+```
+%friendsapi_friendcount%
+%friendsapi_friendrequestcount%
+%friendsapi_onlinefriendcount%
 ```
 ----
 
