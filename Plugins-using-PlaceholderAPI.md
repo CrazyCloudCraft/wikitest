@@ -254,6 +254,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## E
+- **[Economy Bank](https://www.spigotmc.org/resources/7674/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#economy-bank]]**]
 - **[Enjin & DonationCraft 2.x](https://dev.bukkit.org/projects/emp)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#enjin--donationcraft-2x]]**]
