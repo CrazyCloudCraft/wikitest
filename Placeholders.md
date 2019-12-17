@@ -89,6 +89,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[DungeonsXL](#dungeonsxl)**
 
 ## **E**
+- **[Economy Bank](#economy-bank)**
 - **[Enjin & DonationCraft 2.x](#enjin--donationcraft-2x)**
 - **[Envoys](#envoys)**
 - **[EpicFriends](#epicfriends)**
@@ -1371,6 +1372,14 @@ This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 %dxl_group_name%
 %dxl_group_name_raw%
 %dxl_group_player_count%
+```
+----
+
+- ### **[Economy Bank](https://www.spigotmc.org/resources/7674/)**
+> NO DOWNLOAD COMMAND 
+
+```
+%economybank_balance%
 ```
 ----
 
