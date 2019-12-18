@@ -116,6 +116,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[GuiRedeemMCMMO](#guiredeemmcmmo)**
 
 ## **H**
+- **[Head Database](#head-database)**
 - **[Heroes](#heroes)**
 - **[HoloBlock](#holoblock)**
 - **[HPWizard](#hpwizard)**
@@ -1737,6 +1738,17 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 
 ```
 %guiredeemmcmmo_credits%
+```
+----
+
+- ### **[Head Database](https://www.spigotmc.org/resources/14280/)**
+> NO DOWNLOAD COMMAND
+
+```
+%hdb_amount%
+%hdb_amount_formatted%
+%hdb_amount_<category>%
+%hdb_tags%
 ```
 ----
 
