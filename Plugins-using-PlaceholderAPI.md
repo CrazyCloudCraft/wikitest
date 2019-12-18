@@ -335,6 +335,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## H
+- **[Head Database](https://www.spigotmc.org/resources/14280/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#head-database]]**]
 - **[HelpGUI](https://www.spigotmc.org/resources/33245/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
