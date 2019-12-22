@@ -421,7 +421,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 ## M
 - **[Marcely's Bedwars](https://www.spigotmc.org/resources/13622/)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders. [Link]
+  - [x] Provides own placeholders. [**[[Link|Placeholders#marcelys-bedwars]]**]
 - **[Marriage (reloaded)](https://www.spigotmc.org/resources/18998/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#marriage-reloaded]]**]
