@@ -147,6 +147,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[LWC](#lwc)**
 
 ## **M**
+- **[Marcely's Bedwars](#marcelys-bedwars)**
 - **[Marriage (Reloaded)](#marriage-reloaded)**
 - **[MarriageMaster](#marriagemaster)**
 - **[McInfected](#mcinfected)**
@@ -2076,6 +2077,34 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 
 ```
 %lwc_locks%
+```
+----
+
+- ### **[Marcely's Bedwars](https://www.spigotmc.org/resources/13622/)**
+> NO DOWNLOAD COMMAND
+
+```
+%mbedwars_<arena>-players%
+%mbedwars_<arena>-maxplayers%
+%mbedwars_<arena>-status%
+%mbedwars_<arena>-teams%
+%mbedwars_<arena>-teamsize%
+%mbedwars_playerarena-name%
+%mbedwars_playerarena-players%
+%mbedwars_playerarena-maxplayers%
+%mbedwars_playerarena-status%
+%mbedwars_playerarena-teams%
+%mbedwars_playerarena-teamsize%
+%mbedwars_playerarena-current-team%
+%mbedwars_playerarena-current-team-color%
+%mbedwars_stats-rank%
+%mbedwars_stats-wins%
+%mbedwars_stats-loses%
+%mbedwars_stats-kills%
+%mbedwars_stats-deaths%
+%mbedwars_stats-bedsdestroyed%
+%mbedwars_stats-roundsplayed%
+%mbedwars_stats-playtime%
 ```
 ----
 
