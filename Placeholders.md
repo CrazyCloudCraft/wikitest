@@ -3635,7 +3635,8 @@ Replace `XXX` with the enchantment.
 %worldguard_region_max_point_x%
 %worldguard_region_max_point_y%
 %worldguard_region_max_point_z%
-%worldguard_<AnyWGPlaceholder>:<World>,<X>,<Y>,<Z>%
+%worldguard_<Any WG Placeholder>_<Priority (Lowest number = Highest priority)>%
+%worldguard_<Any WG Placeholder>:<World>,<X>,<Y>,<Z>%
 ```
 
 - ### **[XLTournaments](https://www.spigotmc.org/resources/70630/)**
