@@ -202,6 +202,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Rankup](#rankup)**
 - **[RedProtect](#redprotect)**
 - **[ReferralSystem](#referralsystem)**
+- **[RogueParkour](#rogueparkour)**
 - **[RoyalCommands](#royalcommands)**
 - **[RPGInventory](#rpginventory)**
 
@@ -2786,6 +2787,15 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 %rs_points%
 %rs_referrals%
+```
+----
+
+- ### **[RogueParkour](https://www.spigotmc.org/resources/26563/)**
+> Download manually from [here](https://api.extendedclip.com/expansions/rogueparkour-temporary/)
+
+```
+%RogueParkour-temporary_top_<number>;<type>%
+%RogueParkour-temporary_get_<player>%
 ```
 ----
 
