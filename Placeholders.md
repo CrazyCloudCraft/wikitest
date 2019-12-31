@@ -1262,6 +1262,7 @@ This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 %deluxecombat_ranking_combatlogs%
 %deluxecombat_ranking_kd%
 %deluxecombat_ranking_rank%
+%deluxecombat_ranking_streak%
 %deluxecombat_in_combat%
 ```
 ----
