@@ -780,9 +780,12 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[UltimateAnnounce+](https://www.spigotmc.org/resources/7459/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
-- **[UltimateBossBar](https://www.spigotmc.org/19303/)**
+- **[UltimateBossBar](https://www.spigotmc.org/resources/19303/)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders. [Link]
+  - [ ] Provides own placeholders.
+- **[UltimateSigns](https://www.spigotmc.org/resources/72462/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
 - **[UltraChatFormat](https://www.spigotmc.org/resources/57929/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
