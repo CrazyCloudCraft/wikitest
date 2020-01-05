@@ -1264,7 +1264,14 @@ This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 %deluxecombat_ranking_rank%
 %deluxecombat_ranking_streak%
 %deluxecombat_in_combat%
+%deluxecombat_ranking_<StatsType>_<Rank>%
+%deluxecombat_ranking_<StatsType>_<Rank>_<Group>%
 ```
+
+- StatsType: `kills`, `deaths`, `combatlogs`, `points`.
+- Rank: A number between 1 to the pull limit.
+- Group: The _servergroup_.
+
 ----
 
 - ### **[DeluxePM](https://www.spigotmc.org/resources/52599/)**
