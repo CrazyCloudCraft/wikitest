@@ -290,7 +290,8 @@ These placeholders are from PlaceholderAPI and don't require any additional plug
 ```
 %animations_<type>_YourTextHere%
 ```
-For placeholders, use `{}` instead of `%%` `%animations_rainbow_Welcome, {player_name}!%` 
+For placeholders, use `{}` instead of `%%` `%animations_rainbow_Welcome, {player_name}!%`
+
 Valid Types:
 * Blink
 * Fadein
