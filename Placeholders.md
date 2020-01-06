@@ -11,6 +11,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 [PAPI-placeholders](##papi-placeholders-1)
 ----
 - **[Advancements](#advancements)**
+- **[Animations](#animations)**
 - **[BungeeCord](#bungeecord)**
 - **[CheckItem](#checkitem)**
 - **[CooldownBar](#cooldownbar)**
@@ -281,6 +282,33 @@ These placeholders are from PlaceholderAPI and don't require any additional plug
 %Advancements_playerList_<player>,<command>%
 %Advancements_playerListFormat_<player>%
 ```
+----
+
+- ### **Animations**
+> /papi ecloud download Animations
+
+```
+%animations_<type>_YourTextHere%
+```
+For placeholders, use `{}` instead of `%%` `%animations_rainbow_Welcome, {player_name}!%`
+Valid Types:
+* Blink
+* Fadein
+* Fadeout
+* Glow
+* Left
+* Pause
+* Pulse
+* Rainbow
+* Rounding
+* Wave
+* Right
+* Scroll
+* Typewriter
+* Healthbar
+
+[Preview Types](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#available-animations)
+
 ----
 
 - ### **BungeeCord**
