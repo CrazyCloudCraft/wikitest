@@ -289,6 +289,7 @@ These placeholders are from PlaceholderAPI and don't require any additional plug
 
 ```
 %animations_<type>_YourTextHere%
+%animations_<type>_?option1=value1,option2=value2_YourTextHere%
 ```
 For placeholders, use `{}` instead of `%%` `%animations_rainbow_Welcome, {player_name}!%`
 
@@ -301,14 +302,13 @@ Valid Types:
 * Pause
 * Pulse
 * Rainbow
-* Rounding
 * Wave
 * Right
 * Scroll
 * Typewriter
 * Healthbar
 
-[Preview Types](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#available-animations)
+[Preview Types and View Options](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#available-animations)
 
 ----
 
