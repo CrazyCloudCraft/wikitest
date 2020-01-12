@@ -289,7 +289,7 @@ These placeholders are from PlaceholderAPI and don't require any additional plug
 
 ```
 %animations_<type>_YourTextHere%
-%animations_<type>_?option1=value1,option2=value2_YourTextHere%
+%animations_<type>?option1=value1,option2=value2_YourTextHere%
 ```
 For placeholders, use `{}` instead of `%%` `%animations_rainbow_Welcome, {player_name}!%`
 
