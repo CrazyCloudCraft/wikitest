@@ -3562,13 +3562,13 @@ Replace `XXX` with the enchantment.
 ----
 
 - ### **[VoteParty](https://www.spigotmc.org/resources/987/)**
-> /papi ecloud download VoteParty
+> NO DOWNLOAD COMMAND
 
 ```
-%voteparty_counter%
-%voteparty_votes%
-%voteparty_total_votes_needed%
-%voteparty_is_ignoring%
+%voteparty_votes_recorded%
+%voteparty_votes_required_party%
+%voteparty_votes_required_total%
+%voteparty_player_votes%
 ```
 ----
 
