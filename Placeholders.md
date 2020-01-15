@@ -328,7 +328,8 @@ Allows you to show, how many players are online on the entire network, or just o
 Allows you to check the inventory of a player for a certain item.
 
 ```
-%checkitem_<modifier1>,<modifier2>,<...>%
+- `%checkitem_<modifier1>,<modifier2>,<...>%` - Returns if user has the item
+- `%checkitem_amount_<modifier1>,<modifier2>,<...>%` - Returns amount of items the user has
 ```
 
 **Modifiers**  
