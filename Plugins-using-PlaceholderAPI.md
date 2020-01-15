@@ -25,7 +25,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 * **[U](#u)**
 * **[V](#v)**
 * **[W](#w)**
-* **[Z](#z)**
+* **[X](#X)**
 
 ----
 ## A
@@ -851,7 +851,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [ ] Provides own placeholders.
 
 ----
-## Z
+## X
 - **[XLTournaments](https://www.spigotmc.org/resources/70630/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#xltournaments]]**]
