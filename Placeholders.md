@@ -264,7 +264,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[WorldBorder](#worldborder)**
 - **[WorldGuard](#worldguard)**
 
-## **Z**
+## **X**
 - **[XLTournaments](#xltournaments)**
 
 
