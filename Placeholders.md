@@ -1676,17 +1676,19 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ----
 
 - ### **[GangsPlus](https://www.spigotmc.org/resources/2604/)**
-> /papi ecloud download GangsPlus
+> NO DOWNLOAD COMMAND
 
 ```
 %gangsplus_in_gang%
-%gangsplus_gang%
-%gangsplus_gang_tag%
+%gangsplus_gang_name%
+%gangsplus_gang_name_formatted%
 %gangsplus_gang_rank%
-%gangsplus_gang_homes%
-%gangsplus_gang_friendlyfire%
-%gangsplus_gang_online%
-%gangsplus_gang_size%
+%gangsplus_gang_rank_number%
+%gangsplus_gang_friendly_fire%
+%gangsplus_gang_online_members_list%
+%gangsplus_gang_online_members_count%
+%gangsplus_gang_members_list%
+%gangsplus_gang_members_count%
 %gangsplus_gang_leader%
 %gangsplus_gang_level%
 %gangsplus_gang_wins%
