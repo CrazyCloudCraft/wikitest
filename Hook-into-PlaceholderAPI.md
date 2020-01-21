@@ -9,7 +9,7 @@
 
 This page is about using PlaceholderAPI in your own plugin, to either let other plugins use your plugin, or just use placeholders from other plugins in your own.
 
-Please note, that the examples in this page are only available for **PlaceholderAPI 2.0.6 or higher**!
+Please note, that the examples in this page are only available for **PlaceholderAPI 2.2.0 or higher**!
 
 ## First steps
 Before you can actually make use of PlaceholderAPI, you first have to import it into your project.
