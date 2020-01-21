@@ -319,7 +319,7 @@ public class SomeExpansion extends PlaceholderExpansion {
      * @param plugin
      *        The instance of our plugin.
      */
-    public ExampleExpansion(SomePlugin plugin){
+    public SomeExpansion(SomePlugin plugin){
         this.plugin = plugin;
     }
 
