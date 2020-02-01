@@ -2576,8 +2576,10 @@ Available if multiple partners are allowed on the server:
 %plotsquared_currentplot_rating%
 %plotsquared_currentplot_biome%
 %plotsquared_has_plot%
+%plotsquared_has_plot_<World>%
 %plotsquared_has_build_rights%
 %plotsquared_plot_count%
+%plotsquared_plot_count_<World>%
 %plotsquared_allowed_plot_count%
 ```
 ----
