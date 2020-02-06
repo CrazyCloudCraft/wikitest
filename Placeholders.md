@@ -1124,13 +1124,13 @@ Available gamemodes:
 > /papi ecloud download ChatReaction
 
 ```
-%chatreaction_wins%
-%chatreaction_type%
-%chatreaction_isStarted%
-%chatreaction_displayWord%
-%chatreaction_reactionWord%
-%chatreaction_startTime%
-%chatreaction_latestWinner%
+%chatreaction_wins% - Chat reaction wins (Requires MySQL)
+%chatreaction_type% - Type of reaction (Reaction or Scramble)
+%chatreaction_active_round% - Is a round currently active
+%chatreaction_display_word% - The scrambled word
+%chatreaction_reaction_word% - The actual solution word
+%chatreaction_start_time% - Time when the round started
+%chatreaction_latest_winner% - Last recorded winner
 ```
 ----
 
