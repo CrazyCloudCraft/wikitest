@@ -1125,6 +1125,12 @@ Available gamemodes:
 
 ```
 %chatreaction_wins%
+%chatreaction_type%
+%chatreaction_isStarted%
+%chatreaction_displayWord%
+%chatreaction_reactionWord%
+%chatreaction_startTime%
+%chatreaction_latestWinner%
 ```
 ----
 
