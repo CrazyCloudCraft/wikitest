@@ -3552,6 +3552,9 @@ Replace `XXX` with the enchantment.
 #### Permissions
 ```
 %vault_rank%
+%vault_rank_capital%
+%vault_ranks%
+%vault_ranks_capital%
 %vault_prefix%
 %vault_rankprefix%
 %vault_rankprefix_#%
@@ -3559,7 +3562,6 @@ Replace `XXX` with the enchantment.
 %vault_ranksuffix%
 %vault_ranksuffix_#%
 %vault_prefix_color%
-%vault_rank_capital%
 ```
 ----
 
