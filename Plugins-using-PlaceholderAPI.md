@@ -527,6 +527,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[PixelVip](https://www.spigotmc.org/resources/30438/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#pixelvip]]**]
+- **[Plan](https://www.spigotmc.org/resources/32536/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#plan]]**]
 - **[PlayerBalancerAddon](https://www.spigotmc.org/resources/51220/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
