@@ -33,6 +33,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Sound](#sound)**
 - **[Spectators](#spectators)**
 - **[Statistic](#statistic)**
+- **[Team](#team)**
 ----
 
 [Plugin-placeholders](#plugin-placeholders-1)
@@ -181,6 +182,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Parties](#parties)**
 - **[Party and Friends](#party-and-friends)**
 - **[PixelVip](#pixelvip)**
+- **[Plan](#plan)**
 - **[PlayTime](#playtime)**
 - **[PlayerPoints](#playerpoints)**
 - **[PlotSquared](#plotsquared)**
@@ -798,6 +800,15 @@ Other statistics
 %statistic_sleep_in_bed%
 %statistic_sneak_time%
 %statistic_aviate_one_cm%
+```
+---
+
+- ### **[Team](https://www.spigotmc.org/resources/74959/)**
+> Download from [here](https://www.spigotmc.org/resources/74959/)
+
+```
+%team_color%
+%team_prefix%
 ```
 
 ***
@@ -2545,6 +2556,15 @@ Available if multiple partners are allowed on the server:
 %pixelvip_active_vip%
 ```
 ----
+
+- ### **[Plan](https://www.spigotmc.org/resources/plan-player-analytics.32536/)**
+> NO DOWNLOAD COMMAND
+
+The plugin provides placeholders for statistics stored in the plugin for players and the server.
+
+Check [Plan Wiki](https://github.com/plan-player-analytics/Plan/wiki/PlaceholderAPI) for the placeholders list.
+
+---
 
 - ### **[PlayTime](https://www.spigotmc.org/resources/26016/)**
 > /papi ecloud download PlayTime
