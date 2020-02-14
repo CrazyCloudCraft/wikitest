@@ -240,6 +240,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[TNTRun_Reloaded](#tntrun_reloaded)**
 - **[TokenEnchant](#tokenenchant)**
 - **[TokenManager](#tokenmanager)**
+- **[Tokens](#tokens)**
 - **[Towny](#towny)**
 - **[TownyChat](#townychat)**
 - **[Treasures](#treasures)**
@@ -778,7 +779,6 @@ Other statistics
 %statistic_jump%
 %statistic_junk_fished%
 %statistic_leave_game%
-%statistic_join_game%
 %statistic_minecart_one_cm%
 %statistic_noteblock_played%
 %statistic_noteblock_tuned%
@@ -3408,6 +3408,14 @@ Replace `XXX` with the enchantment.
 %tm_tokens%
 %tm_tokens_formatted%
 %tm_tokens_raw%
+```
+----
+
+- ### **[Tokens](https://www.spigotmc.org/resources/71941/)**
+> NO DOWNLOAD COMMAND
+
+```
+%tokens_getTokens%
 ```
 ----
 
