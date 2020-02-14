@@ -759,6 +759,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[TokenManager](https://www.spigotmc.org/resources/8610/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#tokenmanager]]**]
+- **[Tokens](https://www.spigotmc.org/resources/71941/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#tokens]]**]
 - **[Towny](https://github.com/TownyAdvanced/Towny)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#towny]]**]
