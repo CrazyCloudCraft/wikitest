@@ -655,7 +655,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
 - **[SignLink](https://www.spigotmc.org/resources/39593/)**
-  - [ ] Supports placeholders.
+  - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#signlink]]**]
 - **[SimpleBoard](https://www.spigotmc.org/resources/39597/)**
   - [x] Supports placeholders.
