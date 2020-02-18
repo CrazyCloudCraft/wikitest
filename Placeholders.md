@@ -924,13 +924,21 @@ These placeholders require the corresponding plugin to work.
 > /papi ecloud download AutoRank
 
 ```
-%autorank_current_rank%
-%autorank_next_rank%
-%autorank_time_of_player%
+%autorank_total_time_of_player%
+%autorank_total_time_of_player_formatted%
+%autorank_daily_time_of_player%
+%autorank_daily_time_of_player_formatted%
+%autorank_weekly_time_of_player%
+%autorank_weekly_time_of_player_formatted%
+%autorank_monthly_time_of_player%
+%autorank_monthly_time_of_player_formatted%
 %autorank_local_time%
-%autorank_local_time_formatted
+%autorank_local_time_formatted%
 %autorank_global_time%
 %autorank_global_time_formatted%
+%autorank_completed_paths%
+%autorank_active_paths%
+%autorank_eligible_paths%
 ```
 ----
 
