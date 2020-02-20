@@ -41,6 +41,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ## **A**
 - **[AcidIsland](#acidisland)**
 - **[Advanced Abilities](#advanced-abilities)**
+- **[AdvancedAFK](#advancedafk)**
 - **[AdvancedCustomMenu+](#advancedcustommenu)**
 - **[AdvancedModReq](#advancedmodreq)**
 - **[ajParkour](#ajparkour)**
@@ -88,6 +89,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Disease](#disease)**
 - **[DonateParty](#donateparty)**
 - **[Donations Holograms](#donations-holograms)**
+- **[DragonSlayer](#dragonslayer)**
 - **[DungeonsXL](#dungeonsxl)**
 
 ## **E**
@@ -832,7 +834,7 @@ These placeholders require the corresponding plugin to work.
 ----
 
 - ### **[Advanced Abilities](https://www.spigotmc.org/resources/21983/)**
-> NO DOWNLOAD COMAND  
+> NO DOWNLOAD COMMAND
 
 ```
 %advancedabilities_<ability_name>_level%  
@@ -840,8 +842,17 @@ These placeholders require the corresponding plugin to work.
 ```
 ----
 
+- ### **[AdvancedAFK](https://www.spigotmc.org/resources/60761/)**
+> NO DOWNLOAD COMMAND
+
+```
+%aafk_prefix_tablist%
+%aafk_prefix_playertag%
+```
+----
+
 - ### **[AdvancedCustomMenu+](https://www.spigotmc.org/resources/47945/)**
-> NO DOWNLOAD COMAND  
+> NO DOWNLOAD COMMAND
 
 ```
 %advancedcustommenu_total%  
@@ -882,7 +893,7 @@ These placeholders require the corresponding plugin to work.
 ----
 
 - ### **[Animated Menu](https://www.spigotmc.org/resources/4690/)**
-> NO DOWNLOAD COMAND  
+> NO DOWNLOAD COMMAND
 
 **([] = optional)**  
 ```
@@ -1421,6 +1432,18 @@ This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 %donationsHolograms_progressBar%
 %donationsHolograms_received%
 %donationsHolograms_goal%
+```
+----
+
+- ### **[DragonSlayer](https://www.spigotmc.org/resources/36250/)**
+> NO DOWNLOAD COMMAND
+
+```
+%dragonslayer_prefix%
+%dragonslayer_timer%
+%dragonslayer_nexttime%
+%dragonslayer_nexttimehms%
+%dragonslayer_nextmap%
 ```
 ----
 
