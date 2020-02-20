@@ -39,7 +39,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
 - **[AdvancedAFK](https://www.spigotmc.org/resources/60761/)**
-  - [ ] Supports placeholders.
+  - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#advancedafk]]**]
 - **[AdvancedCustomMenu+](https://www.spigotmc.org/resources/47945/)**
   - [x] Supports placeholders.
