@@ -38,6 +38,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Advanced Achievements](https://www.spigotmc.org/resources/6239/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[AdvancedAFK](https://www.spigotmc.org/resources/60761/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#advancedafk]]**]
 - **[AdvancedCustomMenu+](https://www.spigotmc.org/resources/47945/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#advancedcustommenu]]**]
@@ -247,7 +250,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [x] Provides own placeholders. [**[[Link|Placeholders#donations-holograms]]**]
 - **[DragonSlayer](https://www.spigotmc.org/resources/36250/)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders. [Link]
+  - [x] Provides own placeholders. [**[[Link|Placeholders#dragonslayer]]**]
 - **[DungeonsXL](https://www.spigotmc.org/resources/9488/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#dungeonsxl]]**]
