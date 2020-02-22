@@ -32,6 +32,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Server](#server)**
 - **[Sound](#sound)**
 - **[Spectators](#spectators)**
+- **[SpeedPerSec](#speedpersec)**
 - **[Statistic](#statistic)**
 - **[Team](#team)**
 ----
@@ -700,6 +701,19 @@ This placeholder is for the player, that triggers the action.
 This placeholder is for all players on the server.
 ```
 %sound_all_<sound>-<volume>-<pitch>%
+```
+----
+
+- ### **SpeedPerSec**
+> /papi ecloud download SpeedPerSecond
+
+```
+%speedpersec_blockBreak%
+%speedpersec_blockPlace%
+%speedpersec_speed%
+%speedpersec_expCollected%
+%speedpersec_damaging%
+%speedpersec_hurting%
 ```
 ----
 
