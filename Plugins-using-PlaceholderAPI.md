@@ -44,6 +44,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[AdvancedCustomMenu+](https://www.spigotmc.org/resources/47945/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#advancedcustommenu]]**]
+- **[AdvancedLottery](https://www.spigotmc.org/resources/43668/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#advancedlottery]]**]
 - **[AdvancedModReq](https://www.spigotmc.org/resources/40528/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#advancedmodreq]]**]
