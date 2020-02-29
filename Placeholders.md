@@ -44,6 +44,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Advanced Abilities](#advanced-abilities)**
 - **[AdvancedAFK](#advancedafk)**
 - **[AdvancedCustomMenu+](#advancedcustommenu)**
+- **[AdvancedLottery](#advancedlottery)**
 - **[AdvancedModReq](#advancedmodreq)**
 - **[ajParkour](#ajparkour)**
 - **[Animated Menu](#animated-menu)**
@@ -875,6 +876,16 @@ These placeholders require the corresponding plugin to work.
 ```
 ----
 
+- ### **[AdvancedLottery](https://www.spigotmc.org/resources/43668/)**
+> NO DOWNLOAD COMMAND
+
+```
+%advancedlottery_time%
+%advancedlottery_tickets_bought%
+%advancedlottery_money%
+```
+----
+
 - ### **[AdvancedModReq](https://www.spigotmc.org/resources/40528/)**
 > NO DOWNLOAD COMMAND
 
@@ -1221,12 +1232,16 @@ Available gamemodes:
 ----
 
 - ### **[CombatLogX](https://www.spigotmc.org/resources/31689/)**
-> NO DOWNLOAD COMMAND 
+> NO DOWNLOAD COMMAND
 
 ```
 %combatlogx_time_left%
 %combatlogx_enemy_name%
 %combatlogx_enemy_health%
+%combatlogx_enemy_health_rounded%
+%combatlogx_enemy_hearts%
+%combatlogx_status%
+%combatlogx_in_combat%
 ```
 ----
 
