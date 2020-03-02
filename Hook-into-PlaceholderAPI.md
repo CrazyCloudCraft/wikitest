@@ -21,7 +21,7 @@ Replace `{VERSION}` with the version listed at the top of this page.
     <repositories>
         <repository>
             <id>placeholderapi</id>
-            <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
     </repositories>
     <dependencies>
@@ -41,7 +41,7 @@ Replace `{VERSION}` with the version listed at the top of this page.
 ```gradle
 repositories {
     maven {
-        url = 'http://repo.extendedclip.com/content/repositories/placeholderapi/'
+        url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
     }
 }
 
