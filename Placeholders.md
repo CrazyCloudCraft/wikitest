@@ -1505,7 +1505,7 @@ This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 > /papi ecloud download Enjin
 
 ```
-%enjinminecraftplugin_points%
+%enjin_points%
 ```
 ----
 
