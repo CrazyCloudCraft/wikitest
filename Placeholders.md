@@ -2091,6 +2091,8 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %kp-pvp_player_is_on_kitpvp%
 %kp-pvp_players_count_total%
 %kp-pvp_player_kit%
+%kp-pvp_player_level%
+%kp-pvp_player_xp%
 ```
 ----
 
