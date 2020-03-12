@@ -17,6 +17,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[CooldownBar](#cooldownbar)**
 - **[Javascript](#javascript)**
 - **[ListPlayers](#listplayers)**
+- **[LocalTime](#localtime)**
 - **[Math](#math)**
 - **[MVdW placeholders](#mvdw-placeholders)**
 - **[OtherPlayer](#otherplayer)**
@@ -397,6 +398,21 @@ Lists players with a certain permission or in a certain world... 'nuf said.
 %listplayers_with_perm_<permission>%
 %listplayers_in_world_<worldname>%
 ```
+----
+
+- ### **LocalTime**
+> /papi ecloud download LocalTime
+
+```
+%localtime_time%
+%localtime_time_<SimpleDateFormat>%
+%localtime_timezone_<TimeZoneID>%
+%localtime_timezone_<TimeZoneID>,<SimpleDateFormat>%
+```
+
+- [Simple Date Format](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+- [TimeZone ID](https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/)
+
 ----
 
 - ### **Math**
