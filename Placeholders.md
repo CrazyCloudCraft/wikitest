@@ -854,6 +854,11 @@ These placeholders require the corresponding plugin to work.
 ```
 %advancedabilities_<ability_name>_level%  
 %advancedabilities_<ability_name>_bar%
+%advancedabilities_player_class%
+%advancedabilities_mana%
+%advancedabilities_max_mana%
+%advancedabilities_max_abilities_limit%
+%advancedabilities_selected_abilities%
 ```
 ----
 
