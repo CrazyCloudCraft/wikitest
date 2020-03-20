@@ -29,6 +29,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## A
+- **[AbstractMenus](https://www.spigotmc.org/resources/75107/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#abstractmenus]]**]
 - **[AcidIsland](https://www.spigotmc.org/resources/581/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#acidisland]]**]
