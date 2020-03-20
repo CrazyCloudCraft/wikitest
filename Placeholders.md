@@ -41,6 +41,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 [Plugin-placeholders](#plugin-placeholders-1)
 ----
 ## **A**
+- **[AbstractMenus](#abstractmenus)**
 - **[AcidIsland](#acidisland)**
 - **[Advanced Abilities](#advanced-abilities)**
 - **[AdvancedAFK](#advancedafk)**
@@ -848,6 +849,22 @@ Other statistics
 ## Plugin-placeholders
 These placeholders require the corresponding plugin to work.  
 **The developer of the plugin is responsible for the placeholders to work!**
+
+- ### **[AbstractMenus](https://www.spigotmc.org/resources/75107/)**
+> NO DOWNLOAD COMMAND
+
+```
+%hanim_:<animation_name>:<unique_id>%
+%var_:<variable_name>[:<default_value>]%
+%var_:<player>.<variable_name>[:<default_value>]%
+%varp_:<variable_name>[:<default_value>]%
+%vart_:<variable_name>%
+%varpt_:<variable_name>%
+```
+
+All information about these placeholders can be found [here](https://gitlab.com/spigotplugindevs/abstractmenuscommon/-/wikis/Variables#getval).
+
+----
 
 - ### **[AcidIsland](https://www.spigotmc.org/resources/581/)** 
 > /papi ecloud download AcidIsland  
