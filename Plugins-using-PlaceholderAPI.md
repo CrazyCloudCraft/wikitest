@@ -413,6 +413,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[LeaderHeads](https://www.spigotmc.org/resources/2079/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#leaderheads]]**]
+- **[Leak Parkour](https://www.spigotmc.org/resources/12852/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
 - **[LegendQuest](https://www.spigotmc.org/resources/2120/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#legendquest]]**]
