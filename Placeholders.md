@@ -162,6 +162,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[McInfected-Ranks](#mcinfected-ranks)**
 - **[McJobs](#mcjobs)**
 - **[McMMO](#mcmmo)**
+- **[MineChess](#minechess)**
 - **[MineCord](#minecord)**
 - **[MineCrates](#minecrates)**
 - **[MobHunting](#mobhunting)**
@@ -2378,6 +2379,19 @@ Available if multiple partners are allowed on the server:
 %mcmmo_is_party_leader%
 %mcmmo_party_leader%
 %mcmmo_party_size%
+```
+----
+
+- ### **[MineChess](https://www.spigotmc.org/resources/74178/)**
+> NO DOWNLOAD COMMAND
+
+```
+%minechess_wins%
+%minechess_loses%
+%minechess_ties%
+%minechess_played_time%
+%minechess_arenaplayers_count_%
+%minechess_arena_status_%
 ```
 ----
 
