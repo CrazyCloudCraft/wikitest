@@ -455,6 +455,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Menu](https://www.spigotmc.org/resources/50658/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[MineChess](https://www.spigotmc.org/resources/74178/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#minechess]]**]
 - **[Minecord](https://www.spigotmc.org/resources/44055/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#minecord]]**]
