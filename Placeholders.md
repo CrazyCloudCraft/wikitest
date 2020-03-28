@@ -2390,8 +2390,8 @@ Available if multiple partners are allowed on the server:
 %minechess_loses%
 %minechess_ties%
 %minechess_played_time%
-%minechess_arenaplayers_count_%
-%minechess_arena_status_%
+%minechess_arenaplayers_count_<arena>%
+%minechess_arena_status_<arena>%
 ```
 ----
 
