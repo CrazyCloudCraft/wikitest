@@ -51,12 +51,14 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[AdvancedModReq](#advancedmodreq)**
 - **[ajParkour](#ajparkour)**
 - **[Animated Menu](#animated-menu)**
+- **[AParkour](#aparkour)**
 - **[ASkyBlock](#askyblock)**
 - **[AsyncKeepAlive](#asynckeepalive)**
 - **[AutoRank](#autorank)**
 - **[AutoSell](#autosell)**
 
 ## **B**
+- **[BankSystem](#banksystem)**
 - **[BattleLevels](#battlelevels)**
 - **[BeautyQuests](#beautyquests)**
 - **[BedWars1058](#bedwars1058)**
@@ -251,6 +253,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Tokens](#tokens)**
 - **[Towny](#towny)**
 - **[TownyChat](#townychat)**
+- **[TransmuteIt](#transmuteIt)**
 - **[Treasures](#treasures)**
 - **[Trey's Double Jump](#treys-double-jump)**
 - **[TrickOrTreat](#trickortreat)**
@@ -991,6 +994,19 @@ All information about these placeholders can be found [here](https://gitlab.com/
 ```
 ----
 
+- ### **[AParkour](https://www.spigotmc.org/resources/30923/)**
+> /papi ecloud download AParkour
+
+```
+%aparkour_ct% - Shows current time in seconds
+%aparkour_ctf% - Shows current time formatted
+%aparkour_lt_<parkourID>% - Shows specified parkour last time
+%aparkour_ltf_<parkourID>% - Shows specified last time formatted
+%aparkour_bt_<parkourID>% - Shows specified parkour best time
+%aparkour_btf_<parkourID>% - Shows specified parkour best time formatted
+```
+----
+
 - ### **[ASkyBlock](https://www.spigotmc.org/resources/1220/)**
 > /papi ecloud download ASkyBlock
 
@@ -1050,6 +1066,18 @@ All information about these placeholders can be found [here](https://gitlab.com/
 %autosell_perm_multiplier_name%
 %autosell_time_multiplier_minsleft%
 %autosell_time_multiplier_timeleft%
+```
+----
+
+- ### **[BankSystem](https://www.spigotmc.org/resources/61580/)**
+> NO DOWNLOAD COMMAND
+
+```
+%banksystem_name%
+%banksystem_balance%
+%banksystem_pocket%
+%banksystem_total%
+%banksystem_currency%
 ```
 ----
 
@@ -3607,6 +3635,17 @@ Replace `XXX` with the enchantment.
 %townychat_permprefix%
 %townychat_permsuffix%
 %townychat_channeltag%
+```
+----
+
+- ### **[TransmuteIt](https://www.spigotmc.org/resources/76287/)**
+> NO DOWNLOAD COMMAND
+
+```
+%transmuteit_emc%
+%transmuteit_discoveries%
+%transmuteit_total_discoveries%
+%transmuteit_discovered_[ITEM]%
 ```
 ----
 
