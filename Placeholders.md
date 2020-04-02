@@ -12,6 +12,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ----
 - **[Advancements](#advancements)**
 - **[Animations](#animations)**
+- **[Armor](#armor)**
 - **[BungeeCord](#bungeecord)**
 - **[CheckItem](#checkitem)**
 - **[CooldownBar](#cooldownbar)**
@@ -321,6 +322,24 @@ Valid Types:
 [Preview Types and View Options](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#available-animations)
 
 ----
+
+- ### **Armor**
+> /papi ecloud download Armor
+
+Gives you info about your armor
+
+```
+Chose one value that's inside () and replace SLOT with one of the following: helmet, chestplate, leggings, boots.
+
+%armor_amount_SLOT%
+%armor_color_(red/green/blue/hex)_SLOT%
+%armor_durability_(left/max)_SLOT%
+%armor_has_SLOT%
+%armor_material_SLOT%
+%armor_maxamount_SLOT%
+```
+
+---
 
 - ### **BungeeCord**
 > /papi ecloud download Bungee
