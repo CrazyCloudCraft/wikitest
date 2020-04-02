@@ -74,6 +74,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[AnnouncementsEverywhere](https://www.spigotmc.org/resources/59510/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[AParkour](https://www.spigotmc.org/resources/30923/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#aparkour]]**]
 - **[ASkyBlock](https://www.spigotmc.org/resources/1220/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#askyblock]]**]
@@ -92,6 +95,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## B
+- **[BankSystem](https://www.spigotmc.org/resources/61580/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#banksystem]]**]
 - **[BannerBoard](https://www.spigotmc.org/resources/20435/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
@@ -783,6 +789,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[TownyChat](https://github.com/TownyAdvanced/TownyChat)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#townychat]]**]
+- **[TransmuteIt](https://www.spigotmc.org/resources/76287/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#transmuteIt]]**]
 - **[Treasures](https://www.spigotmc.org/resources/14178/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#treasures]]**]
