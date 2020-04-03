@@ -201,6 +201,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[PrisonMines](#prisonmines)**
 - **[PrisonRanksX](#prisonranksx)**
 - **[ProQuest](#proquest)**
+- **[ProtectionStones](#protectionstones)**
 - **[PVPLevels](#pvplevels)**
 - **[PVP Stats](#pvp-stats)**
 - **[PvPStats Plugin](#pvpstats-plugin)**
@@ -2850,6 +2851,52 @@ Player-specific placeholder (Gets mine at the current location)
 %proquests_progress_bar_<quest identifier>%
 %proquests_progress_<quest identifier>%
 %proquests_total_<quest identifier>%
+```
+----
+
+- ### **[ProtectionStones](https://www.spigotmc.org/resources/61797/)**
+> NO DOWNLOAD COMMAND
+
+```
+%protectionstones_currentplayer_global_region_limit%
+%protectionstones_currentplayer_region_limit_[alias]%
+
+%protectionstones_currentregion_owners%
+%protectionstones_currentregion_members%
+%protectionstones_currentregion_name%
+%protectionstones_currentregion_id%
+%protectionstones_currentregion_type%
+%protectionstones_currentregion_alias%
+%protectionstones_currentregion_is_hidden%
+%protectionstones_currentregion_home_location%
+%protectionstones_currentregion_is_for_sale%
+%protectionstones_currentregion_rent_stage%
+%protectionstones_currentregion_landlord%
+%protectionstones_currentregion_rent_period%
+%protectionstones_currentregion_rent_amount%
+%protectionstones_currentregion_sale_price%
+%protectionstones_currentregion_tax_owed%
+%protectionstones_currentregion_tax_autopayer%
+%protectionstones_currentregion_flags%
+%protectionstones_currentregion_flags_[flag]%
+%protectionstones_region_[identifier]_owners%
+%protectionstones_region_[identifier]_members%
+%protectionstones_region_[identifier]_name%
+%protectionstones_region_[identifier]_id%
+%protectionstones_region_[identifier]_type%
+%protectionstones_region_[identifier]_alias%
+%protectionstones_region_[identifier]_is_hidden%
+%protectionstones_region_[identifier]_home_location%
+%protectionstones_region_[identifier]_is_for_sale%
+%protectionstones_region_[identifier]_rent_stage%
+%protectionstones_region_[identifier]_landlord%
+%protectionstones_region_[identifier]_rent_period%
+%protectionstones_region_[identifier]_rent_amount%
+%protectionstones_region_[identifier]_sale_price%
+%protectionstones_region_[identifier]_tax_owed%
+%protectionstones_region_[identifier]_tax_autopayer%
+%protectionstones_region_[identifier]_flags%
+%protectionstones_region_[identifier]_flags_[flag]%
 ```
 ----
 
