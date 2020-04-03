@@ -584,6 +584,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[ProQuest](https://www.spigotmc.org/resources/18249/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#proquest]]**]
+- **[ProtectionStones](https://www.spigotmc.org/resources/61797/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#protectionstones]]**]
 - **[PurpleIRC](https://www.spigotmc.org/resources/2836/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
