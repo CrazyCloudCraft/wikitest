@@ -183,6 +183,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Nicky](#nicky)**
 
 ## **O**
+- **[OnePlayerSleep](#oneplayersleep)**
 - **[OnTime](#ontime)**
 - **[OreAnnouncer](#oreannouncer)**
 - **[Outpost](#outpost)**
@@ -2576,6 +2577,15 @@ Available if multiple partners are allowed on the server:
 
 ```
 %nicky_nickname%
+```
+----
+
+- ### **[OnePlayerSleep](https://www.spigotmc.org/resources/76534/)**
+> NO DOWNLOAD COMMAND
+
+```
+%oneplayersleep_sleeping_player_count%
+%oneplayersleep_total_player_count%
 ```
 ----
 
