@@ -518,6 +518,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## O
+- **[OnTime](https://www.spigotmc.org/resources/76534/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#oneplayersleep]]**]
 - **[OneTimeUse](https://www.spigotmc.org/resources/13907/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
