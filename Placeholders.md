@@ -22,6 +22,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Math](#math)**
 - **[MVdW placeholders](#mvdw-placeholders)**
 - **[OtherPlayer](#otherplayer)**
+- **[ParseOther](#parseother)**
 - **[Pinger](#pinger)**
 - **[Player](#player)**
 - **[Plugin](#plugin)**
@@ -489,6 +490,17 @@ Lets you get placeholders for other players. (Not the one that triggers the acti
 %otherplayer_spells_<player>%
 %otherplayer_uuid_<player>%
 %otherplayer_world_<player>%
+```
+----
+- ### **ParseOther**
+> /papi ecloud download ParseOther
+
+Lets you parse any placeholder for another player.  
+You can use placeholders in place of `username`.  
+Make sure to include the `{}` brackets, as it won't work without them.
+
+```
+%parseother_{username}_{placeholder_without_percent_signs}%
 ```
 ----
 
