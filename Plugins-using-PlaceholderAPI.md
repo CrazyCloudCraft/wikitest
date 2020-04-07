@@ -29,6 +29,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## A
+- **[AAC - AdvancedAntiCheat](https://www.spigotmc.org/resources/6442/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#aac]]**]
 - **[AbstractMenus](https://www.spigotmc.org/resources/75107/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#abstractmenus]]**]
