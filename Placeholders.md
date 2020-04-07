@@ -43,6 +43,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 [Plugin-placeholders](#plugin-placeholders-1)
 ----
 ## **A**
+- **[AAC - AdvancedAntiCheat](#aac)**
 - **[AbstractMenus](#abstractmenus)**
 - **[AcidIsland](#acidisland)**
 - **[Advanced Abilities](#advanced-abilities)**
@@ -885,6 +886,37 @@ Other statistics
 ## Plugin-placeholders
 These placeholders require the corresponding plugin to work.  
 **The developer of the plugin is responsible for the placeholders to work!**
+
+- ### **[AAC](https://www.spigotmc.org/resources/6442/)**
+> NO DOWNLOAD COMMAND
+
+```
+%aac_ping%
+%aac_player%
+%aac_tps%
+%aac_world%
+%aac_vl_<check>%
+```
+
+Available `<check>` values:
+- `criticals`
+- `fastbow`
+- `fastuse`
+- `fightspeed`
+- `hitbox`
+- `killaura`
+- `regen`
+- `derp`
+- `move`
+- `nofall`
+- `phase`
+- `timer`
+- `badpackets`
+- `fastbreak`
+- `fastplace`
+- `interact`
+
+----
 
 - ### **[AbstractMenus](https://www.spigotmc.org/resources/75107/)**
 > NO DOWNLOAD COMMAND
