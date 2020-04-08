@@ -2657,10 +2657,8 @@ Available if multiple partners are allowed on the server:
 - ### **[OreAnnouncer](https://www.spigotmc.org/resources/33464/)**
 > NO DOWNLOAD COMMAND
 
-```
-%oreannouncer_player_destroyed%
-%oreannouncer_player_destroyed_<Material>%
-```
+You can find an up-to-date list of the placeholders in [their wiki](https://alessiodp.com/docs/oreannouncer/placeholders#outside).
+
 ----
 
 - ### **[Outpost](https://www.spigotmc.org/resources/38657/)**
