@@ -136,6 +136,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Hugs](#hugs)**
 
 ## **I**
+- **[interactionvisualizer](#interactionvisualizer)**
 - **[Island Border (ASkyblock / BentoBox / uSkyBlock / AcidIsland)](#island-border-askyblock--bentobox--uskyblock--acidisland)**
 - **[IslandRate (ASkyBlock Addon)](#islandrate-askyblock-addon)**
 - **[IslandRate (AcidIsland Addon)](#islandrate-acidisland-addon)**
@@ -2036,6 +2037,16 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %hugs_total%
 %hugs_player_total_given%
 %hugs_player_total_received%
+```
+----
+
+- ### **[InteractionVisualizer](https://www.spigotmc.org/resources/77050/)**
+> NO DOWNLOAD COMMAND
+
+```
+%interactionvisualizer_itemstand%
+%interactionvisualizer_itemdrop%
+%interactionvisualizer_hologram%
 ```
 ----
 
