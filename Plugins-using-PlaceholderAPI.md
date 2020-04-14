@@ -542,6 +542,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## P
+- **[Paintball Battle](https://www.spigotmc.org/resources/76676/)**
+  - [x] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#paintball-battle]]**]
 - **[Parkour](https://www.spigotmc.org/resources/23685/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#parkour]]**]
