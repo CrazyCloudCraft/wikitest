@@ -305,6 +305,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[EZBlocks](https://www.spigotmc.org/resources/1499/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#ezblocks]]**]
+- **[EzChat](https://www.spigotmc.org/resources/75048/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders.
 - **[EZPrestige](https://www.spigotmc.org/resources/1794/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#ezprestige]]**]
