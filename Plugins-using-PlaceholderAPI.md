@@ -636,6 +636,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 ----
 
 ## R
+- **[RabbitsVSPenguins](https://www.spigotmc.org/resources/65277/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#rabbitsvspenguins]]**]
 - **[RageMode](https://www.spigotmc.org/resources/69169/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#ragemode]]**]
