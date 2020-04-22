@@ -217,6 +217,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[QuickSell](#quicksell)**
 
 ## **R**
+- **[RabbitsVSPenguins](#rabbitsvspenguins)**
 - **[RageMode](#ragemode)**
 - **[Rankup](#rankup)**
 - **[RedProtect](#redprotect)**
@@ -3001,6 +3002,17 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 ```
 1 is most recent, 2 is second most, 3 third most, etc.
 
+----
+
+- ### **[RabbitsVSPenguins](https://www.spigotmc.org/resources/65277/)**
+> NO DOWNLOAD COMMAND
+
+```
+%rvp_wins%
+%rvp_loses%
+%rvp_ties%
+%rvp_kills%
+```
 ----
 
 - ### **[RageMode](https://www.spigotmc.org/resources/69169/)**
