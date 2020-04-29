@@ -1740,6 +1740,11 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 %ezrankspro_rankupprefix%
 %ezrankspro_lastrank%
 %ezrankspro_lastrankprefix%
+%ezrankspro_rank_cost_<Rank>%
+%ezrankspro_rank_cost_formatted_<Rank>%
+%ezrankspro_rank_prefix_<Rank>%
+%ezrankspro_rankup_rank_prefix_<Rank>%
+%ezrankspro_rankup_rank_<Rank>%
 ```
 ----
 
