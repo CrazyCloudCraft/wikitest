@@ -3639,8 +3639,11 @@ Replace `XXX` with the enchantment.
 
 ```
 %tm_tokens%
+%tm_tokens_commas%
 %tm_tokens_formatted%
-%tm_tokens_raw%
+%tm_rank%
+%tm_top_name_[position]%
+%tm_top_tokens_[position]%
 ```
 ----
 
