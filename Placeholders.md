@@ -376,16 +376,17 @@ You can combine different modifiers to check for different values.
 Available modifiers are:
 - `namecontains:<name>` - Checks if the items display name contains `<name>`*
 - `namestartswith:<name>` - Checks if the items display name starts with `<name>`*
-- `nameequals:<name>` - Checks if the items display name equals `<name>` (Case sensitive)*
+- `nameequals:<name>` - Checks if the items display name equals `<name>`*
 - `mat:<material>` - Checks if the item is `<material>` (For example: `STONE`)
 - `amt:<number>` - Checks if the player has `<number>` of items
-- `data:<number>` - Checks if the item has data `<data>` (Example: Red wool has `14` as data (`WOOL:14`)).  
+- `data:<number>` - Checks if the item has data `<number>` (Example: Red wool has `14` as data (`WOOL:14`)).  
 This is only for 1.12 and older!
-- `lorecontains:<text>` - Checks if the items lore contains `<text>`
+- `custommodeldata:<number>` - Checks if the item has CustomModelData `<number>` This is only for 1.14 and newer!
+- `lorecontains:<text>` - Checks if the items lore contains `<text>`*
 - `strict` - Requires `mat:` modifier. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
-*You can only use one of those modifiers in the placeholder and they are case-sensitive!
+*Case-sensitive
 
 ----
 
