@@ -3191,7 +3191,6 @@ Replace `[variable name]` with the name of the signlink variable
 %simpleclans_clan_size%
 %simpleclans_clan_name%
 %simpleclans_clan_color_tag%
-%simpleclans_clan_tag_label%
 %simpleclans_clan_tag%
 %simpleclans_clan_founded%
 %simpleclans_clan_friendly_fire%
@@ -3203,6 +3202,9 @@ Replace `[variable name]` with the name of the signlink variable
 %simpleclans_clan_onlinemembers_count%
 %simpleclans_clan_allies_count%
 %simpleclans_clan_rivals_count%
+%simpleclans_clanchat_player_color%
+%simpleclans_allychat_player_color%
+%simpleclans_rank_displayname%
 ```
 ----
 
