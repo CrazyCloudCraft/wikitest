@@ -3146,7 +3146,7 @@ Replace `[variable name]` with the name of the signlink variable
 ----
 
 - ### **[SimpleClans](https://www.spigotmc.org/resources/5269/)**
-> /papi ecloud download SimpleClans
+> NO DOWNLOAD COMMAND
 
 ```
 %simpleclans_neutral_kills%
