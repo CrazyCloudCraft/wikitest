@@ -3626,16 +3626,24 @@ Per Player/Event placeholders:
 Replace `XXX` with the enchantment.
 ```
 %tokenenchant_token%
+%tokenenchant_token_long%
 %tokenenchant_token_num%
+%tokenenchant_token_num_long%
 %tokenenchant_XXX_level%
 %tokenenchant_XXX_cost%
+%tokenenchant_XXX_cost_long%
 %tokenenchant_XXX_max%
 %tokenenchant_XXX_description% 
 %tokenenchant_XXX_version%
 %tokenenchant_XXX_fullrefund%
+%tokenenchant_XXX_fullrefund_long%
 %tokenenthcnat_XXX_refund_Y%
+%tokenenthcnat_XXX_refund_Y_long%
 %tokenenchant_repair_cost%
+%tokenenchant_repair_cost_long%
 %tokenenchant_repair_cost_num%
+%tokenenchant_repair_cost_num_long%
+%tokenenchant_enchantments%
 ```
 ----
 
