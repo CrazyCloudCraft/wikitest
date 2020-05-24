@@ -2250,11 +2250,13 @@ This expansion works with both Essentials and EssentialsX (Second one is recomme
 ----
 
 - ### **[LeaderHeads](https://www.spigotmc.org/resources/2079/)**
-> /papi ecloud download LeaderHeads
+> NO DOWNLOAD COMMAND
+
+More info about these placeholders can be found [here](https://panoply.tech/leaderheads#placeholderapi-and-mvdwplaceholderapi-placeholders).
 
 ```
-%leaderheads_player_<leaderboard type>_#%
-%leaderheads_score_<leaderboard type>_#%
+%leaderheads_name_<statistic>_<time>_<rank>% 
+%leaderheads_value_<statistic>_<time>_<rank>%
 ```
 ----
 
