@@ -16,6 +16,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[BungeeCord](#bungeecord)**
 - **[CheckItem](#checkitem)**
 - **[CooldownBar](#cooldownbar)**
+- **[Formatter](#formatter)**
 - **[Javascript](#javascript)**
 - **[ListPlayers](#listplayers)**
 - **[LocalTime](#localtime)**
@@ -409,6 +410,22 @@ More info about this expansion can be found on the [GitHub-Repository](https://g
 %cooldownbar_percentage_{placeholder}_d:<AmountOfDecimal>%
 %cooldownbar_percentage_{essentials_kit_time_until_available_tools}_c:120_d:0%
 ```
+----
+
+- ### **Formatter**
+> /papi ecloud download Formatter
+
+More info about this expansion can be found on the [GitHub-Repository](https://github.com/Andre601/Formatter-Expansion).
+
+```
+%formatter_<options>%
+```
+
+Available options:
+- `format:(<format>)` - The actual format, using Java's DecimalFormat system.
+- `value:(<value>)` - The number to format. This is the only required option.
+- `locale:(<locale>)` - The locale to use. Formats can be different depending on the locale.
+
 ----
 
 - ### **Javascript**
