@@ -596,6 +596,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[ProdigyGadget](https://www.spigotmc.org/resources/1335/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[ProfessionalBans](https://www.spigotmc.org/resources/63657/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#professionalbans]]**]
 - **[ProQuest](https://www.spigotmc.org/resources/18249/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#proquest]]**]
