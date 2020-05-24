@@ -206,6 +206,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[PremiumVanish](#premiumvanish)**
 - **[PrisonMines](#prisonmines)**
 - **[PrisonRanksX](#prisonranksx)**
+- **[ProfessionalBans](#professionalbans)**
 - **[ProQuest](#proquest)**
 - **[ProtectionStones](#protectionstones)**
 - **[PVPLevels](#pvplevels)**
@@ -2873,6 +2874,16 @@ Player-specific placeholder (Gets mine at the current location)
 %prisonranksx_nextprestige_cost%
 %prisonranksx_nextprestige_cost_formatted%
 %prisonranksx_money%
+```
+----
+
+- ### **[ProfessionalBans](https://www.spigotmc.org/resources/63657/)**
+> NO DOWNLOAD COMMAND
+
+```
+%professionalbans_onlinetime%
+%professionalbans_firstjoin%
+%professionalbans_reports%
 ```
 ----
 
