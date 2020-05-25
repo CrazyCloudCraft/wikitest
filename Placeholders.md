@@ -385,7 +385,7 @@ Available modifiers are:
 This is only for 1.12 and older!
 - `custommodeldata:<number>` - Checks if the item has CustomModelData `<number>` This is only for 1.14 and newer!
 - `lorecontains:<text>` - Checks if the items lore contains `<text>`*
-- `enchantments:<enchantment=lvl>;<enchantment>` (`=lvl` is optional)
+- `enchantments:<enchantment=lvl>;<enchantment>` (`=lvl` is optional) (Uses vanilla minecraft enchantment names)
 - `strict` - Requires `mat:` modifier. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
