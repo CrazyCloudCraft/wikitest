@@ -376,9 +376,9 @@ Allows you to check the inventory of a player for a certain item.
 **Modifiers**  
 You can combine different modifiers to check for different values.  
 Available modifiers are:
-- `namecontains:<name>` - Checks if the items display name contains `<name>`*
-- `namestartswith:<name>` - Checks if the items display name starts with `<name>`*
-- `nameequals:<name>` - Checks if the items display name equals `<name>`*
+- `namecontains:<name>` - Checks if the items display name contains `<name>`* \*\*
+- `namestartswith:<name>` - Checks if the items display name starts with `<name>`* \*\*
+- `nameequals:<name>` - Checks if the items display name equals `<name>`* \*\*
 - `mat:<material>` - Checks if the item is `<material>` (For example: `STONE`)
 - `amt:<number>` - Checks if the player has `<number>` of items
 - `data:<number>` - Checks if the item has data `<number>` (Example: Red wool has `14` as data (`WOOL:14`)).  
@@ -389,6 +389,8 @@ This is only for 1.12 and older!
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
 *Case-sensitive
+
+**Only one can be used
 
 ----
 
