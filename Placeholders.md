@@ -197,6 +197,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Parkour](#parkour)**
 - **[Parties](#parties)**
 - **[Party and Friends](#party-and-friends)**
+- **[PermissionTimer]**
 - **[PixelVip](#pixelvip)**
 - **[Plan](#plan)**
 - **[PlayTime](#playtime)**
@@ -2746,6 +2747,16 @@ You can find an up-to-date list of the placeholders in [their wiki](https://ales
 %friendsapi_friendcount%
 %friendsapi_friendrequestcount%
 %friendsapi_onlinefriendcount%
+```
+----
+
+- ### **[PermissionTimer](https://www.mc-market.org/resources/14050/)**
+> /papi ecloud download PermissionTimer
+
+```
+%pt_all%
+%pt_perm_#%
+%pt_timeleft_#%
 ```
 ----
 
