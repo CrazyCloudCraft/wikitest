@@ -197,7 +197,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Parkour](#parkour)**
 - **[Parties](#parties)**
 - **[Party and Friends](#party-and-friends)**
-- **[PermissionTimer]**
+- **[PermissionTimer](#permissiontimer)**
 - **[PixelVip](#pixelvip)**
 - **[Plan](#plan)**
 - **[PlayTime](#playtime)**
