@@ -3214,7 +3214,13 @@ Replace `[variable name]` with the name of the signlink variable
 %simpleclans_clanchat_player_color%
 %simpleclans_allychat_player_color%
 %simpleclans_rank_displayname%
+%simpleclans_topclans_<POSITION>_color_tag%
+%simpleclans_topclans_<POSITION>_kdr%
+%simpleclans_topclans_<POSITION>_total_kills%
 ```
+
+- `<POSITION>` - The top rank position you want.
+
 ----
 
 - ### **[SimpleCoinsAPI](https://www.spigotmc.org/resources/1432/)**
