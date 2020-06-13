@@ -3389,6 +3389,9 @@ The following placeholders are the same as above but instead of specifying the s
 %spark_cpu_process_10s%
 %spark_cpu_process_1m%
 %spark_cpu_process_15m%
+%spark_tickduration%
+%spark_tickduration_10s%
+%spark_tickduration_1m%
 ```
 ----
 
