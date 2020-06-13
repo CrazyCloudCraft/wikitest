@@ -1516,7 +1516,10 @@ This can be used in plugins, that require an integer. (e.g. DeluxeMenus)
 %deluxecombat_ranking_kd%
 %deluxecombat_ranking_rank%
 %deluxecombat_ranking_streak%
+%deluxecombat_ranking_maxstreak%
 %deluxecombat_in_combat%
+%deluxecombat_combat_time%
+%deluxecombat_combat_opponent%
 %deluxecombat_ranking_<StatsType>_<Rank>%
 %deluxecombat_ranking_<StatsType>_<Rank>_<Group>%
 ```
