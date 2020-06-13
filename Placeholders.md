@@ -680,6 +680,7 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 %randomcolor_all%
 %randomcolor_color%
 %randomcolor_format%
+%randomcolor_combined%
 %randomcolor_selected_<option1,option2,option3,...>%
 ```
 ----
