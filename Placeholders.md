@@ -311,28 +311,46 @@ These placeholders are from PlaceholderAPI and don't require any additional plug
 - ### **Animations**
 > /papi ecloud download Animations
 
-```
-%animations_<type>_YourTextHere%
-%animations_<type>?option1=value1,option2=value2_YourTextHere%
-```
-For placeholders, use `{}` instead of `%%` `%animations_rainbow_Welcome, {player_name}!%`
+More info about this expansion can be found on the [dedicated wiki](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers).
 
-Valid Types:
-* Blink
-* Fadein
-* Fadeout
-* Glow
-* Left
-* Pause
-* Pulse
-* Rainbow
-* Wave
-* Right
-* Scroll
-* Typewriter
-* Healthbar
+Placeholder format:
+```html
+%animations_<tag>Text</tag>%
+```
 
-[Preview Types and View Options](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#available-animations)
+With implicit boolean flag set to true
+```html
+%animations_<tag option>Text</tag>%
+```
+With explicit options set
+```html
+%animations_<tag option=10>Text</tag>%
+```
+With bracket placeholders:
+```html
+%animations_<tag>{placeholder}</tag>%
+```
+Please note: When using placeholders within the animation text, you must use the bracket variant.
+Use `{player_name}` instead of `%player_name%` within the <tag> </tag> tags.
+
+Available tags:
+- [Left Align](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Align) - `<align left width=32>Text</align>`
+- [Right Align](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Align) - `<align right width=32>Text</align>`
+- [Appear](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Appear) - `<appear>Text</appear>`
+- [Faded Appear](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Appear) - `<appear fade>Text</appear>`
+- [Erase](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Erase) - `<erase>Text</erase>`
+- [Faded Erase](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Erase) - `<erase fade>Text</erase>`
+- [Fading In](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Fading-text) - `<fade in>Text</fade>`
+- [Fading Out](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Fading-text) - `<fade out>Text</fade>`
+- [Format/Round](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Format-number) - `<format format=#.## mode=HALF_EVEN>Number</format>`
+- [Healthbar](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Health-Bar) - `<healthbar symbol=♥ fill=&c empty=&7 size=10 max=20>{player_health}</healthbar>`
+- [Marquee/Scroll](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Marquee) - `<marquee width=32 space=32>Scrolling text</marquee>`
+- [Pause](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Pause) - `<pause times=10>This text is repeated for 10 frames</pause>`
+- [Pulse](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Pulse) - `<pulse color=multi pause=1>Pulsating text</pulse>`
+- [Rainbow](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Rainbow) -`<rainbow>Rainbow text</rainbow>`
+- [Shine/Glow](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Shine) - `<shine start=&9 middle=&4 end=&9 normal=&7>Shining Text</shine>`
+- [Typewriter](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Typewriter) - `<typewriter cursor=_ pause=10 reverse>Typing text</typewriter>`
+- [Wave]() - `<wave colors=&c,&e,&6,&a,&9,&1,&d>Wave text</wave>`
 
 ----
 
