@@ -13,6 +13,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Advancements](#advancements)**
 - **[Animations](#animations)**
 - **[Armor](#armor)**
+- **[ASCII](#ascii)**
 - **[BungeeCord](#bungeecord)**
 - **[CheckItem](#checkitem)**
 - **[CooldownBar](#cooldownbar)**
@@ -369,6 +370,17 @@ Chose one value that's inside () and replace SLOT with one of the following: hel
 %armor_material_SLOT%
 %armor_maxamount_SLOT%
 ```
+
+---
+
+- ### **ASCII**
+> /papi ecloud download ascii
+
+Returns the [ASCII Value](http://www.asciitable.com/) based on input
+
+`%ascii_<value>%`
+
+Ex: `%ascii_37%` returns `%`
 
 ---
 
