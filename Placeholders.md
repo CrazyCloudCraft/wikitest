@@ -1639,6 +1639,9 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 %dragonslayer_nextmap%
 %dragonslayer_mykills%
 %dragonslayer_place_n% (n=1,2,3...)
+%dragonslayer_place_n_name% (n=1,2,3...)
+%dragonslayer_place_n_score% (n=1,2,3...)
+%dragonslayer_slayer%
 ```
 ----
 
