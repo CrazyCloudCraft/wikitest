@@ -419,6 +419,7 @@ This is only for 1.12 and older!
 - `lorecontains:<text>` - Checks if the item's lore contains `<text>`*
 - `matcontains:<text>` - Checks if the item's material contains `<text>`*
 - `enchantments:<enchantment=lvl>;<enchantment>` (`=lvl` is optional) (Uses vanilla minecraft enchantment names)
+- `enchanted` - Checks if the item is enchanted (with anything)
 - `strict` - Requires `mat:` modifier. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
