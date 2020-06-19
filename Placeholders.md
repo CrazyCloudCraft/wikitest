@@ -2929,6 +2929,16 @@ Player-specific placeholder (Gets mine at the current location)
 ```
 ----
 
+- ### **[ProCosmetics](https://www.spigotmc.org/resources/49106/)**
+> NO DOWNLOAD COMMAND
+
+```
+%procosmetics_coins%
+%procosmetics_cosmetics_activated%
+%procosmetics_treasures_<treasure_name>%
+```
+----
+
 - ### **[ProfessionalBans](https://www.spigotmc.org/resources/63657/)**
 > NO DOWNLOAD COMMAND
 
