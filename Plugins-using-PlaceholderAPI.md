@@ -170,6 +170,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[CheckNameHistory](https://www.spigotmc.org/resources/3768/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#checknamehistory]]**]
+- **[ChestCommands](https://dev.bukkit.org/projects/chest-commands)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[CitizensBooks](https://www.spigotmc.org/resources/37465/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [**[[Link|Placeholders#citizensbooks]]**]
