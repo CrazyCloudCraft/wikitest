@@ -208,6 +208,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[PremiumVanish](#premiumvanish)**
 - **[PrisonMines](#prisonmines)**
 - **[PrisonRanksX](#prisonranksx)**
+- **[ProCosmetics](#procosmetics)**
 - **[ProfessionalBans](#professionalbans)**
 - **[ProQuest](#proquest)**
 - **[ProtectionStones](#protectionstones)**
