@@ -428,6 +428,8 @@ This is only for 1.12 and older!
 
 **Only one can be used
 
+**Placeholders are supported, but they need to be in brackets! (Ex: `%player_name%` would be `{player_name}`**
+
 ----
 
 - ### **CooldownBar**
