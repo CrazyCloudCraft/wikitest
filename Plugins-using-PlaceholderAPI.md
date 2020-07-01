@@ -587,6 +587,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Potatoes](https://www.spigotmc.org/resources/12353/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[PowerRanks](https://www.spigotmc.org/resources/64696/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#powerranks]]**]
 - **[PremiumVanish](https://www.spigotmc.org/resources/14404/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#premiumvanish]]**]
