@@ -460,12 +460,16 @@ More info about this expansion can be found on the [GitHub-Repository](https://g
 More info about this expansion can be found on the [GitHub-Repository](https://github.com/Andre601/Formatter-Expansion).
 
 ```
-%formatter_<options>%
+%formatter_number_format_<number>[_<options>]%
+%formatter_number_time_<number>%
+
+%formatter_text_substring_<start:end>_<text>%
+%formatter_text_uppercase_<text>%
+%formatter_text_lowercase_<text>%
 ```
 
 Available options:
 - `format:(<format>)` - The actual format, using Java's DecimalFormat system.
-- `value:(<value>)` - The number to format. This is the only required option.
 - `locale:(<locale>)` - The locale to use. Formats can be different depending on the locale.
 
 ----
