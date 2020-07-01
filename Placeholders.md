@@ -227,6 +227,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Rankup](#rankup)**
 - **[RedProtect](#redprotect)**
 - **[ReferralSystem](#referralsystem)**
+- **[RestrictedDimensions](#restricteddimensions)**
 - **[RogueParkour](#rogueparkour)**
 - **[RoyalCommands](#royalcommands)**
 - **[RPGInventory](#rpginventory)**
@@ -3149,6 +3150,14 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 ```
 %rs_points%
 %rs_referrals%
+```
+----
+
+- ### **[RestrictedDimensions](https://www.spigotmc.org/resources/80574/)**
+> NO DOWNLOAD COMMAND
+
+```
+%restricteddimensions_has_access_<dimension>%
 ```
 ----
 
