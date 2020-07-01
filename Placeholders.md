@@ -205,6 +205,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[PlayerPoints](#playerpoints)**
 - **[PlotSquared](#plotsquared)**
 - **[PointsAPI](#pointsapi)**
+- **[PowerRanks](#powerranks)**
 - **[PremiumVanish](#premiumvanish)**
 - **[PrisonMines](#prisonmines)**
 - **[PrisonRanksX](#prisonranksx)**
@@ -2876,6 +2877,20 @@ Check [Plan Wiki](https://github.com/plan-player-analytics/Plan/wiki/Placeholder
 
 ```
 %pointsapi_points%
+```
+----
+
+- ### **[PowerRanks](https://www.spigotmc.org/resources/64696/)**
+> NO DOWNLOAD COMMAND
+
+```
+%powerranks_rank%
+%powerranks_prefix%
+%powerranks_suffix%
+%powerranks_subrankprefix%
+%powerranks_subranksuffix%
+%powerranks_chatcolor%
+%powerranks_namecolor%
 ```
 ----
 
