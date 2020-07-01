@@ -663,13 +663,13 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[RecentFind (Treasures Add-on)](https://www.spigotmc.org/resources/33366/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#recentfind]]**]
-- **[RedProtect](http://otmc.org/resources/15841/)**
+- **[RedProtect](http://spigotmc.org/resources/15841/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#redprotect]]**]
 - **[ReporterGUI](https://www.spigotmc.org/resources/8596/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
-- **[RestrictedDimensions](http://otmc.org/resources/80574/)**
+- **[RestrictedDimensions](http://spigotmc.org/resources/80574/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#restricteddimensions]]**]
 - **[RogueParkour](https://www.spigotmc.org/resources/26563/)**
