@@ -669,6 +669,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[ReporterGUI](https://www.spigotmc.org/resources/8596/)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
+- **[RestrictedDimensions](http://otmc.org/resources/80574/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#restricteddimensions]]**]
 - **[RogueParkour](https://www.spigotmc.org/resources/26563/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#rogueparkour]]**]
