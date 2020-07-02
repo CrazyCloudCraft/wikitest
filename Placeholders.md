@@ -24,6 +24,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Math](#math)**
 - **[MVdW placeholders](#mvdw-placeholders)**
 - **[OtherPlayer](#otherplayer)**
+- **[ParseNear](#parsenear)**
 - **[ParseOther](#parseother)**
 - **[Pinger](#pinger)**
 - **[Player](#player)**
@@ -561,6 +562,18 @@ Lets you get placeholders for other players. (Not the one that triggers the acti
 %otherplayer_world_<player>%
 ```
 ----
+
+----
+- ### **ParseNear**
+> /papi ecloud download ParseNear
+
+Lets you parse any placeholder for the closest player. Will return blank if no player is found.
+
+* `%parsenear_<placeholder_without_percent_signs>%` - Parses placeholder for closest player
+* `%parsenear_<radius>_<placeholder_without_percent_signs>%` - Parses placeholder for closest player in a radius
+
+----
+
 - ### **ParseOther**
 > /papi ecloud download ParseOther
 
