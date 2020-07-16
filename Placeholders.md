@@ -250,6 +250,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Spark](#spark)**
 - **[SQLPerms](#sqlperms)**
 - **[SQLTokens](#sqltokens)**
+- **[Staff Facilities](#staff-facilities)**
 - **[Statz](#statz)**
 - **[StrikePractice 2](#strikepractice-2)**
 - **[stTitles](#sttitles)**
@@ -3501,6 +3502,37 @@ The following placeholders are the same as above but instead of specifying the s
 ```
 %sqltokens_tokens%
 ```
+----
+
+- ### **[Staff Facilities](https://www.spigotmc.org/resources/13097/)**
+> /papi ecloud download StaffFacilities
+
+```
+%stafffacilities_bungeetotal%
+%stafffacilities_staffonline%
+%stafffacilities_onlineplayers%
+%stafffacilities_dutysize%
+%stafffacilities_ischatmuted%
+%stafffacilities_playergamemode%
+%stafffacilities_isplayerfrozen%
+%stafffacilities_maintenancemode%
+%stafffacilities_amountofreports%
+%stafffacilities_onduty%
+%stafffacilities_ongodmode%
+%stafffacilities_onfly%
+%stafffacilities_vanished%
+%stafffacilities_fakeleaved%
+%stafffacilities_watchovered%
+%stafffacilities_staffwatched%
+%stafffacilities_staffvanished%
+%stafffacilities_tab_duty%
+%stafffacilities_tab_fakeleave%
+%stafffacilities_tab_freeze%
+%stafffacilities_tab_staffvanish%
+%stafffacilities_tab_vanish%
+
+```
+----
 ----
 
 - ### **[Statz](https://www.spigotmc.org/resources/25969/)**
