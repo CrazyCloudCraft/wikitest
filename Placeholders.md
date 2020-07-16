@@ -3533,7 +3533,6 @@ The following placeholders are the same as above but instead of specifying the s
 
 ```
 ----
-----
 
 - ### **[Statz](https://www.spigotmc.org/resources/25969/)**
 > /papi ecloud download Statz
