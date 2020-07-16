@@ -41,6 +41,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[SpeedPerSec](#speedpersec)**
 - **[Statistic](#statistic)**
 - **[Team](#team)**
+- **[World](#world)**
 ----
 
 [Plugin-placeholders](#plugin-placeholders-1)
@@ -965,7 +966,32 @@ Other statistics
 %team_color%
 %team_prefix%
 ```
+----
 
+- ### **World**
+> /papi ecloud download world
+
+NOTE: For totalBalance placeholder, you must have a service provider plugin (EssentialsX is one)
+```
+%world_#_biome%
+%world_#_nearbyEntities_<radius>%
+%world_<world>_name%
+%world_<world>_seed%
+%world_<world>_time%
+%world_<world>_canPvP%
+%world_<world>_animalAllowed%
+%world_<world>_monsterAllowed%
+%world_<world>_difficulty%
+%world_<world>_players%
+%world_<world>_players_<group>%
+%world_<world>_difficulty%
+%world_<world>_playerExist%
+%world_<world>_gamerule_<gamerule>%
+%world_<world>_recentjoin%
+%world_<world>_recentquit%
+%world_<world>_totalBalance%
+```
+----
 ***
 ## Plugin-placeholders
 These placeholders require the corresponding plugin to work.  
