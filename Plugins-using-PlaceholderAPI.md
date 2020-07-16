@@ -770,7 +770,7 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [ ] Provides own placeholders. [Link]
 - **[Staff Facilities](https://www.spigotmc.org/resources/13097/)**
   - [x] Supports placeholders.
-  - [ ] Provides own placeholders. [Link]
+  - [x] Provides own placeholders. [**[[Link|Placeholders#staff-facilities]]**]
 - **[Statz](https://www.spigotmc.org/resources/25969/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#statz]]**]
