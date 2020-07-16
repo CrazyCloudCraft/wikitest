@@ -359,6 +359,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 
 ----
 ## H
+- **[Hawn - Hub/Lobby Management](https://www.spigotmc.org/resources/66907/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[Head Database](https://www.spigotmc.org/resources/14280/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#head-database]]**]
