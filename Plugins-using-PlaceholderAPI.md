@@ -810,6 +810,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Timed Rewards](https://www.spigotmc.org/resources/34008/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#timed-rewards]]**]
+- **[Time Tokens](https://www.spigotmc.org/resources/75441/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#time-tokens]]**]
 - **[TNTRun_Reloaded](https://www.spigotmc.org/resources/53359/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#tntrun_reloaded]]**]
