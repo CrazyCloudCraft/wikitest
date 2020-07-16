@@ -971,7 +971,7 @@ Other statistics
 - ### **World**
 > /papi ecloud download world
 
-NOTE: For totalBalance placeholder, you must have a service provider plugin (EssentialsX is one)
+For the totalBalance placeholder, you must have a service provider plugin (eg. EssentialsX)
 ```
 %world_#_biome%
 %world_#_nearbyEntities_<radius>%
@@ -991,7 +991,6 @@ NOTE: For totalBalance placeholder, you must have a service provider plugin (Ess
 %world_<world>_recentquit%
 %world_<world>_totalBalance%
 ```
-----
 ***
 ## Plugin-placeholders
 These placeholders require the corresponding plugin to work.  
