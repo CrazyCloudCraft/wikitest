@@ -2,7 +2,6 @@ This page shows all commands, including with a detailed description of what ever
 
 ## Overview
 * [/papi bcparse](#papi-bcparse)
-* [/papi disablecloud](#papi-disablecloud)
 * [/papi ecloud](#papi-ecloud)
 * [/papi info](#papi-info)
 * [/papi list](#papi-list)
@@ -26,16 +25,13 @@ Parses an expansion and broadcasts the result to all players.
 ```
 
 ----
-#### `/papi disablecloud`
-**Description**:  
-Disables the connection to the expansion-cloud.
-
-----
 #### `/papi ecloud`
 **Description**:  
 Shows info about the expansion cloud and performs actions with it.
 
 **Arguments**:
+* `enable` - Enables the cloud expansion manager.
+* `disable` - Disables the cloud expansion manager.
 * `clear` - Clears the expansion cloud cache.
 * `download` - Download an expansion.
   * `<expansion name>` - Name of the expansion to download.
@@ -55,6 +51,8 @@ Shows info about the expansion cloud and performs actions with it.
 
 **Examples**:  
 ```
+/papi ecloud enable
+/papi ecloud disable
 /papi ecloud download Vault
 /papi ecloud info Vault
 /papi ecloud list author clip
