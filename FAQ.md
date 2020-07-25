@@ -13,8 +13,9 @@ Also note that not all placeholders are in a seperate expansion. Some are "hardc
 For a list of plugins supporting PlaceholderAPI go [[here|Plugins-using-PlaceholderAPI]].
 
 ## I can't download the expansion
-Make sure, that the connection to the cloud (https://api.extendedclip.com for PlaceholderAPI and https://api.extendedclip.com/home for normal users) isn't blocked by a firewall or similar.  
-Next step would be to check if the expansion actually exists on the cloud. Not all plugins provide their placeholders through a separate jar on the cloud. Some have them build in and register them on startup.  
+Make sure, that the connection to the cloud (https://api.extendedclip.com) isn't blocked by a firewall or similar.  
+Next step would be to check if the expansion actually exists on the cloud. Not all plugins provide their placeholders through a separate jar on the cloud. Some have them build in and register them on startup.
+
 If both checks failed, go to the cloud-page and download the jar manually. Put it then in the `expansions` folder of PlaceholderAPI (`/plugins/PlaceholderAPI/expansions`)
 
 ## How can other plugins use my placeholders with PlaceholderAPI?
