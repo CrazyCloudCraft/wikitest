@@ -257,6 +257,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Statz](#statz)**
 - **[StrikePractice 2](#strikepractice-2)**
 - **[stTitles](#sttitles)**
+- **[SubServers](#subservers)**
 - **[SuperbVote](#superbvote)**
 - **[SuperCredits](#supercredits)**
 - **[SuperVanish](#supervanish)**
@@ -3748,6 +3749,83 @@ Per Player/Event placeholders:
 %sttitles_id%
 %sttitles_display%
 %sttitles_content%
+```
+----
+
+- ### **[SubServers](https://github.com/ME1312/SubServers-2)**
+> NO DOWNLOAD COMMAND
+
+```
+%subservers_proxies()%
+%subservers_proxy.displayname(<Proxy>)%
+%subservers_proxy.type(<Proxy>)_{Master Proxy, Proxy}%
+%subservers_proxy.players(<Proxy>)%
+%subservers_proxy.subdata(<Proxy>)_{Connected, Disconnected}%
+%subservers_proxy.subdata.channels(<Proxy>)%
+%subservers_proxy.subdata.subchannels(<Proxy>)%
+%subservers_proxy.signature(<Proxy>)%
+
+%subservers_hosts()%
+%subservers_host.displayname(<Host>)%
+%subservers_host.available(<Host>)_{Available, Unavailable}%
+%subservers_host.enabled(<Host>)_{Enabled, Disabled}%
+%subservers_host.address(<Host>)%
+%subservers_host.creator.templates(<Host>)%
+%subservers_host.creator.template.displayname(<Host>, <Template>)%
+%subservers_host.creator.template.enabled(<Host>, <Template>)_{Enabled, Disabled}%
+%subservers_host.creator.template.type(<Host>, <Template>)%
+%subservers_host.creator.template.requiresversion(<Host>, <Template>)_{Optional, Required}%
+%subservers_host.creator.template.updatable(<Host>, <Template>)_{Updatable, Not Updatable}%
+%subservers_host.subservers(<Host>)%
+%subservers_host.players(<Host>)%
+%subservers_host.subdata(<Host>)_{Connected, Unsupported, Disconnected}%
+%subservers_host.subdata.channels(<Host>)%
+%subservers_host.subdata.subchannels(<Host>)%
+%subservers_host.signature(<Host>)%
+
+%subservers_servers()%
+%subservers_server.displayname(<Server>)%
+%subservers_server.type(<Server>)_{Subserver, Server}%
+%subservers_server.groups(<Server>)%
+%subservers_server.address(<Server>)%
+%subservers_server.motd(<Server>)%
+%subservers_server.restricted(<Server>)_{Public, Private}%
+%subservers_server.hidden(<Server>)_{Visible, Hidden}%
+%subservers_server.players(<Server>)%
+%subservers_server.subdata(<Server>)_{Connected, Disconnected}%
+%subservers_server.subdata.channels(<Server>)%
+%subservers_server.subdata.subchannels(<Server>)%
+%subservers_server.signature(<Server>)%
+
+%subservers_subservers()%
+%subservers_subserver.displayname(<Subserver>)%
+%subservers_subserver.available(<Subserver>)_{Available, Unavailable}%
+%subservers_subserver.enabled(<Subserver>)_{Enabled, Disabled}%
+%subservers_subserver.editable(<Subserver>)_{Editable, Locked}%
+%subservers_subserver.host(<Subserver>)%
+%subservers_subserver.template(<Subserver>)%
+%subservers_subserver.template.displayname(<Subserver>)%
+%subservers_subserver.template.enabled(<Subserver>)_{Enabled, Disabled}%
+%subservers_subserver.template.type(<Subserver>)%
+%subservers_subserver.template.requiresversion(<Subserver>)_{Optional, Required}%
+%subservers_subserver.template.updatable(<Subserver>)_{Updatable, Not Updatable}%
+%subservers_subserver.groups(<Subserver>)%
+%subservers_subserver.address(<Subserver>)%
+%subservers_subserver.motd(<Subserver>)%
+%subservers_subserver.logging(<Subserver>)_{Logging, Muted}%
+%subservers_subserver.running(<Subserver>)_{Running, Offline}%
+%subservers_subserver.online(<Subserver>)_{Online, Starting, Offline}%
+%subservers_subserver.temporary(<Subserver>)_{Permanent, Temporary}%
+%subservers_subserver.stopaction(<Subserver>)%
+%subservers_subserver.incompatibilities(<Subserver>)%
+%subservers_subserver.incompatibilities.current(<Subserver>)%
+%subservers_subserver.restricted(<Subserver>)_{Public, Private}%
+%subservers_subserver.hidden(<Subserver>)_{Visible, Hidden}%
+%subservers_subserver.players(<Subserver>)%
+%subservers_subserver.subdata(<Subserver>)_{Connected, Disconnected}%
+%subservers_subserver.subdata.channels(<Subserver>)%
+%subservers_subserver.subdata.subchannels(<Subserver>)%
+%subservers_subserver.signature(<Subserver>)%
 ```
 ----
 
