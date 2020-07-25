@@ -116,6 +116,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[BentoBox](https://github.com/BentoBoxWorld/BentoBox)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#bentobox]]**]
+- **[Big Doors Opener](https://www.spigotmc.org/resources/80805/)
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
 - **[BlockParty](https://www.spigotmc.org/resources/7264/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#blockparty]]**]
@@ -129,6 +132,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
 - **[BossVote](https://www.spigotmc.org/resources/16497/)**
+  - [x] Supports placeholders.
+  - [ ] Provides own placeholders. [Link]
+- **[Broadcaster Plugin](https://dev.bukkit.org/projects/broadcaster-plugin)**
   - [x] Supports placeholders.
   - [ ] Provides own placeholders. [Link]
 - **[BuildBattlePro](https://www.spigotmc.org/resources/49587/)**
@@ -455,6 +461,9 @@ If your plugin isn't shown here and you want it to be added, [open an issue](/Pl
 - **[Marcely's Bedwars](https://www.spigotmc.org/resources/13622/)**
   - [x] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#marcelys-bedwars]]**]
+- **[Marriage](https://www.spigotmc.org/resources/81807/)**
+  - [ ] Supports placeholders.
+  - [x] Provides own placeholders. [**[[Link|Placeholders#marriage]]**]
 - **[Marriage (reloaded)](https://www.spigotmc.org/resources/18998/)**
   - [ ] Supports placeholders.
   - [x] Provides own placeholders. [**[[Link|Placeholders#marriage-reloaded]]**]
