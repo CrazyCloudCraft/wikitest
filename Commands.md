@@ -26,7 +26,7 @@ This page shows all commands, including with a detailed description of what ever
   - [`/papi unregister <jar file>`](#papi-unregister)
 
 - **[Other Commands](#other-commands)**
-  - [`/papi `](#papi-reload)
+  - [`/papi reload`](#papi-reload)
 
 ----
 ### Parse Commands
