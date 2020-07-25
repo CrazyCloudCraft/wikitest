@@ -704,7 +704,7 @@ Returns the player list matching the specified syntax
 * `offline` - Matches offline players
 
 **Output Types:**
-* `list` - Returns a list of players separated by `, `. You can also change the separator with `list-<separator>`.** 
+* `list` - Returns a list of players separated by `, `. You can also change the separator with `list-<separator>`.* 
 * `amount` - Returns amount of players matched
 * `<integer>` - Returns the player at the specified index
 
@@ -725,7 +725,7 @@ Returns the player list matching the specified syntax
 *You can also use `[placeholder]` for papi placeholders in addition to the javascript `{placeholder}`*
 
 *Note: `Offline` and `All` only support the `Normal` subtype.*  
-***Since `,` is used to separate the different parts of the placeholder, use `\.` instead if you want to display a `,`.*
+**Since `,` is used to separate the different parts of the placeholder, use `\.` instead if you want to display a `,`.*
 
 ----
 
