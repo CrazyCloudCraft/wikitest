@@ -8,7 +8,7 @@ PlaceholderAPI connects to the ecloud on startup of your server, to check if the
 If you run `/papi ecloud download <expansion>` PlaceholderAPI will connect to the site to first check if the specified expansion exists and then downloads it if it does.  
 Note that not all listed expansions are on the ecloud. Some are in the corresponding plugin itself and are registered on the startup of the server.
 
-You can disable the connection to the cloud by setting `cloud_enabled` to false.
+You can disable the connection to the cloud by setting `cloud_enabled` in the config.yml to false.
 
 ## Adding your own expansion
 You can add your own expansion to the expansion-cloud for others to use.  
