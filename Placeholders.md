@@ -166,6 +166,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 
 ## **M**
 - **[Marcely's Bedwars](#marcelys-bedwars)**
+- **[Marriage](#marriage)**
 - **[Marriage (Reloaded)](#marriage-reloaded)**
 - **[MarriageMaster](#marriagemaster)**
 - **[McInfected](#mcinfected)**
@@ -2423,6 +2424,16 @@ More info about these placeholders can be found [here](https://panoply.tech/lead
 %mbedwars_stats-bedsdestroyed%
 %mbedwars_stats-roundsplayed%
 %mbedwars_stats-playtime%
+```
+----
+
+- ### **[Marriage](https://www.spigotmc.org/resources/81807/)**
+> NO DOWNLOAD COMMAND
+
+```
+%marriage_gender_symbol%
+%marriage_gender_color%
+%marriage_partner%
 ```
 ----
 
