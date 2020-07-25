@@ -81,7 +81,7 @@ Parses a relational placeholder.
 **Arguments**:  
 * `<player1>` - The first player.
 * `<player2>` - the second player to compare with.
-* `<%placeholder%>` - The actual placeholder to parse.
+* `<Text with placeholders>` - The actual placeholder to parse.
 
 **Example**:  
 ```
