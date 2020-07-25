@@ -77,9 +77,13 @@ depend: [PlaceholderAPI] # If your plugin requires PlaceholderAPI, to work, use 
 
 A full guide on how to create expansions can be found on the [[PlaceholderExpansion]] page of this wiki.
 
-## Using placeholders from PlaceholderAPI in your plugin
-To use placeholders from other plugins in our own plugin, we simply have to use the `setPlaceholders` method.
+## Setting placeholders in your plugin
+PlaceholderAPI offers the ability, to automatically parse placeholders from other plugins within your own plugin, giving the ability for your plugin to support thousands of other placeholders without depending on each plugin individually.  
+To use placeholders from other plugins in our own plugin, we simply have to [(soft)depend on PlaceholderAPI](#set-placeholderapi-as-softdepend) and use the `setPlaceholders` method.
 
+It is also important to point out, that any required plugin/dependency for an expansion has to be on the server and enabled, or the `setPlaceholders` method will just return the placeholder itself (do nothing).
+
+**Example**:  
 Let's assume we want to send an own join message that shows the group a player has.  
 To achieve that, we can do the following:  
 ```java
@@ -102,7 +106,7 @@ public class JoinExample extends JavaPlugin implements Listener {
  
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
             /*
-             * We register the EventListeneres here, when PlaceholderAPI is installed.
+             * We register the EventListener here, when PlaceholderAPI is installed.
              * Since all events are in the main class (this class), we simply use "this"
              */
             Bukkit.getPluginManager().registerEvents(this, this);
@@ -115,7 +119,11 @@ public class JoinExample extends JavaPlugin implements Listener {
     public void onJoin(PlayerJoinEvent event) {
         String joinText = "%player_name% &ajoined the server! He/she is rank &f%vault_rank%";
 
-        // We parse the placeholders using "setPlaceholders"
+        /*
+         * We parse the placeholders using "setPlaceholders"
+         * This would turn %vault_rank% into the name of the Group, that the
+         * joining player has.
+         */
         joinText = PlaceholderAPI.setPlaceholders(event.getPlayer(), joinText);
 
         event.setJoinMessage(withPlaceholdersSet);
