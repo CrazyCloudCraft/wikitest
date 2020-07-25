@@ -725,7 +725,7 @@ Returns the player list matching the specified syntax
 *You can also use `[placeholder]` for papi placeholders in addition to the javascript `{placeholder}`*
 
 *Note: `Offline` and `All` only support the `Normal` subtype.*  
-**Since `,` is used to separate the different parts of the placeholder, use `\.` instead if you want to display a `,`.
+***Since `,` is used to separate the different parts of the placeholder, use `\.` instead if you want to display a `,`.*
 
 ----
 
