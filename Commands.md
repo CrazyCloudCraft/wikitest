@@ -1,19 +1,40 @@
 This page shows all commands, including with a detailed description of what every command does.
 
 ## Overview
-* [/papi bcparse](#papi-bcparse)
-* [/papi ecloud](#papi-ecloud)
-* [/papi info](#papi-info)
-* [/papi list](#papi-list)
-* [/papi parse](#papi-parse)
-* [/papi parserel](#papi-parserel)
-* [/papi register](#papi-register)
-* [/papi reload](#papi-reload)
-* [/papi unregister](#papi-unregister)
+
+- **[Parse Commands](#parse-commands)**
+  - [`/papi bcparse <player|me> <string>`](#papi-bcparse)
+  - [`/papi cmdparse <player|me> <string>`](#papi-cmdparse)
+  - [`/papi parse <player|me> <string>`](#papi-parse)
+  - [`/papi parserel <player> <player> <string>`](#papi-parserel)
+
+- **[ECloud Commands](#ecloud-commands)**
+  - [`/papi ecloud clear`](#papi-ecloud-clear)
+  - [`/papi ecloud disable`](#papi-ecloud-disable)
+  - [`/papi ecloud download <expansion> [version]`](#papi-ecloud-download)
+  - [`/papi ecloud enable`](#papi-ecloud-enable)
+  - [`/papi ecloud info <expansion> [version]`](#papi-ecloud-info)
+  - [`/papi ecloud list <all|author <author>|installed>`](#papi-ecloud-list)
+  - [`/papi ecloud placeholders <expansion>`](#papi-ecloud-placeholders)
+  - [`/papi ecloud refresh`](#papi-ecloud-refresh)
+  - [`/papi ecloud status`](#papi-ecloud-status)
+
+- **[Expansion Commands](#expansion-commands)**
+  - [`/papi info <expansion>`](#papi-info)
+  - [`/papi list`](#papi-list)
+  - [`/papi register <jar file>`](#papi-register)
+  - [`/papi unregister <jar file>`](#papi-unregister)
+
+- **[Other Commands](#other-commands)**
+  - [`/papi `](#papi-reload)
+
+----
+### Parse Commands
+These commands are used to parse placeholders into their respective values. Useful for debugging.
 
 #### `/papi bcparse`
 **Description**:  
-Parses an expansion and broadcasts the result to all players.
+Parses placeholders of a String and broadcasts the result to all players.
 
 **Arguments**:
 * `<player|me>` - The Player to parse values of the placeholder (Use `me` for yourself).
@@ -25,66 +46,25 @@ Parses an expansion and broadcasts the result to all players.
 ```
 
 ----
-#### `/papi ecloud`
+#### `/papi cmdparse`
 **Description**:  
-Shows info about the expansion cloud and performs actions with it.
+Parses placeholders of a String and executes it as a command.
 
-**Arguments**:
-* `enable` - Enables the cloud expansion manager.
-* `disable` - Disables the cloud expansion manager.
-* `clear` - Clears the expansion cloud cache.
-* `download` - Download an expansion.
-  * `<expansion name>` - Name of the expansion to download.
-  * `[version]` - A specific version of the expansion to download (Optional).
-* `info` - Get info about an expansion.
-  * `<expansion name>` - Name of the expansion to get info from.
-* `list`
-  * `<all|author <author>|installed>` - List either all expansions, only those of a author or all installed ones.
-  * `[page]` - The page to list.
-* `placeholders` - Lists placeholders of an expansion.
-  * `<expansion name>` - The expansion to show the placeholders from.
-* `refresh` - Refreshes the cached data of the expansion cloud.
-* `status` - Shows the actual status of the ecloud.
-* `versioninfo` - Get info of a specific expansion version.
-  * `<expansion name>` - Name of the expansion to get info from.
-  * `<version>` - The specific version to get the info from.
-
-**Examples**:  
-```
-/papi ecloud enable
-/papi ecloud disable
-/papi ecloud download Vault
-/papi ecloud info Vault
-/papi ecloud list author clip
-/papi ecloud placeholders Vault
-/papi ecloud versioninfo Vault 1.5.0
-```
-
-----
-#### `/papi info`
-**Description**:  
-Gives you information about the specified expansion.
-
-**Argument(s)**:  
-* `<expansion name>` - The expansion to get info from (Needs to be registered and active).
+**Arguments**:  
+- `<player|me>` - The player to parse placeholders against. Use `me` for yourself.
+- `<Command with placeholders>` - The Text to parse and execute as command. Please leave away the `/` of the command.
 
 **Example**:  
 ```
-/papi info Vault
+/papi cmdparse funnycube say My name is %player_name%!
 ```
-
-----
-#### `/papi list`
-**Description**:  
-Lists all active/registered expansions.  
-This is different to [/papi ecloud list installed](#papi-ecloud) in the fact, that it also includes expansions that were installed through a plugin (That aren't a separate jar-file) and it also doesn't show which one have updates available.
 
 ----
 #### `/papi parse`
 **Description**:  
 Parses the placeholders in a given text and shows the result.
 
-**Argument(s)**:
+**Arguments**:
 * `<player|me>` - The Player to parse values of the placeholder (Use `me` for yourself).
 * `<Text with placeholders>` - The text to parse.
 
@@ -109,6 +89,114 @@ Parses a relational placeholder.
 ```
 
 ----
+### ECloud Commands
+These commands all start with `/papi ecloud` and are used for things related about the [[Expansion Cloud]].
+
+#### `/papi ecloud clear`
+**Description**:  
+Clears the cache for the ECloud.
+
+----
+#### `/papi ecloud disable`
+**Description**:  
+Disables the connection to the ECloud.
+
+----
+#### `/papi ecloud download`
+**Description**:  
+Allows you to download an expansion from the ECloud
+
+**Arguments**:  
+- `<expansion>` - The expansion to download.
+- `[version]` - The specific version of the expansion to download (Optional)
+
+**Example**:  
+```
+/papi ecloud download Vault
+/papi ecloud download Vault 1.5.2
+```
+
+----
+#### `/papi ecloud enable`
+**Description**:  
+Enables the connection to the ECloud
+
+----
+#### `/papi ecloud info`
+**Description**:  
+Gives information about a specific Expansion.
+
+**Arguments**:  
+- `<expansion>` - The Expansion to retrieve information from.
+- `<version>` - The Expansion's version to get information from.
+
+**Example**:  
+```
+/papi ecloud info Vault
+```
+
+----
+#### `/papi ecloud list`
+**Description**:  
+Lists either all Expansions on the Ecloud, only those by a specific author or only those that you have [installed](#papi-ecloud-download).  
+Installed Expansions show as green in the list and Expansions that are installed and have an update available show as gold.
+
+**Arguments**:  
+- `<all|author <author>|installed>` - List all Expansions, Expansions of a specific author or all Expnansions you have installed.
+
+**Example**:  
+```
+/papi ecloud list all
+/papi ecloud list author clip
+/papi ecloud list installed
+```
+
+----
+#### `/papi ecloud placeholders`
+**Description**:  
+List all placeholders of an Expansion.
+
+**Arguments**:  
+- `<expansion>` - The Expansion to list placeholders of.
+
+**Example**:  
+```
+/papi ecloud placeholders Vault
+```
+
+----
+#### `/papi ecloud refresh`
+**Description**:  
+Refresh the cached data from the ECloud.
+
+----
+#### `/papi ecloud status`
+**Description**:  
+Displays the actual Status of the ECloud.
+
+----
+### Expansion Commands
+These commands can be used to manage the expansions that you have currently installed.
+
+#### `/papi info`
+**Description**:  
+Gives you information about the specified Expansion.
+
+**Argument(s)**:  
+- `<expansion>` - The Expansion to get info from (Needs to be registered and active).
+
+**Example**:  
+```
+/papi info Vault
+```
+
+----
+#### `/papi list`
+**Description**:  
+Lists all active/registered expansions.  
+This is different to [/papi ecloud list installed](#papi-ecloud-list) in the fact, that it also includes expansions that were installed through a plugin (That aren't a separate jar-file) and it also doesn't show which one have updates available.
+
+----
 #### `/papi register`
 **Description**:  
 Registers an expansion from a specified filename.  
@@ -116,7 +204,7 @@ This is useful in cases, where you downloaded the expansion manually and don't w
 The file needs to be inside `/plugins/PlaceholderAPI/expansions`.
 
 **Arguments**:
-* `<filename>` - The file to register (including the file-extension).
+- `<filename>` - The file to register (including the file-extension).
 
 **Example**:  
 ```
@@ -124,19 +212,23 @@ The file needs to be inside `/plugins/PlaceholderAPI/expansions`.
 ```
 
 ----
-#### `/papi reload`
-**Description**:  
-Reloads the config settings.
-
-----
 #### `/papi unregister`
 **Description**:  
 Unregisters the specified expansion.
 
 **Arguments**:
-* `<filename>` - The expansion to unregister.
+- `<filename>` - The expansion to unregister.
 
 **Example**:  
 ```
 /papi unregister MyExpansion.jar
 ```
+
+----
+### Other Commands
+These are other commands of PlaceholderAPI that don't fit any of the above categories.
+
+#### `/papi reload`
+**Description**:  
+Reloads the config settings.  
+You need to use this command after [downloading Expansions](#papi-ecloud-download) from the ECloud or they won't be properly registered.
