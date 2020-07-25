@@ -9,7 +9,7 @@ It also has a list with all available placeholders (Work in progress).
 * [[First steps|Hook-into-PlaceholderAPI#first-steps]]
 * [[Adding placeholders to PlaceholderAPI|Hook-into-PlaceholderAPI#adding-placeholders-to-placeholderapi]]
   * [[PlaceholderExpansion]]
-      * [[Without external plugin|PlaceholderExpansion#without-external-plugin]]
+      * [[Without an external plugin|PlaceholderExpansion#without-an-external-plugin]]
       * [[With external plugin|PlaceholderExpansion#with-external-plugin]]
 * [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
 
