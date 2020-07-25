@@ -8,13 +8,13 @@ This page shows all commands, including with a detailed description of what ever
   - [`/papi parse <player|me> <string>`](#papi-parse)
   - [`/papi parserel <player> <player> <string>`](#papi-parserel)
 
-- **[ECloud Commands](#ecloud-commands)**
+- **[eCloud Commands](#ecloud-commands)**
   - [`/papi ecloud clear`](#papi-ecloud-clear)
   - [`/papi ecloud disable`](#papi-ecloud-disable)
   - [`/papi ecloud download <expansion> [version]`](#papi-ecloud-download)
   - [`/papi ecloud enable`](#papi-ecloud-enable)
   - [`/papi ecloud info <expansion> [version]`](#papi-ecloud-info)
-  - [`/papi ecloud list <all|author <author>|installed>`](#papi-ecloud-list)
+  - [`/papi ecloud list <all|<author>|installed>`](#papi-ecloud-list)
   - [`/papi ecloud placeholders <expansion>`](#papi-ecloud-placeholders)
   - [`/papi ecloud refresh`](#papi-ecloud-refresh)
   - [`/papi ecloud status`](#papi-ecloud-status)
@@ -89,22 +89,22 @@ Parses a relational placeholder.
 ```
 
 ----
-### ECloud Commands
+### eCloud Commands
 These commands all start with `/papi ecloud` and are used for things related about the [[Expansion Cloud]].
 
 #### `/papi ecloud clear`
 **Description**:  
-Clears the cache for the ECloud.
+Clears the cache for the eCloud.
 
 ----
 #### `/papi ecloud disable`
 **Description**:  
-Disables the connection to the ECloud.
+Disables the connection to the eCloud.
 
 ----
 #### `/papi ecloud download`
 **Description**:  
-Allows you to download an expansion from the ECloud
+Allows you to download an expansion from the eCloud
 
 **Arguments**:  
 - `<expansion>` - The expansion to download.
@@ -119,7 +119,7 @@ Allows you to download an expansion from the ECloud
 ----
 #### `/papi ecloud enable`
 **Description**:  
-Enables the connection to the ECloud
+Enables the connection to the eCloud
 
 ----
 #### `/papi ecloud info`
@@ -128,7 +128,7 @@ Gives information about a specific Expansion.
 
 **Arguments**:  
 - `<expansion>` - The Expansion to retrieve information from.
-- `<version>` - The Expansion's version to get information from.
+- `[version]` - The Expansion's version to get information from.
 
 **Example**:  
 ```
@@ -138,16 +138,16 @@ Gives information about a specific Expansion.
 ----
 #### `/papi ecloud list`
 **Description**:  
-Lists either all Expansions on the Ecloud, only those by a specific author or only those that you have [installed](#papi-ecloud-download).  
+Lists either all Expansions on the eCloud, only those by a specific author or only those that you have [installed](#papi-ecloud-download).  
 Installed Expansions show as green in the list and Expansions that are installed and have an update available show as gold.
 
 **Arguments**:  
-- `<all|author <author>|installed>` - List all Expansions, Expansions of a specific author or all Expnansions you have installed.
+- `<all|<author>|installed>` - List all Expansions, Expansions of a specific author or all Expnansions you have installed.
 
 **Example**:  
 ```
 /papi ecloud list all
-/papi ecloud list author clip
+/papi ecloud list clip
 /papi ecloud list installed
 ```
 
@@ -167,12 +167,12 @@ List all placeholders of an Expansion.
 ----
 #### `/papi ecloud refresh`
 **Description**:  
-Refresh the cached data from the ECloud.
+Refresh the cached data from the eCloud.
 
 ----
 #### `/papi ecloud status`
 **Description**:  
-Displays the actual Status of the ECloud.
+Displays the actual Status of the eCloud.
 
 ----
 ### Expansion Commands
@@ -231,4 +231,4 @@ These are other commands of PlaceholderAPI that don't fit any of the above categ
 #### `/papi reload`
 **Description**:  
 Reloads the config settings.  
-You need to use this command after [downloading Expansions](#papi-ecloud-download) from the ECloud or they won't be properly registered.
+You need to use this command after [downloading Expansions](#papi-ecloud-download) from the eCloud or they won't be properly registered.
