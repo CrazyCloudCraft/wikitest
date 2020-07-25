@@ -50,20 +50,6 @@ dependencies {
 }
 ```
 
-### Import manually
-Do the following steps, if you can't import PlaceholderAPI through Maven or Gradle.
-
-#### Eclipse
-Rightclick your project and choose "Properties -> Java Build Path".  
-Click on "Add external jar" and add the PlaceholderAPI.jar ([Pluginpage](https://www.spigotmc.org/resources/placeholderapi.6245/)) to your project.  
-![](https://img.extendedclip.com/02-23-16-11:50:21.png)
-
-#### IntelliJ  
-1. Click on **File** -> **Project Structure** (Ctrl + Alt + Shift + S on windows)
-2. Go to the tab **Modules**
-3. Click the **+** on the right side and choose **Library...** -> **Java**
-4. Select the PlaceholderAPI.jar
-
 ### Set PlaceholderAPI as (soft)depend
 Next step is to go to your plugin.yml and add PlaceholderAPI as a depend or softdepend, depending (no pun intended) on if it is optional or not.
 
@@ -89,15 +75,7 @@ depend: [PlaceholderAPI] # If your plugin requires PlaceholderAPI, to work, use 
 
 ## Adding placeholders to PlaceholderAPI
 
-You can add your placeholders to PlaceholderAPI plugin by making an external expansion or by implementing that into your plugin itself if you're adding placeholders from a plugin.
-
-### Without external plugin
-[[Here|PlaceholderExpansion#without-an-external-plugin]] you can see how to make an external expansion that doesn't require a plugin (Placeholders without a plugin).
-
-### With external plugin
-You can add your plugin's placeholders to PlaceholderAPI with [[two ways|PlaceholderExpansion#with-external-plugin]]:
-1. By making an external expansion ([[Separate jar file|PlaceholderExpansion#separate-jar]]).
-2. By creating a class inside your plugin ([[Inner class|PlaceholderExpansion#internal-class]]).
+A full guide on how to create expansions can be found on the [[PlaceholderExpansion]] page of this wiki.
 
 ## Using placeholders from PlaceholderAPI in your plugin
 To use placeholders from other plugins in our own plugin, we simply have to use the `setPlaceholders` method.
