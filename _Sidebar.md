@@ -11,7 +11,7 @@
   * [[PlaceholderExpansion]]
       * [[Without an external plugin|PlaceholderExpansion#without-an-external-plugin]]
       * [[With external plugin|PlaceholderExpansion#with-external-plugin]]
-* [[Using placeholders from PAPI in your plugin|Hook-into-PlaceholderAPI#using-placeholders-from-placeholderapi-in-your-plugin]]
+* [[Setting placeholders in your plugin|Hook-into-PlaceholderAPI#setting-placeholders-in-your-plugin]]
 
 ### Other
 **[[Commands]]**  
