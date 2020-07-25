@@ -2,7 +2,7 @@ Here are frequently asked questions about stuff related to PlaceholderAPI.
 
 ## It only shows %placeholder% and not the variable
 Make sure, that you've tried the following steps:
-- PlaceholderAPI is installed and running
+- PlaceholderAPI is installed and running (Shows green in `/pl` and responds to the `/papi` command)
 - You downloaded the expansion with `/papi ecloud download [expansion]`  
 A list of available expansions and their placeholders can be found [[here|Placeholders]]!  
 Also note that not all placeholders are in a seperate expansion. Some are "hardcoded" into a plugin.
