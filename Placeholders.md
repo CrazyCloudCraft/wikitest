@@ -28,6 +28,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[ParseOther](#parseother)**
 - **[Pinger](#pinger)**
 - **[Player](#player)**
+- **[PlayerList](#playerlist)**
 - **[Plugin](#plugin)**
 - **[Progress](#progress)**
 - **[RainbowColor](#RainbowColor)**
@@ -685,6 +686,45 @@ Gives you various placeholders for the player, that triggers the action.
 %player_y%
 %player_z%
 ```
+
+----
+
+- ### **PlayerList**
+> /papi ecloud download PlayerList
+
+### List Players
+
+Returns the player list matching the specified syntax
+
+`%playerlist_<type>,<subtype>,<yes/no>,<output>,<subtype_value>%` - The `yes/no` is to include/exclude the player.
+
+**Types:**
+* `all` - Matches all players
+* `online` - Matches online players
+* `offline` - Matches offline players
+
+**Output Types:**
+* `list` - Returns a list of players separated by `, `
+* `amount` - Returns amount of players matched
+* `<integer>` - Returns the player at the specified index
+
+**SubTypes:**
+* `normal` - Matches all players - Requires no `<subtype_value>`
+* `perm` - Matches all players that match the permission defined by `<subtype_value>` - Supports multiple separated by `+` (Ex: `perm1+perm2`)
+* `world` - Matches all player in the world defined by `<subtype_value>` - Supports multiple separated by `+` (Ex: `world1+world2`)
+* `nearby` - Matches all players in a certain radius defined by `<subtype_value>`
+
+**Examples:**
+* `%playerlist_all,normal,yes,list%` - `Tanguygab, cj89898, funnycube, clip, Frcsty, GabyTM, ItsMeGlare`
+* `%playerlist_online,perm,yes,amount,staff.admin%` - `2`
+* `%playerlist_online,world,yes,2,buildingworld+spawnworld%` - `cj89898, funnycube`
+* `%playerlist_online,nearby,yes,list,5%` - `Tanguygab, cj89898, clip`
+* `%playerlist_online,nearby,no,list,5%` - `Tanguygab, clip`
+
+*You can also use `[placeholder]` for papi placeholders in addition to the javascript `{placeholder}`*
+
+*Note: `Offline` and `All` only support the `Normal` subtype.*
+
 ----
 
 - ### **Plugin**
