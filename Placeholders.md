@@ -2474,9 +2474,23 @@ More info about these placeholders can be found [here](https://panoply.tech/lead
 > NO DOWNLOAD COMMAND
 
 ```
-%marriage_gender_symbol%
+%marriage_gender%
 %marriage_gender_color%
+%marriage_gender_symbol%
+%marriage_home%
 %marriage_partner%
+%marriage_partner_gender%
+%marriage_partner_gender_color%
+%marriage_partner_gender_symbol%
+%marriage_partner_lastseen%
+%marriage_partner_pvp%
+%marriage_pitch%
+%marriage_pvp%
+%marriage_state%
+%marriage_x%
+%marriage_y%
+%marriage_yaw%
+%marriage_z%
 ```
 ----
 
