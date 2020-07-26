@@ -1,6 +1,6 @@
 [APIBadge]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version
 
-[SpigotBadge]: https://img.shields.io/badge/dynamic/json?label=Spigot%20Release&query=current_version&url=https%3A%2F%2Fapi.spigotmc.org%2Fsimple%2F0.1%2Findex.php%3Faction%3DgetResource%26id%3D6245
+[SpigotBadge]: https://img.shields.io/spiget/version/6245?label=Spigot
 [Spigot]: https://spigotmc.org/resources/6245
 
 [GitHubBadge]: https://img.shields.io/github/v/release/PlaceholderAPI/PlaceholderAPI?label=GitHub%20Release
