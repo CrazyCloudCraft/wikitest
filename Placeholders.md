@@ -82,6 +82,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[ChatReaction](#chatreaction)**
 - **[CheckNameHistory](#checknamehistory)**
 - **[Clans](#clans)**
+- **[Clans](#clans-1)**
 - **[Clans-API for Spigot/Clan tag in chat](#clans-api-for-spigotclan-tag-in-chat)**
 - **[ClanSystem](#clansystem)**
 - **[CombatLogX](#combatlogx)**
