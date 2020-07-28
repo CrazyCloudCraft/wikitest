@@ -40,7 +40,7 @@ import me.clip.placeholderapi.expansion.PlaceholderExpansion;
  * register it manually in your plugins {@code onEnable()} by using 
  * {@code new YourExpansionClass().register();}
  */
-public class SomeExpansion extends PlaceholderExpansion {
+public final class SomeExpansion extends PlaceholderExpansion {
 
     /**
      * This method should always return true unless we
@@ -92,8 +92,6 @@ public class SomeExpansion extends PlaceholderExpansion {
     /**
      * This is the method called when a placeholder with our identifier 
      * is found and needs a value.
-     * <br>We specify the value identifier in this method.
-     * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
      *
      * @param  player
      *         A {@link org.bukkit.OfflinePlayer OfflinePlayer}.
@@ -148,10 +146,10 @@ import at.helpch.placeholderapi.example.SomePlugin;
  * {@code /plugins/PlaceholderAPI/expansions} on your server.
  * <br>
  * <br>If you create such a class inside your own plugin, you have to
- * register it manually in your plugins {@code onEbale()} by using 
+ * register it manually in your plugins {@code onEnable()} by using 
  * {@code new YourExpansionClass().register();}
  */
-public class SomeExpansion extends PlaceholderExpansion {
+public final class SomeExpansion extends PlaceholderExpansion {
 
     // We get an instance of the plugin later.
     private SomePlugin plugin;
@@ -221,20 +219,18 @@ public class SomeExpansion extends PlaceholderExpansion {
     /**
      * This is the method called when a placeholder with our identifier 
      * is found and needs a value.
-     * <br>We specify the value identifier in this method.
-     * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
      *
      * @param  player
-     *         A {@link org.bukkit.Player Player}.
+     *         A {@link org.bukkit.OfflinePlayer OfflinePlayer}.
      * @param  identifier
      *         A String containing the identifier/value.
      *
      * @return possibly-null String of the requested identifier.
      */
     @Override
-    public String onPlaceholderRequest(Player player, String identifier){
+    public String onRequest(OfflinePlayer player, String identifier){
 
-        if(p == null){
+        if(player == null){
             return "";
         }
 
@@ -274,7 +270,7 @@ import at.helpch.placeholderapi.example.SomePlugin;
  * This class will be registered through the register-method in the 
  * plugins onEnable-method.
  */
-public class SomeExpansion extends PlaceholderExpansion {
+public final class SomeExpansion extends PlaceholderExpansion {
 
     private SomePlugin plugin;
 
@@ -354,18 +350,16 @@ public class SomeExpansion extends PlaceholderExpansion {
     /**
      * This is the method called when a placeholder with our identifier 
      * is found and needs a value.
-     * <br>We specify the value identifier in this method.
-     * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
      *
      * @param  player
-     *         A {@link org.bukkit.Player Player}.
+     *         A {@link org.bukkit.OfflinePlayer OfflinePlayer}.
      * @param  identifier
      *         A String containing the identifier/value.
      *
      * @return possibly-null String of the requested identifier.
      */
     @Override
-    public String onPlaceholderRequest(Player player, String identifier){
+    public String onRequest(OfflinePlayer player, String identifier){
 
         if(player == null){
             return "";
