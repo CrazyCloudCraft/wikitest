@@ -1462,6 +1462,16 @@ Available gamemodes:
 ```
 ----
 
+- ### **[Clans](https://www.spigotmc.org/resources/78415/)**
+> NO DOWNLOAD COMMAND
+
+```
+%clans_name%
+%clans_raidshield%
+%clans_rank%
+```
+----
+
 - ### **[Clans-API for Spigot/Clan tag in chat](https://www.spigotmc.org/resources/31547/)**
 > NO DOWNLOAD COMMAND 
 
