@@ -8,8 +8,8 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 > If you changed, removed or added placeholders, or made your plugin(s) and/or expansion(s) no longer available and want us to update this page, [create an issue](/PlaceholderAPI/PlaceholderAPI/issues/new?template=change_request_wiki.md) and let us know.  
 > This is also the case for when you want your plugin to be added to the list.
 
-[PAPI-placeholders](#papi-placeholders-1)
-----
+## [PAPI-placeholders](#papi-placeholders-1)
+
 - **[Advancements](#advancements)**
 - **[Animations](#animations)**
 - **[Armor](#armor)**
@@ -45,8 +45,8 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[World](#world)**
 ----
 
-[Plugin-placeholders](#plugin-placeholders-1)
-----
+## [Plugin-placeholders](#plugin-placeholders-1)
+
 ## **A**
 - **[AAC - AdvancedAntiCheat](#aac)**
 - **[AbstractMenus](#abstractmenus)**
@@ -302,8 +302,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 ## **X**
 - **[XLTournaments](#xltournaments)**
 
-
-***
+----
 ## PAPI-placeholders
 These placeholders are from PlaceholderAPI and don't require any additional plugin to function (unless mentioned).
 
@@ -322,46 +321,16 @@ These placeholders are from PlaceholderAPI and don't require any additional plug
 - ### **Animations**
 > /papi ecloud download Animations
 
-More info about this expansion can be found on the [dedicated wiki](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers).
-
-Placeholder format:
 ```html
 %animations_<tag>Text</tag>%
+%animations_<tag option>Text</tag>%
+%animations_<tag option=:value>Text</tag>%
 ```
 
-With implicit boolean flag set to true
-```html
-%animations_<tag option>Text</tag>%
-```
-With explicit options set
-```html
-%animations_<tag option=10>Text</tag>%
-```
-With bracket placeholders:
-```html
-%animations_<tag>{placeholder}</tag>%
-```
 Please note: When using placeholders within the animation text, you must use the bracket variant.
 Use `{player_name}` instead of `%player_name%` within the <tag> </tag> tags.
 
-Available tags:
-- [Left Align](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Align) - `<align left width=32>Text</align>`
-- [Right Align](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Align) - `<align right width=32>Text</align>`
-- [Appear](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Appear) - `<appear>Text</appear>`
-- [Faded Appear](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Appear) - `<appear fade>Text</appear>`
-- [Erase](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Erase) - `<erase>Text</erase>`
-- [Faded Erase](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Erase) - `<erase fade>Text</erase>`
-- [Fading In](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Fading-text) - `<fade in>Text</fade>`
-- [Fading Out](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Fading-text) - `<fade out>Text</fade>`
-- [Format/Round](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Format-number) - `<format format=#.## mode=HALF_EVEN>Number</format>`
-- [Healthbar](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Health-Bar) - `<healthbar symbol=♥ fill=&c empty=&7 size=10 max=20>{player_health}</healthbar>`
-- [Marquee/Scroll](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Marquee) - `<marquee width=32 space=32>Scrolling text</marquee>`
-- [Pause](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Pause) - `<pause times=10>This text is repeated for 10 frames</pause>`
-- [Pulse](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Pulse) - `<pulse color=multi pause=1>Pulsating text</pulse>`
-- [Rainbow](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Rainbow) -`<rainbow>Rainbow text</rainbow>`
-- [Shine/Glow](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Shine) - `<shine start=&9 middle=&4 end=&9 normal=&7>Shining Text</shine>`
-- [Typewriter](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers#Typewriter) - `<typewriter cursor=_ pause=10 reverse>Typing text</typewriter>`
-- [Wave]() - `<wave colors=&c,&e,&6,&a,&9,&1,&d>Wave text</wave>`
+Please visit the [dedicated wiki](https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers) for all available tags.
 
 ----
 
@@ -380,19 +349,20 @@ Chose one value that's inside () and replace SLOT with one of the following: hel
 %armor_material_SLOT%
 %armor_maxamount_SLOT%
 ```
-
----
+----
 
 - ### **ASCII**
 > /papi ecloud download ascii
 
 Returns the [ASCII Value](http://www.asciitable.com/) based on input
 
-`%ascii_<value>%`
+```
+%ascii_<value>%
+```
 
 Ex: `%ascii_37%` returns `%`
 
----
+----
 
 - ### **BungeeCord**
 > /papi ecloud download Bungee
@@ -404,6 +374,7 @@ Allows you to show, how many players are online on the entire network, or just o
 %bungee_<servername>%
 ```
 ----
+
 - ### **CheckItem**
 > /papi ecloud download CheckItem
 
