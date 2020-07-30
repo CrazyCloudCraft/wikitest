@@ -3184,6 +3184,8 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 > NO DOWNLOAD COMMAND
 
 ```
+%rvp_arenaplayers_count_< arena >%
+%rvp_arena_status_< arena >%
 %rvp_wins%
 %rvp_loses%
 %rvp_ties%
