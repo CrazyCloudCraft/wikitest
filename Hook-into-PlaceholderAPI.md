@@ -1,4 +1,4 @@
-[APIBadge]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/PlaceholderAPI.svg?label=API%20Version
+[APIBadge]: https://img.shields.io/nexus/r/http/repo.extendedclip.com/me.clip/placeholderapi.svg?label=API-Version
 
 [SpigotBadge]: https://img.shields.io/spiget/version/6245?label=Spigot
 [Spigot]: https://spigotmc.org/resources/6245
@@ -21,7 +21,7 @@ Before you can actually make use of PlaceholderAPI, you first have to import it 
 
 ### Import with Maven
 To import PlaceholderAPI, simply add the following code to your **pom.xml**  
-Replace `{VERSION}` with the `API Version` listed at the top of this page.  
+Replace `{VERSION}` with the version listed at the top of this page.  
 ```xml
     <repositories>
         <repository>
@@ -32,7 +32,7 @@ Replace `{VERSION}` with the `API Version` listed at the top of this page.
     <dependencies>
         <dependency>
          <groupId>me.clip</groupId>
-          <artifactId>PlaceholderAPI</artifactId>
+          <artifactId>placeholderapi</artifactId>
           <version>{VERSION}</version>
          <scope>provided</scope>
         </dependency>
@@ -42,7 +42,7 @@ Replace `{VERSION}` with the `API Version` listed at the top of this page.
 ### Import with Gradle
 Here is how you can import PlaceholderAPI through gradle.  
 Put this into your **Gradle.build**.  
-Replace `{VERSION}` with the `API Version` listed at the top of this page.  
+Replace `{VERSION}` with the version listed at the top of this page.  
 ```gradle
 repositories {
     maven {
@@ -51,7 +51,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'me.clip:PlaceholderAPI:{VERSION}'
+    compileOnly 'me.clip:placeholderapi:{VERSION}'
 }
 ```
 
@@ -116,13 +116,18 @@ public class JoinExample extends JavaPlugin implements Listener {
              */
             Bukkit.getPluginManager().registerEvents(this, this);
         } else {
-            throw new RuntimeException("Could not find PlaceholderAPI!! Plugin can not work without it!");
+            /*
+             * We inform about the fact that PlaceholderAPI isn't installed and then
+             * disable this plugin to prevent issues.
+             */
+            getLogger().warn("Could not find PlaceholderAPI! This plugin is required.");
+            Bukkit.getPluginManager().disablePlugin(this);
         }
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onJoin(PlayerJoinEvent event) {
-        String joinText = "%player_name% &ajoined the server! He/she is rank &f%vault_rank%";
+        String joinText = "%player_name% &ajoined the server! They are rank &f%vault_rank%";
 
         /*
          * We parse the placeholders using "setPlaceholders"
