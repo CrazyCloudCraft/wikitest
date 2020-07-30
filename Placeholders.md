@@ -3186,10 +3186,10 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 ```
 %rvp_arenaplayers_count_< arena >%
 %rvp_arena_status_< arena >%
-%rvp_wins%
+%rvp_kills%
 %rvp_loses%
 %rvp_ties%
-%rvp_kills%
+%rvp_wins%
 ```
 ----
 
