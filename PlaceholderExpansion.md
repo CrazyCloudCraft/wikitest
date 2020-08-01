@@ -148,7 +148,7 @@ import at.helpch.placeholderapi.example.SomePlugin;
  * {@code /plugins/PlaceholderAPI/expansions} on your server.
  * <br>
  * <br>If you create such a class inside your own plugin, you have to
- * register it manually in your plugins {@code onEbale()} by using 
+ * register it manually in your plugins {@code onEnable()} by using 
  * {@code new YourExpansionClass().register();}
  */
 public class SomeExpansion extends PlaceholderExpansion {
@@ -225,16 +225,16 @@ public class SomeExpansion extends PlaceholderExpansion {
      * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
      *
      * @param  player
-     *         A {@link org.bukkit.OfflinePlayer OfflinePlayer}.
+     *         A {@link org.bukkit.Player Player}.
      * @param  identifier
      *         A String containing the identifier/value.
      *
-     * @return Possibly-null String of the requested identifier.
+     * @return possibly-null String of the requested identifier.
      */
     @Override
-    public String onRequest(OfflinePlayer player, String identifier){
+    public String onPlaceholderRequest(Player player, String identifier){
 
-        if(player == null){
+        if(p == null){
             return "";
         }
 
@@ -358,14 +358,14 @@ public class SomeExpansion extends PlaceholderExpansion {
      * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
      *
      * @param  player
-     *         A {@link org.bukkit.OfflinePlayer OfflinePlayer}.
+     *         A {@link org.bukkit.Player Player}.
      * @param  identifier
      *         A String containing the identifier/value.
      *
-     * @return Possibly-null String of the requested identifier.
+     * @return possibly-null String of the requested identifier.
      */
     @Override
-    public String onRequest(OfflinePlayer player, String identifier){
+    public String onPlaceholderRequest(Player player, String identifier){
 
         if(player == null){
             return "";
