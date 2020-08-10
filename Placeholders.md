@@ -692,8 +692,8 @@ Returns the player list matching the specified syntax
 **Examples:**
 * `%playerlist_all,normal,yes,list%` - `Tanguygab, cj89898, funnycube, clip, Frcsty, GabyTM, ItsMeGlare`
 * `%playerlist_online,perm,yes,amount,staff.admin%` - `2`
-* `%playerlist_online,world,yes,2,buildingworld+spawnworld%` - `cj89898, funnycube`
-* `%playerlist_online,nearby,yes,list,5%` - `Tanguygab, cj89898, clip`
+* `%playerlist_online,world,yes,list,buildingworld+spawnworld%` - `cj89898, funnycube`
+* `%playerlist_online,nearby,yes,2,5%` - `clip`
 * `%playerlist_online,nearby,no,list,5%` - `Tanguygab, clip`
 * `%playerlist_online,nearby,no,list--,20%` - `Tanguygab-clip-Terfs`
 
