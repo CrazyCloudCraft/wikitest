@@ -1344,10 +1344,13 @@ Available gamemodes:
 `acidisland`, `bskyblock`, and `caveblock`.
 
 ```
-%level_[gamemode]-island-level%
-%level_[gamemode]-island-level-top-value-#%
-%level_[gamemode]-island-level-top-name-#%
+%Level_[gamemode]_island_level%
+%Level_[gamemode]_visited_island_level%
+%Level_[gamemode]_top_value_#RANK#%
+%Level_[gamemode]_top_name_#RANK#%
 ```
+Note: #RANK# is a number between 1 and 10.
+
 ----
 
 - ### **[BlockParty](https://www.spigotmc.org/resources/7264/)**
