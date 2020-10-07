@@ -36,6 +36,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RandomColor](#randomcolor)**
 - **[RedisBungee](#redisbungee)**
 - **[RelCon](#relcon)**
+- **[RNG](#rng)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
 - **[Sound](#sound)**
@@ -794,6 +795,18 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 ```
 ----
 
+- ### **RNG**
+> /papi ecloud download RNG
+
+Get a random number.
+
+```
+%rng_random%
+%rng_minValue%
+%rng_minValue,maxValue%
+```
+----
+
 - ### **ScoreboardObjectives**
 > /papi ecloud download ScoreboardObjectives
 
@@ -1179,7 +1192,7 @@ All information about these placeholders can be found [here](https://gitlab.com/
 %alonsolevels_progress_stripped_format%
 %alonsolevels_progress_percent%
 %alonsolevels_progress_percent_format%
-%alonsolevels_reqiored_experience_in_current_level%
+%alonsolevels_required_experience_in_current_level%
 %alonsolevels_version%
 ```
 ----
