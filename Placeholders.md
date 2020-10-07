@@ -1530,7 +1530,7 @@ Note: You have to download the jar from the linked Spigot page.
 %chatreaction_reaction_word% - The actual solution word
 %chatreaction_start_time% - Time when the round started
 %chatreaction_latest_winner% - Last recorded winner
-%chatreaction_time_in_seconds% - Time until chat reaction ends in seconds
+%chatreaction_time_in_seconds% - Time since the last chat reaction has started
 %chatreaction_time_remaining% - Time until chat reaction ends
 ```
 ----
