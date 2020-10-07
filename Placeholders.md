@@ -804,6 +804,7 @@ Get a random number.
 %rng_random%
 %rng_minValue%
 %rng_minValue,maxValue%
+%rng_maxValue,minValue%
 ```
 ----
 
