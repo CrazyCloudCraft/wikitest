@@ -36,7 +36,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RandomColor](#randomcolor)**
 - **[RedisBungee](#redisbungee)**
 - **[RelCon](#relcon)**
-- **[RNG](#rng)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
 - **[Sound](#sound)**
@@ -795,18 +794,6 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 ```
 ----
 
-- ### **RNG**
-> /papi ecloud download RNG
-
-Get a random number.
-
-```
-%rng_random%
-%rng_<value>%
-%rng_<value>,<value>%
-```
-----
-
 - ### **ScoreboardObjectives**
 > /papi ecloud download ScoreboardObjectives
 
@@ -1192,7 +1179,7 @@ All information about these placeholders can be found [here](https://gitlab.com/
 %alonsolevels_progress_stripped_format%
 %alonsolevels_progress_percent%
 %alonsolevels_progress_percent_format%
-%alonsolevels_required_experience_in_current_level%
+%alonsolevels_reqiored_experience_in_current_level%
 %alonsolevels_version%
 ```
 ----
@@ -1520,17 +1507,12 @@ Note: You have to download the jar from the linked Spigot page.
 
 ```
 %chatreaction_wins% - Chat reaction wins (Requires MySQL)
-%chatreaction_wins_<playername>% - Chat reaction wins for a specific player
-%chatreaction_top_player_<placement>% - Player name in top X.
-%chatreaction_top_wins_<placement>% - Chat reaction wins in top X.
 %chatreaction_type% - Type of reaction (Reaction or Scramble)
 %chatreaction_active_round% - Is a round currently active
 %chatreaction_display_word% - The scrambled word
 %chatreaction_reaction_word% - The actual solution word
 %chatreaction_start_time% - Time when the round started
 %chatreaction_latest_winner% - Last recorded winner
-%chatreaction_time_in_seconds% - Time since the last chat reaction has started
-%chatreaction_time_remaining% - Time until chat reaction ends
 ```
 ----
 
@@ -2950,9 +2932,9 @@ You can find an up-to-date list of the placeholders in [their wiki](https://ales
 %parkour_last_played%
 %parkour_last_completed%
 %parkour_leader_<course>%
-%parkour_leaderboard_<course>_<position>_deaths%
-%parkour_leaderboard_<course>_<position>_player%
-%parkour_leaderboard_<course>_<position>_time%
+%parkour_leaderboard_<course>_deaths_<position>%
+%parkour_leaderboard_<course>_player_<position>%
+%parkour_leaderboard_<course>_time_<position>%
 %parkour_level%
 %parkour_parkoins%
 %parkour_personal_best_<course>%
