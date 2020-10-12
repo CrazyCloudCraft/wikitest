@@ -256,6 +256,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[SkillAPI](#skillapi)**
 - **[SkinsRestorer](#skinsrestorer)**
 - **[Skript](#skript)**
+- **[SkyBlock](#skyblock)**
 - **[Skywars](#skywars)**
 - **[Skywars X](#skywars-x)**
 - **[SkywarsReloaded](#skywarsreloaded)**
@@ -3580,6 +3581,18 @@ The following placeholders are the same as above but instead of specifying the s
 
 ```
 %skript_<variable name>%
+```
+----
+
+- ### **[SkyBlock](https://www.spigotmc.org/resources/sky-block.84541/)**
+> NO DOWNLOAD COMMAND
+
+```
+%skyblock_has_skyblock%
+%skyblock_has_skyblock_<playername>%
+%skyblock_has_nether_skyblock%
+%skyblock_has_nether_skyblock_<playername>%
+%skyblock_skyblocks_count%
 ```
 ----
 
