@@ -36,6 +36,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RandomColor](#randomcolor)**
 - **[RedisBungee](#redisbungee)**
 - **[RelCon](#relcon)**
+- **[RNG](#rng)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
 - **[Sound](#sound)**
@@ -791,6 +792,16 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 %rel_relcon_player_<permission>_<text1>%
 %rel_relcon_viewer_<permission>_<text1>_[text2]%
 %rel_relcon_viewer_<permission>_<text1>%
+```
+----
+
+- ### **RNG**
+> /papi ecloud download RNG
+
+```
+%rng_random%
+%rng_<value>%
+%rng_<value>,<value>%
 ```
 ----
 
