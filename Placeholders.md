@@ -1518,12 +1518,17 @@ Note: You have to download the jar from the linked Spigot page.
 
 ```
 %chatreaction_wins% - Chat reaction wins (Requires MySQL)
+%chatreaction_wins_<playername>% - Chat reaction wins of a player (Requires MySQL)
+%chatreaction_top_player_<placement>% - Name of player that is in top (Requires MySQL)
+%chatreaction_top_wins_<placement>% - Wins of player that is in top (Requires MySQL)
 %chatreaction_type% - Type of reaction (Reaction or Scramble)
 %chatreaction_active_round% - Is a round currently active
 %chatreaction_display_word% - The scrambled word
 %chatreaction_reaction_word% - The actual solution word
 %chatreaction_start_time% - Time when the round started
 %chatreaction_latest_winner% - Last recorded winner
+%chatreaction_time_in_seconds% - Time since current chat reaction has started
+%chatreaction_time_remaining% - Time until current chat reaction is going to end
 ```
 ----
 
