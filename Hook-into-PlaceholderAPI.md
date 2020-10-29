@@ -134,7 +134,7 @@ public class JoinExample extends JavaPlugin implements Listener {
          * This would turn %vault_rank% into the name of the Group, that the
          * joining player has.
          */
-        String withPlaceholdersSet = PlaceholderAPI.setPlaceholders(event.getPlayer(), joinText);
+        joinText = PlaceholderAPI.setPlaceholders(event.getPlayer(), joinText);
 
         event.setJoinMessage(withPlaceholdersSet);
     }

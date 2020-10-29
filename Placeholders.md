@@ -36,7 +36,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RandomColor](#randomcolor)**
 - **[RedisBungee](#redisbungee)**
 - **[RelCon](#relcon)**
-- **[RNG](#rng)**
 - **[ScoreboardObjectives](#scoreboardobjectives)**
 - **[Server](#server)**
 - **[Sound](#sound)**
@@ -795,16 +794,6 @@ More info about the expansion can be found on the [GitHub-Repository](https://gi
 ```
 ----
 
-- ### **RNG**
-> /papi ecloud download RNG
-
-```
-%rng_random%
-%rng_<value>%
-%rng_<value>,<value>%
-```
-----
-
 - ### **ScoreboardObjectives**
 > /papi ecloud download ScoreboardObjectives
 
@@ -1518,17 +1507,12 @@ Note: You have to download the jar from the linked Spigot page.
 
 ```
 %chatreaction_wins% - Chat reaction wins (Requires MySQL)
-%chatreaction_wins_<playername>% - Chat reaction wins of a player (Requires MySQL)
-%chatreaction_top_player_<placement>% - Name of player that is in top (Requires MySQL)
-%chatreaction_top_wins_<placement>% - Wins of player that is in top (Requires MySQL)
 %chatreaction_type% - Type of reaction (Reaction or Scramble)
 %chatreaction_active_round% - Is a round currently active
 %chatreaction_display_word% - The scrambled word
 %chatreaction_reaction_word% - The actual solution word
 %chatreaction_start_time% - Time when the round started
 %chatreaction_latest_winner% - Last recorded winner
-%chatreaction_time_in_seconds% - Time since current chat reaction has started
-%chatreaction_time_remaining% - Time until current chat reaction is going to end
 ```
 ----
 
@@ -4082,6 +4066,8 @@ Per Player/Event placeholders:
 
 ```
 %tntrun_arena_count%
+%tntrun_pvp_arena_count%
+%tntrun_nopvp_arena_count%
 %tntrun_currency_<arena>%
 %tntrun_doublejumps%
 %tntrun_joinfee_<arena>%
@@ -4094,6 +4080,8 @@ Per Player/Event placeholders:
 %tntrun_losses%
 %tntrun_played%
 %tntrun_player_count%
+%tntrun_pvp_player_count%
+%tntrun_nopvp_player_count%
 %tntrun_player_count_<arena>%
 %tntrun_status_<arena>%
 %tntrun_version%
