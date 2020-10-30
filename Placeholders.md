@@ -2285,7 +2285,7 @@ You can find an up-to-date list of the placeholders in [their wiki](https://fact
 ```
 ----
 
-- ### **Item Multiply+(https://www.spigotmc.org/resources/item-multiply-1-8-1-16-3.84241/)**
+- ### **[Item Multiply+](https://www.spigotmc.org/resources/item-multiply-1-8-1-16-3.84241/)**
 > /papi ecloud download itemmultiply
 
 ```
