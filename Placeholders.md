@@ -153,7 +153,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[IslandRate (ASkyBlock Addon)](#islandrate-askyblock-addon)**
 - **[IslandRate (AcidIsland Addon)](#islandrate-acidisland-addon)**
 - **[IslandWorld](#islandworld)**
-- **[Item Multiply+] (#item-multiply+)**
+- **[Item Multiply+](#item-multiply+)**
 
 ## **J**
 - **[Jobs Reborn](#jobs-reborn)**
