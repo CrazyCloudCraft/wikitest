@@ -153,6 +153,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[IslandRate (ASkyBlock Addon)](#islandrate-askyblock-addon)**
 - **[IslandRate (AcidIsland Addon)](#islandrate-acidisland-addon)**
 - **[IslandWorld](#islandworld)**
+- **[Item Multiply+] (#item-multiply+)**
 
 ## **J**
 - **[Jobs Reborn](#jobs-reborn)**
@@ -2281,6 +2282,17 @@ You can find an up-to-date list of the placeholders in [their wiki](https://fact
 %islandworld_all_members%
 %islandworld_can_build%
 %islandworld_in_party%
+```
+----
+
+- ### **Item Multiply+(https://www.spigotmc.org/resources/item-multiply-1-8-1-16-3.84241/)**
+> /papi ecloud download itemmultiply
+
+```
+%itemmultiply_points%
+%itemmultiply_level_<block>%
+%itemmultiply_xp_<block>%
+%itemmultiply_nextlevel_<block>%
 ```
 ----
 
