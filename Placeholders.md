@@ -196,6 +196,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Nicknamer](#nicknamer)**
 - **[NickReloaded](#nickreloaded)**
 - **[Nicky](#nicky)**
+- **[NickyG](#nickyg)**
 
 ## **O**
 - **[OnePlayerSleep](#oneplayersleep)**
@@ -2841,6 +2842,16 @@ Available if multiple partners are allowed on the server:
 
 ```
 %nicky_nickname%
+```
+----
+
+- ### **[NickyG](https://www.spigotmc.org/resources/nickyg-nickname-in-a-gui-1-8-1-15.74273/)**
+> NO DOWNLOAD COMMAND
+
+```
+%nickyg_nickname%
+%nickyg_realname%
+%nickyg_uncolored%
 ```
 ----
 
