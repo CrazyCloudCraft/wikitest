@@ -153,7 +153,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[IslandRate (ASkyBlock Addon)](#islandrate-askyblock-addon)**
 - **[IslandRate (AcidIsland Addon)](#islandrate-acidisland-addon)**
 - **[IslandWorld](#islandworld)**
-- **[Item Multiply+](#item-multiply)**
 
 ## **J**
 - **[Jobs Reborn](#jobs-reborn)**
@@ -197,7 +196,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[Nicknamer](#nicknamer)**
 - **[NickReloaded](#nickreloaded)**
 - **[Nicky](#nicky)**
-- **[NickyG](#nickyg)**
 
 ## **O**
 - **[OnePlayerSleep](#oneplayersleep)**
@@ -238,6 +236,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RabbitsVSPenguins](#rabbitsvspenguins)**
 - **[RageMode](#ragemode)**
 - **[Rankup](#rankup)**
+- **[RealisticWorldGenerator](#realisticworldgenerator)**
 - **[RedProtect](#redprotect)**
 - **[ReferralSystem](#referralsystem)**
 - **[RestrictedDimensions](#restricteddimensions)**
@@ -2285,17 +2284,6 @@ You can find an up-to-date list of the placeholders in [their wiki](https://fact
 ```
 ----
 
-- ### **[Item Multiply+](https://www.spigotmc.org/resources/item-multiply-1-8-1-16-3.84241/)**
-> /papi ecloud download itemmultiply
-
-```
-%itemmultiply_points%
-%itemmultiply_level_<block>%
-%itemmultiply_xp_<block>%
-%itemmultiply_nextlevel_<block>%
-```
-----
-
 - ### **[Jobs Reborn](https://www.spigotmc.org/resources/4216/)**
 > NO DOWNLOAD COMMAND
 
@@ -2857,16 +2845,6 @@ Available if multiple partners are allowed on the server:
 ```
 ----
 
-- ### **[NickyG](https://www.spigotmc.org/resources/nickyg-nickname-in-a-gui-1-8-1-15.74273/)**
-> NO DOWNLOAD COMMAND
-
-```
-%nickyg_nickname%
-%nickyg_realname%
-%nickyg_uncolored%
-```
-----
-
 - ### **[OnePlayerSleep](https://www.spigotmc.org/resources/76534/)**
 > NO DOWNLOAD COMMAND
 
@@ -3351,6 +3329,18 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 %rankup_rank_money_<rank>%
 %rankup_rank_money_<rank>_left%
 %rankup_rank_requirement_<rank>_money_percent_[done/left]%
+```
+----
+
+- ### **[RealisticWorldGenerator](https://www.spigotmc.org/resources/15905/)**
+> NO DOWNLOAD COMMAND
+
+```
+%rwg_schematicAmount%
+%rwg_schematics%
+%rwg_biome%
+%rwg_position1%
+%rwg_position2%
 ```
 ----
 
