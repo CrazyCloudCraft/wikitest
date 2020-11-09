@@ -960,6 +960,7 @@ Other statistics
 %statistic_junk_fished%
 %statistic_leave_game%
 %statistic_minecart_one_cm%
+%statistic_mob_kills%
 %statistic_noteblock_played%
 %statistic_noteblock_tuned%
 %statistic_pig_one_cm%
