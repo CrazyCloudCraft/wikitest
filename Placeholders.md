@@ -415,8 +415,8 @@ This is only for 1.12 and older!
 - `enchantments:<enchantment=lvl>;<enchantment>` (`=lvl` is optional) (Uses vanilla minecraft enchantment names)
 - `enchanted` - Checks if the item is enchanted (with anything)
 - `potiontype:<potiontype>` - Checks if the item has the potiontype ([Click here for potion types](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionType.html))
-- `potionextended` - Checks if a potion is extended
-- `potionupgraded` - Checks if a potion is upgraded
+- `potionextended:<boolean>` - Checks if a potion is extended
+- `potionupgraded:<boolean>` - Checks if a potion is upgraded
 - `strict` - Requires `mat:` modifier. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
