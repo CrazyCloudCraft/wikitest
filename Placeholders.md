@@ -428,6 +428,8 @@ This is only for 1.12 and older! ^
 
 ^Supported by the `give` placeholder
 
+To use Commas in strings you must escape them using `\` (Ex: `loreequals:Milk\, Eggs\, Bread`)
+
 **Placeholders are supported, but they need to be in brackets! (Ex: `%player_name%` would be `{player_name}`**
 
 ----
