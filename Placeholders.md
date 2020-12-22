@@ -397,7 +397,6 @@ Allows you to check the inventory of a player for a certain item.
 - `%checkitem_<modifier1>,<modifier2>,<...>%` - Returns if user has the item
 - `%checkitem_amount_<modifier1>,<modifier2>,<...>%` - Returns amount of items the user has
 - `%checkitem_remove_<modifier1>,<modifier2>,<...>%` - Removes the items from the players inventory - Can be used with amount, it just has to be after. (Ex. `%checkitem_amount_remove_<...>%`) Please be careful as it does REMOVE ITEMS FOR GOOD
-- `%checkitem_give_<modifier1>,<modifier2>,<...>%` - Gives the player items. Returns true if successful, returns the number of items NOT given if unsuccessful. (When unsuccessful items can still be given, it just might not be all of them)
 ```
 
 **Modifiers**  
@@ -405,30 +404,22 @@ You can combine different modifiers to check for different values.
 Available modifiers are:
 - `namecontains:<text>` - Checks if the item's display name contains `<text>`* \*\*
 - `namestartswith:<text>` - Checks if the item's display name starts with `<text>`* \*\*
-- `nameequals:<text>` - Checks if the item's display name equals `<text>`* \*\* ^
-- `mat:<material>` - Checks if the item is `<material>` (For example: `STONE`) ^
-- `amt:<number>` - Checks if the player has `<number>` of items ^
+- `nameequals:<text>` - Checks if the item's display name equals `<text>`* \*\*
+- `mat:<material>` - Checks if the item is `<material>` (For example: `STONE`)
+- `amt:<number>` - Checks if the player has `<number>` of items
 - `data:<number>` - Checks if the item has data `<number>` (Example: Red wool has `14` as data (`WOOL:14`)).  
-This is only for 1.12 and older! ^
-- `custommodeldata:<number>` - Checks if the item has CustomModelData `<number>` This is only for 1.14 and newer! ^
+This is only for 1.12 and older!
+- `custommodeldata:<number>` - Checks if the item has CustomModelData `<number>` This is only for 1.14 and newer!
 - `lorecontains:<text>` - Checks if the item's lore contains `<text>`*
-- `loreequals:<text>` - Checks if the item's lore equals `<text>` Lines are separated by `|` ^
 - `matcontains:<text>` - Checks if the item's material contains `<text>`*
-- `enchantments:<enchantment=lvl>;<enchantment>` (`=lvl` is optional) (Uses vanilla minecraft enchantment names) ^
+- `enchantments:<enchantment=lvl>;<enchantment>` (`=lvl` is optional) (Uses vanilla minecraft enchantment names)
 - `enchanted` - Checks if the item is enchanted (with anything)
-- `potiontype:<potiontype>` - Checks if the item has the potiontype ([Click here for potion types](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionType.html)) ^
-- `potionextended:<boolean>` - Checks if a potion is extended ^
-- `potionupgraded:<boolean>` - Checks if a potion is upgraded ^
 - `strict` - Requires `mat:` modifier. Strictly checks the name and lore for an item. (If a Stone named `Test` is in your inventory, and you're using `%checkitem_mat:stone,strict%`, it will return false)
 - `inhand` - Check if the item is in the player's hand (Also checks off-hand)
 
 *Case-sensitive
 
 **Only one can be used
-
-^Supported by the `give` placeholder
-
-To use Commas in strings you must escape them using `\` (Ex: `loreequals:Milk\, Eggs\, Bread`)
 
 **Placeholders are supported, but they need to be in brackets! (Ex: `%player_name%` would be `{player_name}`**
 
@@ -2922,39 +2913,45 @@ You can find an up-to-date list of the placeholders in [their wiki](https://ales
 ----
 
 - ### **[Parkour](https://www.spigotmc.org/resources/23685/)**
-> /papi ecloud download Parkour
+> NO DOWNLOAD COMMAND
 
 ```
-%parkour_course_count%
-%parkour_course_global_completions%
-%parkour_course_prize_delay%
-%parkour_course_record_<course>%
+%parkour_course_completed_<course>%
+%parkour_course_completions_<course>%
 %parkour_course_record_deaths_<course>%
-%parkour_courses_completed%
+%parkour_course_record_player_<course>%
+%parkour_course_record_time_<course>%
+%parkour_course_views%
 %parkour_current_checkpoint%
-%parkour_current_course%
+%parkour_current_course_checkpoints%
+%parkour_current_course_completed%
 %parkour_current_course_deaths%
-%parkour_current_course_leader%
-%parkour_current_course_timer%
-%parkour_current_course_record%
+%parkour_current_course_name%
+%parkour_current_course_personal_best_deaths%
+%parkour_current_course_personal_best_player%
+%parkour_current_course_personal_best_time%
 %parkour_current_course_record_deaths%
-%parkour_current_personal_best%
-%parkour_current_personal_best_deaths%
-%parkour_last_played%
-%parkour_last_completed%
-%parkour_leader_<course>%
-%parkour_leaderboard_<course>_deaths_<position>%
-%parkour_leaderboard_<course>_player_<position>%
-%parkour_leaderboard_<course>_time_<position>%
-%parkour_level%
-%parkour_parkoins%
-%parkour_personal_best_<course>%
-%parkour_personal_best_deaths_<course>%
-%parkour_player_count%
-%parkour_rank%
+%parkour_current_course_record_player%
+%parkour_current_course_record_time%
+%parkour_current_course_timer%
+%parkour_global_course_count%
+%parkour_global_player_count%
+%parkour_global_version%
+%parkour_leaderboard_<course>_<position>_deaths%
+%parkour_leaderboard_<course>_<position>_player%
+%parkour_leaderboard_<course>_<position>_time%
+%parkour_player_courses_completed%
+%parkour_player_courses_uncompleted%
+%parkour_player_last_completed%
+%parkour_player_last_joined%
+%parkour_player_level%
+%parkour_player_parkoins%
+%parkour_player_personal_best_<course>_deaths%
+%parkour_player_personal_best_<course>_player%
+%parkour_player_personal_best_<course>_time%
+%parkour_player_prize_delay_<course>%
+%parkour_player_rank%
 %parkour_topten_<course>_<position>%
-%parkour_toptenxcc_<course>_<position>%
-%parkour_version%
 ```
 ----
 
@@ -4219,24 +4216,28 @@ Per Player/Event placeholders:
 > NO DOWNLOAD COMMANDS
 
 ```
+%tntrun_allplayers_<arena>%
 %tntrun_arena_count%
-%tntrun_pvp_arena_count%
-%tntrun_nopvp_arena_count%
 %tntrun_currency_<arena>%
+%tntrun_current_arena%
 %tntrun_doublejumps%
 %tntrun_joinfee_<arena>%
-%tntrun_leaderboard_wins_player_<position>%
-%tntrun_leaderboard_wins_score_<position>%
 %tntrun_leaderboard_losses_player_<position>%
 %tntrun_leaderboard_losses_score_<position>%
 %tntrun_leaderboard_played_player_<position>%
 %tntrun_leaderboard_played_score_<position>%
+%tntrun_leaderboard_wins_player_<position>%
+%tntrun_leaderboard_wins_score_<position>%
 %tntrun_losses%
-%tntrun_played%
-%tntrun_player_count%
-%tntrun_pvp_player_count%
+%tntrun_nopvp_arena_count%
 %tntrun_nopvp_player_count%
+%tntrun_played%
+%tntrun_players_<arena>%
+%tntrun_player_count%
 %tntrun_player_count_<arena>%
+%tntrun_pvp_arena_count%
+%tntrun_pvp_player_count%
+%tntrun_spectators_<arena>%
 %tntrun_status_<arena>%
 %tntrun_version%
 %tntrun_wins%
