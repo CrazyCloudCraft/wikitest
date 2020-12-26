@@ -4261,13 +4261,16 @@ Replace `XXX` with the enchantment.
 %tokenenchant_XXX_version%
 %tokenenchant_XXX_fullrefund%
 %tokenenchant_XXX_fullrefund_long%
-%tokenenthcnat_XXX_refund_Y%
-%tokenenthcnat_XXX_refund_Y_long%
+%tokenenchant_XXX_refund_Y%
+%tokenenchant_XXX_refund_Y_long%
 %tokenenchant_repair_cost%
 %tokenenchant_repair_cost_long%
 %tokenenchant_repair_cost_num%
 %tokenenchant_repair_cost_num_long%
 %tokenenchant_enchantments%
+%tokenenchant_baltop_XX_name%
+%tokenenchant_baltop_XX_balance%
+%tokenenchant_baltop_XX_balance_long%
 ```
 ----
 
