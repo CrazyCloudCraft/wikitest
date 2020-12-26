@@ -183,6 +183,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[MineChess](#minechess)**
 - **[MineCord](#minecord)**
 - **[MineCrates](#minecrates)**
+- **[MineResetLite](#mineresetlite)**
 - **[MobHunting](#mobhunting)**
 - **[Multiverse-Core](#multiverse-core)**
 - **[MyCommand](#mycommand)**
@@ -2705,6 +2706,19 @@ Available if multiple partners are allowed on the server:
 %minecrates_chance%
 %minecrates_total_needed%
 %minecrates_reward_list_name%
+```
+----
+
+- ### **[MineResetLite](https://polymart.org/resource/mineresetlite.137/)**
+> /papi ecloud download MineResetLite
+
+```
+%mineresetlite_XXX_time% 
+%mineresetlite_XXX_time_remaining%
+%mineresetlite_XXX_percentage%
+%mineresetlite_XXX_blocks_mined%
+%mineresetlite_XXX_percentage_mined%
+%mineresetlite_XXX_percentage_remaining%
 ```
 ----
 
