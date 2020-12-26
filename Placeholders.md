@@ -4244,7 +4244,7 @@ Per Player/Event placeholders:
 ```
 ----
 
-- ### **[TokenEnchant](https://www.spigotmc.org/resources/2287/)**
+- ### **[TokenEnchant](https://polymart.org/resource/tokenenchant-1-7-10-1-16-4.155)**
 > /papi ecloud download TokenEnchant
 
 Replace `XXX` with the enchantment.
