@@ -4270,6 +4270,7 @@ Replace `XXX` with the enchantment.
 %tokenenchant_XXX_level%
 %tokenenchant_XXX_cost%
 %tokenenchant_XXX_cost_long%
+%tokenenchant_XXX_cost_Y%
 %tokenenchant_XXX_max%
 %tokenenchant_XXX_description% 
 %tokenenchant_XXX_version%
