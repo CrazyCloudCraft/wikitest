@@ -183,7 +183,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[MineChess](#minechess)**
 - **[MineCord](#minecord)**
 - **[MineCrates](#minecrates)**
-- **[MineResetLite](#mineresetlite)**
 - **[MobHunting](#mobhunting)**
 - **[Multiverse-Core](#multiverse-core)**
 - **[MyCommand](#mycommand)**
@@ -1236,6 +1235,15 @@ All information about these placeholders can be found [here](https://gitlab.com/
 
 ```
 %asynckeepalive_ping%
+```
+----
+
+- ### **[Ath](https://www.spigotmc.org/resources/87124/)**
+> NO DOWNLOAD COMMAND
+
+```
+%ath_date%
+%ath_count%
 ```
 ----
 
@@ -2706,19 +2714,6 @@ Available if multiple partners are allowed on the server:
 %minecrates_chance%
 %minecrates_total_needed%
 %minecrates_reward_list_name%
-```
-----
-
-- ### **[MineResetLite](https://polymart.org/resource/mineresetlite.137/)**
-> /papi ecloud download MineResetLite
-
-```
-%mineresetlite_XXX_time% 
-%mineresetlite_XXX_time_remaining%
-%mineresetlite_XXX_percentage%
-%mineresetlite_XXX_blocks_mined%
-%mineresetlite_XXX_percentage_mined%
-%mineresetlite_XXX_percentage_remaining%
 ```
 ----
 
@@ -4258,7 +4253,7 @@ Per Player/Event placeholders:
 ```
 ----
 
-- ### **[TokenEnchant](https://polymart.org/resource/tokenenchant-1-7-10-1-16-4.155)**
+- ### **[TokenEnchant](https://www.spigotmc.org/resources/2287/)**
 > /papi ecloud download TokenEnchant
 
 Replace `XXX` with the enchantment.
@@ -4270,22 +4265,18 @@ Replace `XXX` with the enchantment.
 %tokenenchant_XXX_level%
 %tokenenchant_XXX_cost%
 %tokenenchant_XXX_cost_long%
-%tokenenchant_XXX_cost_Y%
 %tokenenchant_XXX_max%
 %tokenenchant_XXX_description% 
 %tokenenchant_XXX_version%
 %tokenenchant_XXX_fullrefund%
 %tokenenchant_XXX_fullrefund_long%
-%tokenenchant_XXX_refund_Y%
-%tokenenchant_XXX_refund_Y_long%
+%tokenenthcnat_XXX_refund_Y%
+%tokenenthcnat_XXX_refund_Y_long%
 %tokenenchant_repair_cost%
 %tokenenchant_repair_cost_long%
 %tokenenchant_repair_cost_num%
 %tokenenchant_repair_cost_num_long%
 %tokenenchant_enchantments%
-%tokenenchant_baltop_XX_name%
-%tokenenchant_baltop_XX_balance%
-%tokenenchant_baltop_XX_balance_long%
 ```
 ----
 
