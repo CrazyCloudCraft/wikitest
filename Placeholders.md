@@ -247,6 +247,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RPGInventory](#rpginventory)**
 
 ## **S**
+- **[Sack](#sack)**
 - **[SellAll](#sellall)**
 - **[SignLink](#signlink)**
 - **[SimpleClans](#simpleclans)**
@@ -3562,6 +3563,16 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 %rpginv_armor_bonus%
 %rpginv_speed_bonus%
 %rpginv_jump_bonus%
+```
+----
+
+- ### **[Sack](https://polymart.org/resource/sack-like-bundle.493)**
+> NO DOWNLOAD COMMAND
+
+```
+%sack_num_of_sakcs%
+%sack_name%
+%sack_slots%
 ```
 ----
 
