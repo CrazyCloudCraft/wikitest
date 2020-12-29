@@ -247,7 +247,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
 - **[RPGInventory](#rpginventory)**
 
 ## **S**
-- **[Sack](#sack)**
+- **[Seasons](#seasons)**
 - **[SellAll](#sellall)**
 - **[SignLink](#signlink)**
 - **[SimpleClans](#simpleclans)**
@@ -3566,16 +3566,21 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 ```
 ----
 
-- ### **[Sack](https://polymart.org/resource/sack-like-bundle.493)**
-> /papi ecloud download Sack
+- ### **[Seasons](https://www.spigotmc.org/resources/39298/)**
+> NO DOWNLOAD COMMAND
 
 ```
-%sack_num_of_sakcs%
-%sack_name%
-%sack_slots%
-%sack_empty_slots%
-%sack_filled_slots%
+%seasons_season%
+%seasons_season_[world]%
+%seasons_weather%
+%seasons_weather_[world]%
+%seasons_day%
+%seasons_day_[world]%
 ```
+Replace `[world]` with the name of a loaded world.  
+*Placeholders ending in a `[world]` will retrieve information from the specified world 
+instead of the player's current world.*
+
 ----
 
 - ### **[SellAll](https://www.spigotmc.org/resources/1221/)**
