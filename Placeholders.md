@@ -3573,6 +3573,8 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 %sack_num_of_sakcs%
 %sack_name%
 %sack_slots%
+%sack_empty_slots%
+%sack_filled_slots%
 ```
 ----
 
