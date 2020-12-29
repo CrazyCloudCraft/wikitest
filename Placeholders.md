@@ -3567,7 +3567,7 @@ You can find an up-to-date list of the placeholders in [their wiki](https://gith
 ----
 
 - ### **[Sack](https://polymart.org/resource/sack-like-bundle.493)**
-> NO DOWNLOAD COMMAND
+> /papi ecloud download Sack
 
 ```
 %sack_num_of_sakcs%
