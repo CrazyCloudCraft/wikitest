@@ -4327,9 +4327,6 @@ Replace `XXX` with the enchantment.
 %tokenenchant_repair_cost_num%
 %tokenenchant_repair_cost_num_long%
 %tokenenchant_enchantments%
-%tokenenchant_baltop_X_name%
-%tokenenchant_baltop_X_balance%
-%tokenenchant_baltop_X_balance_long%
 ```
 ----
 
