@@ -312,7 +312,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
   - [Economy](#economy)
   - [Permissions](#permissions)
 - **[ViaVersion](#viaversion)**
-- **[VKAutoPicku](#vkautopickup)**
+- **[VKAutoPickup](#vkautopickup)**
 - **[VoteParty](#voteparty)**
 - **[VoteRoulette](#voteroulette)**
 - **[VotingPlugin](#votingplugin)**
