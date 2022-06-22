@@ -73,6 +73,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
   - ### **P**
     - **[ParseNear](#parsenear)**
     - **[ParseOther](#parseother)**
+    - **[Permission](#permission)**
     - **[Pinger](#pinger)**
     - **[Player](#player)**
     - **[PlayerList](#playerlist)**
@@ -832,6 +833,22 @@ A majority of these Expansions are maintained by the PlaceholderAPI team and can
   
   ```
   %parseother_{username}_{placeholder_without_percent_signs}%
+  ```
+
+----
+
+- ### **Permission**
+  > /papi ecloud download Permission
+  
+  Various placeholders to check the permissions of a player
+  
+  ```
+  %permission_count_permission nodes%    - returns how many of these permissions the player has
+  %permission_has_permission.node%       - whether the player has this permission
+  %permission_has-all_permission nodes%  - whether the player has all these permissions
+  %permission_has-any_permission nodes%  - whether the player has at least one of these permissions
+  %permission_has-none_permission nodes% - whether the player has none of these permissions
+  %permission_missing_permission nodes%  - returns how many of these permissions the player is missing
   ```
 
 ----
