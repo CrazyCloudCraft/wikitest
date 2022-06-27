@@ -73,7 +73,6 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
   - ### **P**
     - **[ParseNear](#parsenear)**
     - **[ParseOther](#parseother)**
-    - **[Permission](#permission)**
     - **[Pinger](#pinger)**
     - **[Player](#player)**
     - **[PlayerList](#playerlist)**
@@ -295,6 +294,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
   - ### **P**
     - **[Paintball Battle](#paintball-battle)**
     - **[Parkour](#parkour)**
+    - **[ParkPlusMC](#parkplusmc)**
     - **[Parties](#parties)**
     - **[Party and Friends](#party-and-friends)**
     - **[PermissionTimer](#permissiontimer)**
@@ -833,22 +833,6 @@ A majority of these Expansions are maintained by the PlaceholderAPI team and can
   
   ```
   %parseother_{username}_{placeholder_without_percent_signs}%
-  ```
-
-----
-
-- ### **Permission**
-  > /papi ecloud download Permission
-  
-  Various placeholders to check the permissions of a player
-  
-  ```
-  %permission_count_permission nodes%    - returns how many of these permissions the player has
-  %permission_has_permission.node%       - whether the player has this permission
-  %permission_has-all_permission nodes%  - whether the player has all these permissions
-  %permission_has-any_permission nodes%  - whether the player has at least one of these permissions
-  %permission_has-none_permission nodes% - whether the player has none of these permissions
-  %permission_missing_permission nodes%  - returns how many of these permissions the player is missing
   ```
 
 ----
@@ -3868,6 +3852,24 @@ Please see [this discussion][list] for a list of all expansions officially maint
 
 ----
 
+- ### **[ParkPlusMC](https://polymart.org/resource/parkplusmc.2317)**
+  > NO DOWNLOAD COMMAND
+  
+  ```
+  %pp_name:<AttractionID>%
+  %pp_status:<AttractionID>%
+  %pp_region:<AttractionID>%
+  %pp_ridecount%
+  %pp_ridecount:<AttractionID>%
+  %pp_ridecounttop_name:<AttractionID>:<Position>[:Type]%
+  %pp_ridecounttop_value:<AttractionID>:<Position>[:Type]%
+  ```
+  
+  Replace `<AttractionID>` with the ID of your attraction. Replace `<Position>` with the ridecount position.
+  Replace `[Type]` with the top type. Supported values: `DAILY, WEEKLY, MONTHLY, YEARLY, TOTAL`
+
+----
+
 - ### **[Parties](https://www.spigotmc.org/resources/3709/)**
   > NO DOWNLOAD COMMAND
   
@@ -5436,9 +5438,12 @@ All placeholders are listed here: https://wiki.staffplusplus.org/integrations/pa
   %tp_region:<AttractionID>%
   %tp_ridecount%
   %tp_ridecount:<AttractionID>%
-  %tp_ridecounttop_name:<AttractionID>:<Position>%
-  %tp_ridecounttop_value:<AttractionID>:<Position>%
+  %tp_ridecounttop_name:<AttractionID>:<Position>[:Type]%
+  %tp_ridecounttop_value:<AttractionID>:<Position>[:Type]%
   ```
+  
+  Replace `<AttractionID>` with the ID of your attraction. Replace `<Position>` with the ridecount position.
+  Replace `[Type]` with the top type. Supported values: `DAILY, WEEKLY, MONTHLY, YEARLY, TOTAL`
 
 ----
 
